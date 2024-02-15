@@ -6,27 +6,27 @@ export const Overlay = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1200;
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 export const Wrapper = styled.div`
   position: relative;
-  overflow: auto;
+  margin: 12px auto 0 auto;
+  overflow-y: auto;
   width: calc(100vw - 24px);
-  margin-top: 12px;
+  max-width: 500px;
+  height: auto;
+  max-height: 100vh;
   background-color: ${props => props.theme.colors.white};
   border-radius: 12px;
   @media (min-width: 768px) {
-    width: auto;
-    height: auto;
-    margin-top: 32px;
-  }
-  @media (min-width: 1200px) {
-    margin-top: 50px;
+    margin: 24px auto 0 auto;
   }
 `;
 
@@ -46,30 +46,6 @@ export const ButtonClose = styled.button`
   right: 12px;
 `;
 
-export const WrapperFoto = styled.div`
-  position: relative;
-  border-radius: 12px;
-`;
-
-export const ImageCar = styled.img`
-  object-fit: fill;
-  border-radius: 12px 12px 0 0;
-`;
-
-export const WrapperText = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin: 0 8px;
-  @media (min-width: 768px) {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  @media (min-width: 1200px) {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-`;
-
 export const Wrap = styled.div`
   display: flex;
   justify-content: space-between;
@@ -86,25 +62,33 @@ export const Wrap = styled.div`
   }
 `;
 
+export const ImageItem = styled.img`
+  /* object-fit: cover; */
+  border-radius: 12px 12px 0 0;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  @media (min-width: 768px) {
+  }
+`;
+
+export const WrapperText = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px 8px 8px;
+  @media (min-width: 768px) {
+    margin: 0 12px 12px 12px;
+  }
+  @media (min-width: 1200px) {
+    margin: 0 16px 16px 16px;
+  }
+`;
+
 export const Text = styled.p`
-  color: ${props => props.theme.colors.lightGrey};
+  color: ${props => props.theme.colors.grey};
   font-size: 12px;
   line-height: 150%;
   font-weight: 400;
-`;
-
-export const Description = styled.p`
-  margin: 8px 0 0 8px;
-  font-size: 14px;
-  line-height: 142.857%;
-  @media (min-width: 768px) {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  @media (min-width: 1200px) {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
 `;
 
 // export const LinkTel = styled.a`

@@ -19,6 +19,8 @@ export default function Catalog() {
     .filter(product => product.season === 'vl24')
     .slice(0, page * itemsPerPage);
 
+  const filterNew = filter.filter(product => product.season === 'vl24');
+
   useEffect(() => {
     localStorage.setItem('page', page.toString());
   }, [page]);
@@ -30,14 +32,14 @@ export default function Catalog() {
   return (
     <Container>
       <Filter />
-      <ProductsList products={isFiltred ? filter : visibleProducts} />
+      <ProductsList products={isFiltred ? filterNew : visibleProducts} />
       {isFiltred && filter?.length === 0 && (
         <Empty>
           На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
           параметри пошуку, щоб знайти потрібний.
         </Empty>
       )}
-      {visibleProducts.length < products.length && !isFiltred && (
+      {visibleProducts.length < filterNew.length && !isFiltred && (
         <ButtonLoadMore onClick={handleLoadMore}>Завантажити ще . . .</ButtonLoadMore>
       )}
     </Container>

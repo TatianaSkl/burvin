@@ -19,6 +19,8 @@ export default function Outlet() {
     .filter(product => product.season === 'outlet')
     .slice(0, page * itemsPerPage);
 
+  const filterOutlet = filter.filter(product => product.season === 'outlet');
+
   useEffect(() => {
     localStorage.setItem('page', page.toString());
   }, [page]);
@@ -30,14 +32,14 @@ export default function Outlet() {
   return (
     <Container>
       <Filter />
-      <ProductsList products={isFiltred ? filter : visibleProducts} />
+      <ProductsList products={isFiltred ? filterOutlet : visibleProducts} />
       {isFiltred && filter?.length === 0 && (
         <Empty>
           На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
           параметри пошуку, щоб знайти потрібний.
         </Empty>
       )}
-      {visibleProducts.length < products.length && !isFiltred && (
+      {visibleProducts.length < filterOutlet.length && !isFiltred && (
         <ButtonLoadMore onClick={handleLoadMore}>Завантажити ще . . .</ButtonLoadMore>
       )}
     </Container>

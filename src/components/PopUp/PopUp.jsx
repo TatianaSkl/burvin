@@ -4,12 +4,10 @@ import {
   Wrapper,
   IconClose,
   ButtonClose,
-  WrapperFoto,
-  ImageCar,
+  ImageItem,
   Wrap,
   WrapperText,
   Text,
-  Description,
   // LinkTel,
 } from './PopUp.styled';
 
@@ -38,9 +36,7 @@ export const PopUp = ({ article, name, color, size, price, compound, url, alt, o
         <ButtonClose onClick={onClose}>
           <IconClose />
         </ButtonClose>
-        <WrapperFoto>
-          <ImageCar src={url} alt={alt} />
-        </WrapperFoto>
+        <ImageItem src={url} alt={alt} />
         <Wrap>
           <div>{name}</div>
           <div style={{ fontWeight: '800' }}>{article}</div>
@@ -53,8 +49,10 @@ export const PopUp = ({ article, name, color, size, price, compound, url, alt, o
           <Text>
             <span style={{ color: 'black' }}>Розмір :</span> {size}
           </Text>
+          <Text>
+            <span style={{ color: 'black' }}>Склад :</span> {compound}
+          </Text>
         </WrapperText>
-        <Description>Склад: {compound}</Description>
         {/* <LinkTel href="tel:+380730000000">Rental car</LinkTel> */}
       </Wrapper>
     </Overlay>
