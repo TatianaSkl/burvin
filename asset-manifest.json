@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/burvin/static/css/main.60c02134.css",
-    "main.js": "/burvin/static/js/main.72e19215.js",
+    "main.js": "/burvin/static/js/main.a725cead.js",
     "static/js/508.20d90a81.chunk.js": "/burvin/static/js/508.20d90a81.chunk.js",
-    "static/js/52.1e5f177c.chunk.js": "/burvin/static/js/52.1e5f177c.chunk.js",
-    "static/js/336.91f1bf34.chunk.js": "/burvin/static/js/336.91f1bf34.chunk.js",
+    "static/js/52.84a5773d.chunk.js": "/burvin/static/js/52.84a5773d.chunk.js",
+    "static/js/336.161ea9a5.chunk.js": "/burvin/static/js/336.161ea9a5.chunk.js",
     "static/js/364.d6a50952.chunk.js": "/burvin/static/js/364.d6a50952.chunk.js",
     "static/media/image_top_4.jpg": "/burvin/static/media/image_top_4.67062e8645dc5a283d39.jpg",
     "static/media/image_top_2.jpg": "/burvin/static/media/image_top_2.f25a696740a973d21e00.jpg",
@@ -28,8 +28,10 @@
     "static/media/5516.jpg": "/burvin/static/media/5516.4a6f5210898222edc6bb.jpg",
     "static/media/6536.jpg": "/burvin/static/media/6536.0c95de2425bb435ff8cc.jpg",
     "static/media/5982.jpg": "/burvin/static/media/5982.b3434263b8b0ea2dc9b0.jpg",
+    "static/media/9610.JPG": "/burvin/static/media/9610.7930eac08d3e21bc3c43.JPG",
     "static/media/6437.jpg": "/burvin/static/media/6437.e3b86ece74aaa1dd1f85.jpg",
     "static/media/6005.jpg": "/burvin/static/media/6005.d6720292ebc62acf4bd5.jpg",
+    "static/media/9482.JPG": "/burvin/static/media/9482.167b132cec47109d6fac.JPG",
     "static/media/6606.JPG": "/burvin/static/media/6606.fe93e237bc910fd5842b.JPG",
     "static/media/5016.jpg": "/burvin/static/media/5016.122730f023321d80da5a.jpg",
     "static/media/3732.jpg": "/burvin/static/media/3732.57f73f8dd3b2a97b7825.jpg",
@@ -37,14 +39,12 @@
     "static/media/6627.JPG": "/burvin/static/media/6627.54d694a021ca25be433b.JPG",
     "static/media/6579.JPG": "/burvin/static/media/6579.e012adb68f1380114b64.JPG",
     "static/media/6459.jpg": "/burvin/static/media/6459.4526d2d01a33e9514cb3.jpg",
-    "static/media/9610.JPG": "/burvin/static/media/9610.2305c34bd7c5bd0a4d6a.JPG",
     "static/media/6604.JPG": "/burvin/static/media/6604.96cf64a47be9e934b94c.JPG",
+    "static/media/9616.JPG": "/burvin/static/media/9616.06ac917bc2908f22f6d9.JPG",
+    "static/media/9501.JPG": "/burvin/static/media/9501.82ec13eb157e274cbc09.JPG",
     "static/media/5920.jpg": "/burvin/static/media/5920.6591ccb38cabe956e3d6.jpg",
-    "static/media/9616.JPG": "/burvin/static/media/9616.43b3fea243290ff09ea3.JPG",
     "static/media/6473.jpg": "/burvin/static/media/6473.58cd2650a88f6ec8f1f6.jpg",
-    "static/media/9501.JPG": "/burvin/static/media/9501.0ac54e1d6873f9b439dd.JPG",
     "static/media/6611.JPG": "/burvin/static/media/6611.faa29759f4049bd4be0a.JPG",
-    "static/media/9482.JPG": "/burvin/static/media/9482.4280dee28977f71865ce.JPG",
     "static/media/burvin2.png": "/burvin/static/media/burvin2.1340e4a9891f961a2205.png",
     "static/media/slick.svg": "/burvin/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/burvin/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -52,14 +52,14 @@
     "static/media/slick.woff": "/burvin/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/burvin/index.html",
     "main.60c02134.css.map": "/burvin/static/css/main.60c02134.css.map",
-    "main.72e19215.js.map": "/burvin/static/js/main.72e19215.js.map",
+    "main.a725cead.js.map": "/burvin/static/js/main.a725cead.js.map",
     "508.20d90a81.chunk.js.map": "/burvin/static/js/508.20d90a81.chunk.js.map",
-    "52.1e5f177c.chunk.js.map": "/burvin/static/js/52.1e5f177c.chunk.js.map",
-    "336.91f1bf34.chunk.js.map": "/burvin/static/js/336.91f1bf34.chunk.js.map",
+    "52.84a5773d.chunk.js.map": "/burvin/static/js/52.84a5773d.chunk.js.map",
+    "336.161ea9a5.chunk.js.map": "/burvin/static/js/336.161ea9a5.chunk.js.map",
     "364.d6a50952.chunk.js.map": "/burvin/static/js/364.d6a50952.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60c02134.css",
-    "static/js/main.72e19215.js"
+    "static/js/main.a725cead.js"
   ]
 }
