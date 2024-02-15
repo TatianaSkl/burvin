@@ -18,7 +18,7 @@ export const FormFilter = styled.form`
 `;
 
 export const WrapperView = styled.div`
-  width: 144px;
+  width: 174px;
   margin-top: 4px;
   @media (min-width: 768px) {
     width: 224px;
