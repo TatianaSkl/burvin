@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/burvin/static/css/main.60c02134.css",
-    "main.js": "/burvin/static/js/main.e614b4b7.js",
+    "main.js": "/burvin/static/js/main.d9383eed.js",
     "static/js/508.53003511.chunk.js": "/burvin/static/js/508.53003511.chunk.js",
     "static/js/52.b2fbca0c.chunk.js": "/burvin/static/js/52.b2fbca0c.chunk.js",
     "static/js/336.290f8341.chunk.js": "/burvin/static/js/336.290f8341.chunk.js",
@@ -51,7 +51,7 @@
     "static/media/slick.woff": "/burvin/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/burvin/index.html",
     "main.60c02134.css.map": "/burvin/static/css/main.60c02134.css.map",
-    "main.e614b4b7.js.map": "/burvin/static/js/main.e614b4b7.js.map",
+    "main.d9383eed.js.map": "/burvin/static/js/main.d9383eed.js.map",
     "508.53003511.chunk.js.map": "/burvin/static/js/508.53003511.chunk.js.map",
     "52.b2fbca0c.chunk.js.map": "/burvin/static/js/52.b2fbca0c.chunk.js.map",
     "336.290f8341.chunk.js.map": "/burvin/static/js/336.290f8341.chunk.js.map",
@@ -59,6 +59,6 @@
   },
   "entrypoints": [
     "static/css/main.60c02134.css",
-    "static/js/main.e614b4b7.js"
+    "static/js/main.d9383eed.js"
   ]
 }
