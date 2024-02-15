@@ -5,21 +5,43 @@ export const FormFilter = styled.form`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
-  gap: 18px;
+  margin-bottom: 12px;
+  gap: 8px;
+  @media (min-width: 768px) {
+    margin-bottom: 24px;
+    gap: 12px;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: 32px;
+    gap: 16px;
+  }
 `;
 
-export const WrapperMakes = styled.div`
-  width: 224px;
-  margin-top: 8px;
+export const WrapperView = styled.div`
+  width: 144px;
+  margin-top: 4px;
+  @media (min-width: 768px) {
+    width: 224px;
+    margin-top: 6px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 8px;
+  }
 `;
 
-export const WrapperPrice = styled.div`
-  width: 125px;
-  margin-top: 8px;
+export const WrapperSize = styled.div`
+  width: 95px;
+  margin-top: 4px;
+  @media (min-width: 768px) {
+    width: 125px;
+    margin-top: 6px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 8px;
+  }
 `;
 
-export const LabelMakes = styled.label`
+export const LabelFilter = styled.label`
   color: #8a8a89;
   font-size: 14px;
   font-weight: 500;
@@ -27,8 +49,7 @@ export const LabelMakes = styled.label`
 `;
 
 export const SearchButton = styled.button`
-  margin-top: 26px;
-  padding: 14px 44px;
+  padding: 14px 24px;
   border-radius: 12px;
   background-color: ${props => props.theme.colors.accent};
   color: ${props => props.theme.colors.grey};
@@ -44,6 +65,10 @@ export const SearchButton = styled.button`
     box-shadow: ${props => props.theme.shadows.medium};
     background-color: ${props => props.theme.colors.white};
     color: ${props => props.theme.colors.black};
+  }
+  @media (min-width: 768px) {
+    margin-top: 26px;
+    padding: 14px 44px;
   }
 `;
 

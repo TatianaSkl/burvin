@@ -48,7 +48,7 @@ export const ButtonClose = styled.button`
 
 export const Wrap = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 8px;
   font-weight: 500;
   line-height: 150%;

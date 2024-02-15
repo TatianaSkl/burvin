@@ -56,15 +56,20 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
           </Icon>
         </WrapperFoto>
         <WrapperFlex>
-          <Wrap>
-            {name}
-            <WrapperModel> {article}</WrapperModel>
-          </Wrap>
+          <Wrap>{name}</Wrap>
+          <WrapperModel> {article}</WrapperModel>
           <div>{price} $</div>
         </WrapperFlex>
-
-        <Text>Колір: {color}</Text>
-        <Text>Розмір: {size}</Text>
+        <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+          <Text>
+            <span style={{ color: 'black' }}>Колір : </span>
+            {color}
+          </Text>
+          <Text>
+            <span style={{ color: 'black' }}>Розмір : </span>
+            {size}
+          </Text>
+        </div>
         <PressButton type="button" onClick={onOpenModal}>
           Дізнатися більше
         </PressButton>

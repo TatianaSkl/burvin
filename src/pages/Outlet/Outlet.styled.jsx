@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const ButtonLoadMore = styled.button`
-  margin-top: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -16,7 +17,8 @@ export const ButtonLoadMore = styled.button`
     transform: scale(1.02);
     color: ${props => props.theme.colors.black};
   }
-  @media (min-width: 1440px) {
-    margin-top: 79px;
+  @media (min-width: 1200px) {
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 `;

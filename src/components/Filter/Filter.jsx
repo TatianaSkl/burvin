@@ -3,10 +3,10 @@ import views from '../../bd/views.json';
 import sizes from '../../bd/dimensions.json';
 import {
   FormFilter,
-  LabelMakes,
+  LabelFilter,
   SearchButton,
-  WrapperMakes,
-  WrapperPrice,
+  WrapperView,
+  WrapperSize,
   customStyles,
 } from './Filter.styled';
 import { useDispatch } from 'react-redux';
@@ -48,9 +48,9 @@ export const Filter = () => {
   return (
     <FormFilter onSubmit={handleSubmit}>
       <div>
-        <LabelMakes>
+        <LabelFilter>
           Вид виробу
-          <WrapperMakes>
+          <WrapperView>
             <Select
               name={'view'}
               options={viewsOptions}
@@ -59,13 +59,13 @@ export const Filter = () => {
               ref={viewRef}
               placeholder="Всі"
             />
-          </WrapperMakes>
-        </LabelMakes>
+          </WrapperView>
+        </LabelFilter>
       </div>
       <div>
-        <LabelMakes>
+        <LabelFilter>
           Розмір
-          <WrapperPrice>
+          <WrapperSize>
             <Select
               name={'size'}
               options={sizesOptions}
@@ -74,8 +74,8 @@ export const Filter = () => {
               ref={sizeRef}
               placeholder="Всі"
             />
-          </WrapperPrice>
-        </LabelMakes>
+          </WrapperSize>
+        </LabelFilter>
       </div>
       <SearchButton>Пошук</SearchButton>
       {showBtnReset && (

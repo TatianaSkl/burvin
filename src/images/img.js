@@ -9,7 +9,6 @@ import b5496 from '../images/5496.jpg';
 import b5516 from '../images/5516.jpg';
 import b5565 from '../images/5565.jpg';
 import b5627 from '../images/5627.jpg';
-import b5920 from '../images/5920.jpg';
 import b5982 from '../images/5982.jpg';
 import b6005 from '../images/6005.jpg';
 import b6102 from '../images/6102.jpg';
@@ -56,7 +55,6 @@ const img = {
   b5516,
   b5565,
   b5627,
-  b5920,
   b5982,
   b6005,
   b6102,

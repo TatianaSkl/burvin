@@ -6,8 +6,8 @@
     "view": "Плащі",
     "color": "білий",
     "size": "46",
-    "price": "20",
-    "compound": "бавовна",
+    "price": "15",
+    "compound": "БАВОВНА 55% ПЕ 40% ПУ 5%",
     "season": "outlet"
   },
   {
@@ -17,8 +17,8 @@
     "view": "Спідниці",
     "color": "В1",
     "size": "46,48,50",
-    "price": "15",
-    "compound": "бавовна",
+    "price": "10",
+    "compound": "ПЕ 62% ВІСКОЗА 31% ЕЛАСТАН 7%",
     "season": "outlet"
   },
   {
@@ -28,8 +28,8 @@
     "view": "Блузи",
     "color": "оригінал",
     "size": "48",
-    "price": "14",
-    "compound": "бавовна",
+    "price": "10",
+    "compound": "ВІСКОЗА 100%",
     "season": "outlet"
   },
   {
@@ -39,8 +39,8 @@
     "view": "Сукні",
     "color": "оригінал",
     "size": "40,46",
-    "price": "29",
-    "compound": "бавовна",
+    "price": "20",
+    "compound": "ПЕ 100%",
     "season": "outlet"
   },
   {
@@ -49,9 +49,9 @@
     "name": "Спідниця",
     "view": "Спідниці",
     "color": "оригінал",
-    "size": "40,42",
-    "price": "23",
-    "compound": "бавовна",
+    "size": "40",
+    "price": "20",
+    "compound": "БАВОВНА 76% ПА 22% ЕЛАСТАН 2%",
     "season": "outlet"
   },
   {
@@ -61,8 +61,8 @@
     "view": "Джемпери",
     "color": "оригінал",
     "size": "40",
-    "price": "19",
-    "compound": "бавовна",
+    "price": "15",
+    "compound": "ВІСКОЗА 96% ПЕ 4%",
     "season": "outlet"
   },
   {
@@ -72,8 +72,8 @@
     "view": "Жакети",
     "color": "м'ята",
     "size": "40,42,44,46",
-    "price": "20",
-    "compound": "бавовна",
+    "price": "10",
+    "compound": "БАВОВНА 69% ПА 25% ПУ 6%",
     "season": "outlet"
   },
   {
@@ -83,8 +83,8 @@
     "view": "Блузи",
     "color": "оригінал",
     "size": "44",
-    "price": "22",
-    "compound": "бавовна",
+    "price": "20",
+    "compound": "БАВОВНА 100%",
     "season": "outlet"
   },
   {
@@ -94,8 +94,8 @@
     "view": "Штани",
     "color": "В1",
     "size": "40",
-    "price": "26",
-    "compound": "бавовна",
+    "price": "15",
+    "compound": "БАВОВНА 98% ПУ 2%",
     "season": "outlet"
   },
   {
@@ -105,8 +105,8 @@
     "view": "Штани",
     "color": "оригінал",
     "size": "40,42",
-    "price": "23",
-    "compound": "бавовна",
+    "price": "15",
+    "compound": "ПЕ 55% БАВОВНА 42% ПУ 3%",
     "season": "outlet"
   },
   {
@@ -116,19 +116,8 @@
     "view": "Сукні",
     "color": "оригінал",
     "size": "40,42",
-    "price": "39",
-    "compound": "бавовна",
-    "season": "outlet"
-  },
-  {
-    "id": "12",
-    "article": "5920",
-    "name": "Сукня",
-    "view": "Сукні",
-    "color": "оригінал",
-    "size": "46",
-    "price": "30",
-    "compound": "бавовна",
+    "price": "25",
+    "compound": "БАВОВНА 59% ПЕ 23% ЛЬОН 18%",
     "season": "outlet"
   },
   {
@@ -138,8 +127,8 @@
     "view": "Штани",
     "color": "оригінал",
     "size": "48",
-    "price": "34",
-    "compound": "бавовна",
+    "price": "20",
+    "compound": "ПЕ 100%",
     "season": "outlet"
   },
   {
@@ -148,9 +137,9 @@
     "name": "Джемпер",
     "view": "Джемпери",
     "color": "оригінал",
-    "size": "44,48,50",
-    "price": "22",
-    "compound": "бавовна",
+    "size": "44,50",
+    "price": "20",
+    "compound": "ПЕ 50% БАВОВНА 45% ЕЛАСТАН 5%",
     "season": "outlet"
   },
   {

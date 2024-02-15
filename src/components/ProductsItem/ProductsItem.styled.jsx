@@ -21,7 +21,7 @@ export const ImageCar = styled.img`
 export const WrapperFlex = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 14px;
   margin-bottom: 8px;
   font-weight: 500;
@@ -51,8 +51,8 @@ export const Text = styled.p`
 `;
 
 export const PressButton = styled.button`
-  margin-top: 28px;
-  margin-bottom: 21px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   width: 100%;
   padding: 12px;
   border-radius: 12px;
@@ -70,6 +70,10 @@ export const PressButton = styled.button`
     box-shadow: ${props => props.theme.shadows.medium};
     background-color: ${props => props.theme.colors.white};
     color: ${props => props.theme.colors.black};
+  }
+  @media (min-width: 768px) {
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
 `;
 
