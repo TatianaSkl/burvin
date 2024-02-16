@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/burvin/static/css/main.5876a691.css",
-    "main.js": "/burvin/static/js/main.b5898b39.js",
+    "main.js": "/burvin/static/js/main.406cfcc5.js",
     "static/js/508.6257738a.chunk.js": "/burvin/static/js/508.6257738a.chunk.js",
-    "static/js/52.c23d5a8a.chunk.js": "/burvin/static/js/52.c23d5a8a.chunk.js",
-    "static/js/336.8fa29218.chunk.js": "/burvin/static/js/336.8fa29218.chunk.js",
-    "static/js/364.50617cf7.chunk.js": "/burvin/static/js/364.50617cf7.chunk.js",
+    "static/js/52.86af59a5.chunk.js": "/burvin/static/js/52.86af59a5.chunk.js",
+    "static/js/336.61777340.chunk.js": "/burvin/static/js/336.61777340.chunk.js",
+    "static/js/364.3a8968cc.chunk.js": "/burvin/static/js/364.3a8968cc.chunk.js",
+    "static/js/384.685f6302.chunk.js": "/burvin/static/js/384.685f6302.chunk.js",
     "static/media/6552v.jpg": "/burvin/static/media/6552v.b1f1f8300591219f1cd3.jpg",
     "static/media/image_top_4.jpg": "/burvin/static/media/image_top_4.67062e8645dc5a283d39.jpg",
     "static/media/image_top_2.jpg": "/burvin/static/media/image_top_2.f25a696740a973d21e00.jpg",
@@ -47,14 +48,15 @@
     "static/media/burvin2.png": "/burvin/static/media/burvin2.1340e4a9891f961a2205.png",
     "index.html": "/burvin/index.html",
     "main.5876a691.css.map": "/burvin/static/css/main.5876a691.css.map",
-    "main.b5898b39.js.map": "/burvin/static/js/main.b5898b39.js.map",
+    "main.406cfcc5.js.map": "/burvin/static/js/main.406cfcc5.js.map",
     "508.6257738a.chunk.js.map": "/burvin/static/js/508.6257738a.chunk.js.map",
-    "52.c23d5a8a.chunk.js.map": "/burvin/static/js/52.c23d5a8a.chunk.js.map",
-    "336.8fa29218.chunk.js.map": "/burvin/static/js/336.8fa29218.chunk.js.map",
-    "364.50617cf7.chunk.js.map": "/burvin/static/js/364.50617cf7.chunk.js.map"
+    "52.86af59a5.chunk.js.map": "/burvin/static/js/52.86af59a5.chunk.js.map",
+    "336.61777340.chunk.js.map": "/burvin/static/js/336.61777340.chunk.js.map",
+    "364.3a8968cc.chunk.js.map": "/burvin/static/js/364.3a8968cc.chunk.js.map",
+    "384.685f6302.chunk.js.map": "/burvin/static/js/384.685f6302.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5876a691.css",
-    "static/js/main.b5898b39.js"
+    "static/js/main.406cfcc5.js"
   ]
 }
