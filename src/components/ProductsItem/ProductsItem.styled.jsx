@@ -2,12 +2,14 @@ import styled from '@emotion/styled';
 
 export const Item = styled.li`
   width: 274px;
+  border: 1px solid rgba(239, 237, 232, 0.6);
+  border-radius: 12px;
 `;
 
 export const WrapperFoto = styled.div`
   position: relative;
   height: 268px;
-  border-radius: 12px;
+  border-radius: 12px 12px 0 0;
   border: 1px solid rgba(239, 237, 232, 0.2);
   overflow: hidden;
 `;
@@ -37,6 +39,18 @@ export const Wrap = styled.div`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+`;
+
+export const WrapperText = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px 8px 8px;
+  @media (min-width: 768px) {
+    margin: 0 12px 12px 12px;
+  }
+  @media (min-width: 1200px) {
+    margin: 0 16px 16px 16px;
+  }
 `;
 
 export const Text = styled.p`

@@ -10,6 +10,7 @@ import {
   WrapperFoto,
   WrapperModel,
   Icon,
+  WrapperText,
 } from './ProductsItem.styled';
 import { PopUp } from 'components';
 import { useDispatch, useSelector } from 'react-redux';
@@ -48,7 +49,7 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
 
   return (
     <>
-      <Item>
+      <Item onClick={onOpenModal}>
         <WrapperFoto>
           <ImageCar src={imageMap[article]} alt={name} loading="lazy" />
           <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
@@ -60,7 +61,7 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
           <WrapperModel> {article}</WrapperModel>
           <div>{price} $</div>
         </WrapperFlex>
-        <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+        <WrapperText>
           <Text>
             <span style={{ color: 'black' }}>Колір : </span>
             {color}
@@ -69,24 +70,13 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
             <span style={{ color: 'black' }}>Розмір : </span>
             {size}
           </Text>
-        </div>
-        <PressButton type="button" onClick={onOpenModal}>
-          Дізнатися більше
-        </PressButton>
+        </WrapperText>
+        <Text style={{ textAlign: 'center' }}>
+          <span style={{ color: 'black' }}>Склад : </span>
+          {compound}
+        </Text>
       </Item>
-      {showModal && (
-        <PopUp
-          article={article}
-          alt={name}
-          name={name}
-          color={color}
-          size={size}
-          url={imageMap[article]}
-          price={price}
-          compound={compound}
-          onClose={onCloseModal}
-        />
-      )}
+      {showModal && <PopUp alt={name} url={imageMap[article]} onClose={onCloseModal} />}
     </>
   );
 };

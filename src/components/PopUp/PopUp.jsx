@@ -1,17 +1,7 @@
 import { useEffect } from 'react';
-import {
-  Overlay,
-  Wrapper,
-  IconClose,
-  ButtonClose,
-  ImageItem,
-  Wrap,
-  WrapperText,
-  Text,
-  // LinkTel,
-} from './PopUp.styled';
+import { Overlay, Wrapper, IconClose, ButtonClose, ImageItem } from './PopUp.styled';
 
-export const PopUp = ({ article, name, color, size, price, compound, url, alt, onClose }) => {
+export const PopUp = ({ url, alt, onClose }) => {
   useEffect(() => {
     const handleClick = e => {
       if (e.code === 'Escape') {
@@ -37,23 +27,6 @@ export const PopUp = ({ article, name, color, size, price, compound, url, alt, o
           <IconClose />
         </ButtonClose>
         <ImageItem src={url} alt={alt} />
-        <Wrap>
-          <div>{name}</div>
-          <div style={{ fontWeight: '800' }}>{article}</div>
-          <div>{price} $</div>
-        </Wrap>
-        <WrapperText>
-          <Text>
-            <span style={{ color: 'black' }}>Колір :</span> {color}
-          </Text>
-          <Text>
-            <span style={{ color: 'black' }}>Розмір :</span> {size}
-          </Text>
-          <Text>
-            <span style={{ color: 'black' }}>Склад :</span> {compound}
-          </Text>
-        </WrapperText>
-        {/* <LinkTel href="tel:+380730000000">Rental car</LinkTel> */}
       </Wrapper>
     </Overlay>
   );
