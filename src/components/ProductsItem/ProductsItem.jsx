@@ -3,7 +3,6 @@ import { AiFillHeart } from 'react-icons/ai';
 import {
   ImageCar,
   Item,
-  PressButton,
   Text,
   Wrap,
   WrapperFlex,
