@@ -9,3 +9,4 @@ export * from 'components/MobilMenu/MobilMenu.jsx';
 export * from 'components/PopUp/PopUp.jsx';
 export * from 'components/SharedLayout/SharedLayout.jsx';
 export * from 'components/UserNav/UserNav.jsx';
+export * from 'components/Searchbar/Searchbar.jsx';

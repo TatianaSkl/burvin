@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { AiFillHeart } from 'react-icons/ai';
+import { FaSearchPlus } from 'react-icons/fa';
 import {
   ImageCar,
   Item,
@@ -9,6 +10,7 @@ import {
   WrapperFoto,
   WrapperModel,
   Icon,
+  IconPlus,
   WrapperText,
 } from './ProductsItem.styled';
 import { PopUp } from 'components';
@@ -48,12 +50,15 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
 
   return (
     <>
-      <Item onClick={onOpenModal}>
+      <Item>
         <WrapperFoto>
           <ImageCar src={imageMap[article]} alt={name} loading="lazy" />
           <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
             <AiFillHeart />
           </Icon>
+          <IconPlus onClick={onOpenModal}>
+            <FaSearchPlus />
+          </IconPlus>
         </WrapperFoto>
         <WrapperFlex>
           <Wrap>{name}</Wrap>

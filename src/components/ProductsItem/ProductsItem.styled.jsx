@@ -4,9 +4,6 @@ export const Item = styled.li`
   width: 274px;
   border-radius: 12px;
   box-shadow: ${props => props.theme.shadows.small};
-  &:hover {
-    cursor: zoom-in;
-  }
 `;
 
 export const WrapperFoto = styled.div`
@@ -104,5 +101,19 @@ export const Icon = styled.div`
     stroke: ${props => (props.isAdvertsInFavorites ? 'none' : '#c00808')};
     stroke-width: ${props => (props.isAdvertsInFavorites ? '0' : '100px')};
     pointer-events: none;
+  }
+`;
+export const IconPlus = styled.div`
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  cursor: pointer;
+  & svg {
+    width: 18px;
+    height: 18px;
+    /* fill: ${props => (props.isAdvertsInFavorites ? '#c00808' : 'none')};
+    stroke: ${props => (props.isAdvertsInFavorites ? 'none' : '#c00808')};
+    stroke-width: ${props => (props.isAdvertsInFavorites ? '0' : '100px')};
+    pointer-events: none; */
   }
 `;

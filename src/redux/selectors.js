@@ -5,6 +5,7 @@ export const selectFavorites = state => state.favorites.favorites;
 export const selectFilterView = state => state.filter.filterView;
 export const selectFilterSize = state => state.filter.filterSize;
 export const selectIsFiltred = state => state.filter.isFiltred;
+export const selectSearch = state => state.search.search;
 
 export const filtredProducts = createSelector(
   [selectFilterView, selectFilterSize],
