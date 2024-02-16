@@ -19,6 +19,7 @@ import b6459 from '../images/6459.jpg';
 import b6473 from '../images/6473.jpg';
 import b6536 from '../images/6536.jpg';
 import b6552 from '../images/6552.JPG';
+import bv6552 from '../images/6552v.jpg';
 import t1 from '../images/image_top_1.jpg';
 import t2 from '../images/image_top_2.jpg';
 import t3 from '../images/image_top_3.jpg';
@@ -28,7 +29,6 @@ import logoM from '../images/burvin2.png';
 import b6579 from '../images/6579.JPG';
 import b6588 from '../images/6588.JPG';
 import b6600 from '../images/6600.JPG';
-import b6601 from '../images/6601.JPG';
 import b6604 from '../images/6604.JPG';
 import b6606 from '../images/6606.JPG';
 import b6611 from '../images/6611.JPG';
@@ -65,6 +65,7 @@ const img = {
   b6473,
   b6536,
   b6552,
+  bv6552,
   t1,
   t2,
   t3,
@@ -74,7 +75,6 @@ const img = {
   b6579,
   b6588,
   b6600,
-  b6601,
   b6604,
   b6606,
   b6611,

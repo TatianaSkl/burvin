@@ -2,15 +2,17 @@ import styled from '@emotion/styled';
 
 export const Item = styled.li`
   width: 274px;
-  border: 1px solid rgba(239, 237, 232, 0.6);
   border-radius: 12px;
+  box-shadow: ${props => props.theme.shadows.small};
+  &:hover {
+    cursor: zoom-in;
+  }
 `;
 
 export const WrapperFoto = styled.div`
   position: relative;
   height: 268px;
   border-radius: 12px 12px 0 0;
-  border: 1px solid rgba(239, 237, 232, 0.2);
   overflow: hidden;
 `;
 
@@ -24,7 +26,6 @@ export const WrapperFlex = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 14px;
   margin-bottom: 8px;
   font-weight: 500;
   line-height: 150%;
@@ -43,7 +44,7 @@ export const Wrap = styled.div`
 
 export const WrapperText = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 8px 8px 8px;
   @media (min-width: 768px) {
     margin: 0 12px 12px 12px;
