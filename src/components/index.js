@@ -5,7 +5,7 @@ export * from 'components/Container/Container.styled.jsx';
 export * from 'components/Filter/Filter.jsx';
 export * from 'components/Header/Header';
 export * from 'components/Loader/Loader.jsx';
-export * from 'components/MobilMenu/MobilMenu.jsx';
+export * from 'components/Menu/Menu.jsx';
 export * from 'components/PopUp/PopUp.jsx';
 export * from 'components/SharedLayout/SharedLayout.jsx';
 export * from 'components/UserNav/UserNav.jsx';

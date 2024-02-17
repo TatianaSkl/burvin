@@ -3,14 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 export const NavUser = styled.nav`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 130px;
-  margin: 0 auto;
+  flex-direction: column;
 `;
 
 export const LinkNav = styled(NavLink)`
-  padding: 10px 27px;
+  padding: 10px;
   border-radius: 12px;
   border: 1px solid rgba(239, 237, 232, 0.2);
   font-size: 14px;

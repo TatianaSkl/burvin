@@ -1,23 +1,15 @@
 import Select from 'react-select';
 import views from '../../bd/views.json';
 import sizes from '../../bd/dimensions.json';
-import {
-  FormFilter,
-  LabelFilter,
-  SearchButton,
-  WrapperView,
-  WrapperSize,
-  customStyles,
-} from './Filter.styled';
-import { useDispatch } from 'react-redux';
-import { getFilter, resetFilter } from 'redux/filterSlice';
-import { useRef, useState } from 'react';
+import { FormFilter, LabelFilter, WrapperView, WrapperSize, customStyles } from './Filter.styled';
+import { useDispatch, useSelector } from 'react-redux';
+import { getFilter } from 'redux/filterSlice';
+import { selectFilterSize, selectFilterView } from 'redux/selectors';
 
 export const Filter = () => {
   const dispatch = useDispatch();
-  const viewRef = useRef(null);
-  const sizeRef = useRef(null);
-  const [showBtnReset, setShowBtnReset] = useState(false);
+  const filterView = useSelector(selectFilterView);
+  const filterSize = useSelector(selectFilterSize);
 
   const viewsOptions = views.map(item => ({
     value: item,
@@ -29,24 +21,16 @@ export const Filter = () => {
     label: item,
   }));
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    const form = e.target;
-    const view = form.elements.view.value;
-    const size = form.elements.size.value;
-    dispatch(getFilter({ view, size }));
-    setShowBtnReset(true);
+  const handleViewChange = selectedOption => {
+    dispatch(getFilter({ view: selectedOption.value, size: filterSize }));
   };
 
-  const handleReset = () => {
-    viewRef.current.clearValue();
-    sizeRef.current.clearValue();
-    dispatch(resetFilter());
-    setShowBtnReset(false);
+  const handleSizeChange = selectedOption => {
+    dispatch(getFilter({ view: filterView, size: selectedOption.value }));
   };
 
   return (
-    <FormFilter onSubmit={handleSubmit}>
+    <FormFilter>
       <div>
         <LabelFilter>
           Вид виробу
@@ -56,7 +40,7 @@ export const Filter = () => {
               options={viewsOptions}
               styles={customStyles}
               isSearchable={false}
-              ref={viewRef}
+              onChange={handleViewChange}
               placeholder="Всі"
             />
           </WrapperView>
@@ -71,18 +55,12 @@ export const Filter = () => {
               options={sizesOptions}
               styles={customStyles}
               isSearchable={false}
-              ref={sizeRef}
+              onChange={handleSizeChange}
               placeholder="Всі"
             />
           </WrapperSize>
         </LabelFilter>
       </div>
-      <SearchButton>Пошук</SearchButton>
-      {showBtnReset && (
-        <SearchButton type="button" onClick={handleReset}>
-          Скинути
-        </SearchButton>
-      )}
     </FormFilter>
   );
 };

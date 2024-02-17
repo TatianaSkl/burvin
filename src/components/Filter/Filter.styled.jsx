@@ -48,30 +48,6 @@ export const LabelFilter = styled.label`
   line-height: 128.571%;
 `;
 
-export const SearchButton = styled.button`
-  padding: 14px 24px;
-  border-radius: 12px;
-  background-color: ${props => props.theme.colors.accent};
-  color: ${props => props.theme.colors.grey};
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 142.857%;
-  box-shadow: ${props => props.theme.shadows.small};
-  transition-property: transform, box-shadow, background-color, color;
-  transition-duration: 0.25s;
-  transition-timing-function: ${props => props.theme.animation.cubicBezier};
-  &:hover {
-    transform: scale(1.02);
-    box-shadow: ${props => props.theme.shadows.medium};
-    background-color: ${props => props.theme.colors.white};
-    color: ${props => props.theme.colors.black};
-  }
-  @media (min-width: 768px) {
-    margin-top: 26px;
-    padding: 14px 44px;
-  }
-`;
-
 export const customStyles = {
   control: provided => ({
     ...provided,

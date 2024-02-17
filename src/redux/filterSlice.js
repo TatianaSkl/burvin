@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  filterView: '',
-  filterSize: '',
+  filterView: 'Всі',
+  filterSize: 'Всі',
   isFiltred: false,
 };
 
@@ -15,13 +15,8 @@ const filterSlice = createSlice({
       state.filterView = payload.view;
       state.filterSize = payload.size;
     },
-    resetFilter(state, { payload }) {
-      state.filterView = '';
-      state.filterSize = '';
-      state.isFiltred = false;
-    },
   },
 });
 
 export const filterReducer = filterSlice.reducer;
-export const { getFilter, resetFilter } = filterSlice.actions;
+export const { getFilter } = filterSlice.actions;

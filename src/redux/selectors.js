@@ -12,13 +12,13 @@ export const filtredProducts = createSelector(
   (view, size) => {
     let filter = products;
 
-    if (view !== '' && size !== '') {
+    if (view !== 'Всі' && size !== 'Всі') {
       filter = filter.filter(
         product => product.view === view && product.size.split(',').includes(size)
       );
-    } else if (view !== '' && size === '') {
+    } else if (view !== 'Всі' && size === 'Всі') {
       filter = filter.filter(product => product.view === view);
-    } else if (view === '' && size !== '') {
+    } else if (view === 'Всі' && size !== 'Всі') {
       filter = filter.filter(product => product.size.split(',').includes(size));
     }
 

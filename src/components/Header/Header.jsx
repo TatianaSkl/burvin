@@ -1,6 +1,13 @@
 import { useState } from 'react';
-import { Container, MobilMenu, Searchbar } from 'components';
-import { ButtonMenu, HeaderStyled, IconMenu, Wrapper, WrapperLogo } from './Header.styled';
+import { Container, Menu, Searchbar } from 'components';
+import {
+  ButtonMenu,
+  HeaderStyled,
+  IconMenu,
+  Wrapper,
+  WrapperLogo,
+  WrapperMobil,
+} from './Header.styled';
 
 export const Header = () => {
   const [showModal, setShowModal] = useState(false);
@@ -19,12 +26,14 @@ export const Header = () => {
     <Container>
       <HeaderStyled>
         <WrapperLogo to="/" />
-        <Searchbar />
         <Wrapper>
+          <WrapperMobil>
+            <Searchbar />
+          </WrapperMobil>
           <ButtonMenu onClick={onOpenModal}>
             <IconMenu />
           </ButtonMenu>
-          {showModal && <MobilMenu onClose={onCloseModal} />}
+          {showModal && <Menu onClose={onCloseModal} />}
         </Wrapper>
       </HeaderStyled>
     </Container>

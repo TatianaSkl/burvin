@@ -42,8 +42,10 @@ export const WrapperLogo = styled(Link)`
   cursor: pointer;
   width: 210px;
   height: 50px;
-  /* &:hover {
-    transform: scale(1.02);
-    box-shadow: ${props => props.theme.shadows.small};
-  } */
+`;
+
+export const WrapperMobil = styled.div`
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;

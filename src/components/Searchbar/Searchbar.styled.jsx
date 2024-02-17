@@ -1,5 +1,21 @@
 import styled from '@emotion/styled';
 
+export const WrapperMobil = styled.div`
+  margin-bottom: 16px;
+  @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
+export const WrapperTablet = styled.div`
+  display: none;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+
 export const SearchForm = styled.form`
   display: flex;
   align-items: center;
@@ -24,9 +40,13 @@ export const ButtonForm = styled.button`
 `;
 export const ButtonLabel = styled.span`
   & svg {
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 14px;
     fill: ${props => props.theme.colors.black};
+    @media (min-width: 768px) {
+      width: 22px;
+      height: 22px;
+    }
   }
 `;
 export const InputForm = styled.input`
@@ -35,13 +55,20 @@ export const InputForm = styled.input`
   width: 100%;
   font: inherit;
   font-size: 20px;
-  border: none;
+  border-color: transparent;
+  border-bottom: 1px solid rgba(239, 237, 232, 0.6);
   outline: none;
   padding-left: 4px;
   padding-right: 4px;
 
   &::placeholder {
     font: inherit;
-    font-size: ${props => props.theme.fontSizes.medium};
+    font-size: ${props => props.theme.fontSizes.small};
+    @media (min-width: 768px) {
+      font-size: ${props => props.theme.fontSizes.medium};
+    }
+  }
+  @media (min-width: 768px) {
+    border: none;
   }
 `;
