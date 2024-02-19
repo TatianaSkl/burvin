@@ -57,3 +57,35 @@ export const ButtonClose = styled.button`
   top: 12px;
   right: 12px;
 `;
+
+export const ButtonNext = styled.button`
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 12px;
+  & svg {
+    width: 14px;
+    height: 14px;
+    fill: ${props => props.theme.colors.black};
+    @media (min-width: 768px) {
+      width: 22px;
+      height: 22px;
+    }
+  }
+`;
+
+export const ButtonPrev = styled.button`
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 12px;
+  & svg {
+    width: 14px;
+    height: 14px;
+    fill: ${props => props.theme.colors.black};
+    @media (min-width: 768px) {
+      width: 22px;
+      height: 22px;
+    }
+  }
+`;

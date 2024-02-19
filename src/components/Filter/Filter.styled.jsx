@@ -56,7 +56,7 @@ export const customStyles = {
     borderRadius: '14px',
     height: '48px',
     color: '#121417',
-    fontSize: '16px',
+    fontSize: '14px',
     fontWeight: 500,
     lineHeight: '111.111% ',
     paddingLeft: '10px',
@@ -103,7 +103,7 @@ export const customStyles = {
   placeholder: base => ({
     ...base,
     color: '#121417',
-    fontSize: '16px',
+    fontSize: '14px',
     fontWeight: 500,
     lineHeight: '111.111% ',
     '@media screen and (min-width: 768px)': {

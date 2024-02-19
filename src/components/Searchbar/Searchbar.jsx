@@ -44,13 +44,21 @@ export const Searchbar = ({ onClose }) => {
     navigate('/search');
     setIsShow(false);
     setSearchValue('');
+  };
+
+  const handleSearchSubmitMobil = e => {
+    e.preventDefault();
+    dispatch(getSearch(searchValue));
+    navigate('/search');
+    setIsShow(false);
+    setSearchValue('');
     onClose();
   };
 
   return (
     <>
       <WrapperMobil>
-        <SearchForm onSubmit={handleSearchSubmit}>
+        <SearchForm onSubmit={handleSearchSubmitMobil}>
           <InputForm
             type="text"
             autocomplete="off"

@@ -5,6 +5,7 @@ import { ProductsList, Container, Filter } from 'components';
 import { ButtonLoadMore } from './Outlet.styled';
 import { Empty } from 'pages/Favorites/Favorites.styled';
 import products from '../../bd/products.json';
+import { TbReload } from 'react-icons/tb';
 
 export default function Outlet() {
   const isFiltred = useSelector(selectIsFiltred);
@@ -40,7 +41,10 @@ export default function Outlet() {
         </Empty>
       )}
       {visibleProducts.length < filterOutlet.length && !isFiltred && (
-        <ButtonLoadMore onClick={handleLoadMore}>Завантажити ще . . .</ButtonLoadMore>
+        <ButtonLoadMore onClick={handleLoadMore}>
+          <TbReload style={{ marginRight: '6px' }} />
+          Завантажити ще . . .
+        </ButtonLoadMore>
       )}
     </Container>
   );

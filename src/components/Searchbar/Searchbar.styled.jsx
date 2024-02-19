@@ -54,7 +54,7 @@ export const InputForm = styled.input`
   display: inline-block;
   width: 100%;
   font: inherit;
-  font-size: 20px;
+  font-size: ${props => props.theme.fontSizes.small};
   border-color: transparent;
   border-bottom: 1px solid rgba(239, 237, 232, 0.6);
   outline: none;
@@ -70,5 +70,6 @@ export const InputForm = styled.input`
   }
   @media (min-width: 768px) {
     border: none;
+    font-size: ${props => props.theme.fontSizes.medium};
   }
 `;

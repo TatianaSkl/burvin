@@ -4,6 +4,8 @@ export const ButtonLoadMore = styled.button`
   margin-top: 16px;
   margin-bottom: 16px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   color: ${props => props.theme.colors.accent};

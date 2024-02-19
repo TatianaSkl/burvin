@@ -18,7 +18,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectFavorites } from 'redux/selectors';
 import { addToFavorites, removeFromFavorites } from 'redux/favoritesSlice';
 import products from '../../bd/products.json';
-import { imageMap } from '../../utils/imageMap';
+import { imageMap } from '../../utils/imageSlider';
+import { imageSlider } from '../../utils/imageSlider';
 
 export const ProductsItem = ({ id, article, name, color, size, price, compound }) => {
   const dispatch = useDispatch();
@@ -75,12 +76,14 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
             {size}
           </Text>
         </WrapperText>
-        <Text style={{ textAlign: 'center' }}>
+        <Text style={{ textAlign: 'center', marginBottom: '6px' }}>
           <span style={{ color: 'black' }}>Склад : </span>
           {compound}
         </Text>
       </Item>
-      {showModal && <PopUp alt={name} url={imageMap[article]} onClose={onCloseModal} />}
+      {showModal && (
+        <PopUp article={article} images={imageSlider[article]} onClose={onCloseModal} />
+      )}
     </>
   );
 };

@@ -42,13 +42,7 @@ export const Wrap = styled.div`
 export const WrapperText = styled.div`
   display: flex;
   justify-content: space-around;
-  margin: 0 8px 8px 8px;
-  @media (min-width: 768px) {
-    margin: 0 12px 12px 12px;
-  }
-  @media (min-width: 1200px) {
-    margin: 0 16px 16px 16px;
-  }
+  margin-bottom: 8px;
 `;
 
 export const Text = styled.p`
@@ -56,10 +50,10 @@ export const Text = styled.p`
   font-size: 12px;
   line-height: 150%;
   font-weight: 400;
-  max-width: 274px;
+  /* max-width: 274px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; */
 `;
 
 export const PressButton = styled.button`
