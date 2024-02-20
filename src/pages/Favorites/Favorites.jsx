@@ -9,7 +9,7 @@ export default function Favorites() {
   return (
     <Container>
       {favorites.length === 0 ? (
-        <Empty>Your favorites is empty.</Empty>
+        <Empty>Ваші вибрані пусті.</Empty>
       ) : (
         <ProductsList products={favorites} />
       )}

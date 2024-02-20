@@ -167,6 +167,33 @@ import b9610_2 from '../images/9610_2.JPG';
 import b9616 from '../images/9616.JPG';
 import b9616_1 from '../images/9616_1.JPG';
 import b9616_2 from '../images/9616_2.JPG';
+import b9153 from '../images/9153.JPG';
+import b9153_1 from '../images/9153_1.JPG';
+import b9153_2 from '../images/9153_2.JPG';
+import b9155 from '../images/9155.JPG';
+import b9155_1 from '../images/9155_1.JPG';
+import b9155_2 from '../images/9155_2.JPG';
+import b9155v from '../images/9155v.JPG';
+import b9155v_1 from '../images/9155v_1.JPG';
+import b9160 from '../images/9160.JPG';
+import b9160_1 from '../images/9160_1.JPG';
+import b9168 from '../images/9168.jpg';
+import b9168_1 from '../images/9168_1.jpg';
+import b9168_2 from '../images/9168_2.jpg';
+import b9168_3 from '../images/9168_3.JPG';
+import b9170 from '../images/9170.JPG';
+import b9170_1 from '../images/9170_1.JPG';
+import b9170_2 from '../images/9170_2.JPG';
+import b9170б from '../images/9170-11.JPG';
+import b9170ж from '../images/9170-71.JPG';
+import b9172 from '../images/9172.JPG';
+import b9172_1 from '../images/9172_1.JPG';
+import b9172_2 from '../images/9172_2.JPG';
+import b9174 from '../images/9174.JPG';
+import b9174_1 from '../images/9174_1.JPG';
+import b9174_2 from '../images/9174_2.JPG';
+import b9175 from '../images/9175.jpg';
+import b9175_1 from '../images/9175_1.JPG';
 
 const img = {
   b9616,
@@ -338,6 +365,33 @@ const img = {
   b9610_2,
   b9616_1,
   b9616_2,
+  b9153,
+  b9153_1,
+  b9153_2,
+  b9155,
+  b9155_1,
+  b9155_2,
+  b9155v,
+  b9155v_1,
+  b9160,
+  b9160_1,
+  b9168,
+  b9168_1,
+  b9168_2,
+  b9168_3,
+  b9170,
+  b9170_1,
+  b9170_2,
+  b9170б,
+  b9170ж,
+  b9172,
+  b9172_1,
+  b9172_2,
+  b9174,
+  b9174_1,
+  b9174_2,
+  b9175,
+  b9175_1,
 };
 
 export default img;

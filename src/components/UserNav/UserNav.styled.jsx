@@ -31,3 +31,11 @@ export const LinkNav = styled(NavLink)`
     }
   }
 `;
+
+export const LinkNavText = styled(NavLink)`
+  font-family: 'Helvetica', sans-serif;
+  font-size: 21px;
+  letter-spacing: 2.1px;
+  line-height: 25.2px;
+  margin-bottom: 16px;
+`;

@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { filtredProducts, selectIsFiltred } from 'redux/selectors';
 import { ProductsList, Container, Filter } from 'components';
-import { ButtonLoadMore } from './Outlet.styled';
 import { Empty } from 'pages/Favorites/Favorites.styled';
 import products from '../../bd/products.json';
 import { TbReload } from 'react-icons/tb';
+import { ButtonLoadMore } from 'pages/Collections/Collections.styled';
 
 export default function Outlet() {
   const isFiltred = useSelector(selectIsFiltred);
