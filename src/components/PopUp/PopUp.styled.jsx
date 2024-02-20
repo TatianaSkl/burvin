@@ -3,42 +3,32 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 export const Overlay = styled.div`
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1200;
-  @media (min-width: 768px) {
-    display: flex;
-  }
-  @media (min-width: 1200px) {
-    align-items: center;
-  }
 `;
 
 export const Wrapper = styled.div`
   position: relative;
   margin: 0 auto;
   overflow-y: auto;
-  width: calc(100vw - 24px);
-  height: calc(100vh - 24px);
+  width: auto;
+  max-height: 100%;
   background-color: transparent;
-  @media (min-width: 768px) {
-    margin: 24px auto;
-    width: auto;
-    height: auto;
-  }
 `;
 
 export const ImageItem = styled.img`
   width: auto;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   padding: 40px 0 40px;
-  @media (min-width: 768px) {
-    max-height: 100%;
-  }
+  margin: 0 auto;
 `;
 
 export const IconClose = styled(AiOutlineClose)`
@@ -61,11 +51,11 @@ export const ButtonClose = styled.button`
 export const ButtonNext = styled.button`
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 48%;
   right: 12px;
   & svg {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     fill: ${props => props.theme.colors.black};
     @media (min-width: 768px) {
       width: 22px;
@@ -77,11 +67,11 @@ export const ButtonNext = styled.button`
 export const ButtonPrev = styled.button`
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 48%;
   left: 12px;
   & svg {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     fill: ${props => props.theme.colors.black};
     @media (min-width: 768px) {
       width: 22px;
