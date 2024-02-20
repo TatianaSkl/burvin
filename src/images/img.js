@@ -37,10 +37,6 @@ import b6606 from '../images/6606.JPG';
 import b6611 from '../images/6611.JPG';
 import b6627 from '../images/6627.JPG';
 import b6627v from '../images/6627В1.JPG';
-import b9482 from '../images/9482.JPG';
-import b9501 from '../images/9501.JPG';
-import b9610 from '../images/9610.JPG';
-import b9616 from '../images/9616.JPG';
 import b6638 from '../images/6638.jpg';
 import b6656 from '../images/6656.JPG';
 import b6671 from '../images/6671.JPG';
@@ -159,6 +155,18 @@ import b9055 from '../images/9055.jpg';
 import b9055v from '../images/9055v.JPG';
 import b9071 from '../images/9071.jpg';
 import b9124 from '../images/9124.jpg';
+import b9482 from '../images/9482.JPG';
+import b9482_1 from '../images/9482_1.JPG';
+import b9482_2 from '../images/9482_2.JPG';
+import b9501 from '../images/9501.JPG';
+import b9501_1 from '../images/9501_1.JPG';
+import b9501_2 from '../images/9501_2.JPG';
+import b9610 from '../images/9610.JPG';
+import b9610_1 from '../images/9610_1.JPG';
+import b9610_2 from '../images/9610_2.JPG';
+import b9616 from '../images/9616.JPG';
+import b9616_1 from '../images/9616_1.JPG';
+import b9616_2 from '../images/9616_2.JPG';
 
 const img = {
   b9616,
@@ -322,6 +330,14 @@ const img = {
   b9055v,
   b9071,
   b9124,
+  b9482_1,
+  b9482_2,
+  b9501_1,
+  b9501_2,
+  b9610_1,
+  b9610_2,
+  b9616_1,
+  b9616_2,
 };
 
 export default img;
