@@ -5,6 +5,9 @@ import img from 'images/img';
 const { logoD } = img;
 
 export const HeaderStyled = styled.header`
+  /* top: 0;
+  left: 0;
+  position: sticky; */
   display: flex;
   justify-content: space-between;
   align-items: center;

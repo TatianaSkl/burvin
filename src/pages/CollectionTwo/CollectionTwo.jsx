@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { filtredProducts, selectIsFiltred } from 'redux/selectors';
-import { ProductsList, Container, Filter } from 'components';
+import { ProductsList, Container, Filter, TitlePage } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
 import products from '../../bd/products.json';
 import { TbReload } from 'react-icons/tb';
-import { ButtonLoadMore } from 'pages/Collections/Collections.styled';
+import { ButtonLoadMore, Wrapper } from 'pages/Collections/Collections.styled';
 
 export default function CollectionOne() {
   const isFiltred = useSelector(selectIsFiltred);
@@ -32,7 +32,10 @@ export default function CollectionOne() {
 
   return (
     <Container>
-      <Filter />
+      <Wrapper>
+        <TitlePage text="HOLIDAY 2024" />
+        <Filter />
+      </Wrapper>
       <ProductsList products={isFiltred ? filterNew : visibleProducts} />
       {isFiltred && filter?.length === 0 && (
         <Empty>

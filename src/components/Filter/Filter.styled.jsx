@@ -5,14 +5,12 @@ export const FormFilter = styled.form`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
   gap: 8px;
+  padding-bottom: 6px;
   @media (min-width: 768px) {
-    margin-bottom: 24px;
     gap: 12px;
   }
   @media (min-width: 1200px) {
-    margin-bottom: 32px;
     gap: 16px;
   }
 `;
@@ -51,7 +49,7 @@ export const LabelFilter = styled.label`
 export const customStyles = {
   control: provided => ({
     ...provided,
-    backgroundColor: '#F7F7FB',
+    backgroundColor: '#fff',
     borderColor: '#F7F7FB',
     borderRadius: '14px',
     height: '48px',

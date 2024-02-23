@@ -24,3 +24,12 @@ export const ButtonLoadMore = styled.button`
     margin-bottom: 24px;
   }
 `;
+
+export const Wrapper = styled.div`
+  background: #f6f6f6;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+`;

@@ -8,7 +8,7 @@ export default function Welcome() {
   const [backgroundImage, setBackgroundImage] = useState(getRandomImage);
 
   const handleGo = () => {
-    navigate('/catalog');
+    navigate('/collection-3');
   };
 
   useEffect(() => {

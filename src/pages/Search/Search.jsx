@@ -1,8 +1,9 @@
 import { useSelector } from 'react-redux';
-import { ProductsList, Container } from 'components';
+import { ProductsList, Container, TitlePage } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
 import products from '../../bd/products.json';
 import { selectSearch } from 'redux/selectors';
+import { Wrapper } from 'pages/Collections/Collections.styled';
 
 export default function Search() {
   const search = useSelector(selectSearch);
@@ -15,6 +16,9 @@ export default function Search() {
 
   return (
     <Container>
+      <Wrapper>
+        <TitlePage text={search} />
+      </Wrapper>
       {visibleSearchProducts.length === 0 ? (
         <Empty>На жаль, за пошуком результатів не знайдено.</Empty>
       ) : (
