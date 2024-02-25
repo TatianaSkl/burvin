@@ -15,15 +15,17 @@ export default function Search() {
   }
 
   return (
-    <Container>
+    <>
       <Wrapper>
         <TitlePage text={search} />
       </Wrapper>
-      {visibleSearchProducts.length === 0 ? (
-        <Empty>На жаль, за пошуком результатів не знайдено.</Empty>
-      ) : (
-        <ProductsList products={visibleSearchProducts} />
-      )}
-    </Container>
+      <Container>
+        {visibleSearchProducts.length === 0 ? (
+          <Empty>На жаль, за пошуком результатів не знайдено.</Empty>
+        ) : (
+          <ProductsList products={visibleSearchProducts} />
+        )}
+      </Container>
+    </>
   );
 }

@@ -31,24 +31,26 @@ export default function CollectionOne() {
   };
 
   return (
-    <Container>
+    <>
       <Wrapper>
         <TitlePage text="ОСІНЬ-ЗИМА 23-24" />
         <Filter />
       </Wrapper>
-      <ProductsList products={isFiltred ? filterNew : visibleProducts} />
-      {isFiltred && filter?.length === 0 && (
-        <Empty>
-          На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
-          параметри пошуку, щоб знайти потрібний.
-        </Empty>
-      )}
-      {visibleProducts.length < filterNew.length && !isFiltred && (
-        <ButtonLoadMore onClick={handleLoadMore}>
-          <TbReload style={{ marginRight: '6px' }} />
-          Завантажити ще . . .
-        </ButtonLoadMore>
-      )}
-    </Container>
+      <Container>
+        <ProductsList products={isFiltred ? filterNew : visibleProducts} />
+        {isFiltred && filter?.length === 0 && (
+          <Empty>
+            На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
+            параметри пошуку, щоб знайти потрібний.
+          </Empty>
+        )}
+        {visibleProducts.length < filterNew.length && !isFiltred && (
+          <ButtonLoadMore onClick={handleLoadMore}>
+            <TbReload style={{ marginRight: '6px' }} />
+            Завантажити ще . . .
+          </ButtonLoadMore>
+        )}
+      </Container>
+    </>
   );
 }

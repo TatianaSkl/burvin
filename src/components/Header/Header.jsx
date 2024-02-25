@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Menu, Searchbar } from 'components';
+import { Menu, Searchbar } from 'components';
 import {
   ButtonMenu,
   HeaderStyled,
@@ -9,7 +9,7 @@ import {
   WrapperMobil,
 } from './Header.styled';
 
-export const Header = () => {
+export const Header = ({ background }) => {
   const [showModal, setShowModal] = useState(false);
 
   const onOpenModal = () => {
@@ -23,19 +23,17 @@ export const Header = () => {
   };
 
   return (
-    <Container>
-      <HeaderStyled>
-        <WrapperLogo to="/" />
-        <Wrapper>
-          <WrapperMobil>
-            <Searchbar />
-          </WrapperMobil>
-          <ButtonMenu onClick={onOpenModal}>
-            <IconMenu />
-          </ButtonMenu>
-          {showModal && <Menu onClose={onCloseModal} />}
-        </Wrapper>
-      </HeaderStyled>
-    </Container>
+    <HeaderStyled background={background}>
+      <WrapperLogo to="/" background={background} />
+      <Wrapper>
+        <WrapperMobil>
+          <Searchbar />
+        </WrapperMobil>
+        <ButtonMenu onClick={onOpenModal}>
+          <IconMenu />
+        </ButtonMenu>
+        {showModal && <Menu onClose={onCloseModal} />}
+      </Wrapper>
+    </HeaderStyled>
   );
 };

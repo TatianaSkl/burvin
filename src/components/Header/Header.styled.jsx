@@ -2,16 +2,30 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 import { HiMenuAlt1 } from 'react-icons/hi';
 import img from 'images/img';
-const { logoD } = img;
+const { logoD, logoM } = img;
 
 export const HeaderStyled = styled.header`
-  /* top: 0;
+  top: 0;
   left: 0;
-  position: sticky; */
+  position: sticky;
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 0 8px 0;
+  padding: 8px 20px;
+  margin: 0 auto;
+  background-color: ${props => (props.background ? 'transparent' : 'white')};
+  @media (min-width: 375px) {
+    width: 375px;
+  }
+  @media (min-width: 768px) {
+    padding: 8px 25px;
+    width: 768px;
+  }
+  @media (min-width: 1440px) {
+    padding: 8px 10%;
+    width: 100vw;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -41,7 +55,8 @@ export const ButtonMenu = styled.button`
 `;
 
 export const WrapperLogo = styled(Link)`
-  background: url(${logoD}) no-repeat 0 -50px;
+  background: ${props =>
+    props.background ? `url(${logoD}) no-repeat 0 -50px` : `url(${logoM}) no-repeat 0 -40px`};
   cursor: pointer;
   width: 210px;
   height: 50px;
