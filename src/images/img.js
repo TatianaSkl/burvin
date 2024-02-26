@@ -412,6 +412,7 @@ import b9522_2 from '../images/9522_2.JPG';
 import b9522_3 from '../images/9522_3.JPG';
 import b9559 from '../images/9559.JPG';
 import b9559_1 from '../images/9559_1.JPG';
+import bgnews from '../images/title_news.jpg';
 
 const img = {
   b9616,
@@ -447,6 +448,7 @@ const img = {
   t3,
   t4,
   t5,
+  bgnews,
   logoD,
   logoM,
   b6579,

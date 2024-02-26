@@ -14,7 +14,7 @@ export const HeaderStyled = styled.header`
   align-items: center;
   padding: 8px 20px;
   margin: 0 auto;
-  background-color: ${props => (props.background ? 'transparent' : 'white')};
+  background-color: ${props => (props.backGround ? 'transparent' : 'white')};
   @media (min-width: 375px) {
     width: 375px;
   }
@@ -56,7 +56,7 @@ export const ButtonMenu = styled.button`
 
 export const WrapperLogo = styled(Link)`
   background: ${props =>
-    props.background ? `url(${logoD}) no-repeat 0 -50px` : `url(${logoM}) no-repeat 0 -40px`};
+    props.backGround ? `url(${logoD}) no-repeat 0 -50px` : `url(${logoM}) no-repeat 0 -40px`};
   cursor: pointer;
   width: 210px;
   height: 50px;

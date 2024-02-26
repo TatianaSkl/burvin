@@ -9,7 +9,7 @@ import {
   WrapperMobil,
 } from './Header.styled';
 
-export const Header = ({ background }) => {
+export const Header = ({ backGround }) => {
   const [showModal, setShowModal] = useState(false);
 
   const onOpenModal = () => {
@@ -23,8 +23,8 @@ export const Header = ({ background }) => {
   };
 
   return (
-    <HeaderStyled background={background}>
-      <WrapperLogo to="/" background={background} />
+    <HeaderStyled backGround={backGround}>
+      <WrapperLogo to="/" className={backGround ? 'background' : ''} />
       <Wrapper>
         <WrapperMobil>
           <Searchbar />

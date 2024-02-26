@@ -9,7 +9,7 @@ export const SharedLayout = () => {
 
   return (
     <>
-      <Header background={isWelcomePage} />
+      <Header backGround={isWelcomePage} />
       <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
