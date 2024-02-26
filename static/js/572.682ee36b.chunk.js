@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkburvin=self.webpackChunkburvin||[]).push([[572],{9192:(e,u,n)=>{n.r(u),n.d(u,{default:()=>s});var r=n(2496);function s(){return(0,r.jsx)("div",{children:"News"})}}}]);
-//# sourceMappingURL=572.682ee36b.chunk.js.map
