@@ -417,7 +417,7 @@ import b9441_2 from '../images/9441_2.JPG';
 import b9463 from '../images/9463.JPG';
 import b9463_1 from '../images/9463_1.JPG';
 import b9463_2 from '../images/9463_2.JPG';
-import b9474 from '../images/9474.jpg';
+import b9474 from '../images/9474.JPG';
 import b9474_1 from '../images/9474_1.JPG';
 import b9522 from '../images/9522.JPG';
 import b9522_1 from '../images/9522_1.JPG';
