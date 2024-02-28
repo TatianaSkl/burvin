@@ -1,8 +1,15 @@
 import { useState } from 'react';
 import { AiFillHeart } from 'react-icons/ai';
 import { FaSearchPlus } from 'react-icons/fa';
+import { IoLogoYoutube } from 'react-icons/io';
+import { ModalVideo, PopUp } from 'components';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectFavorites } from 'redux/selectors';
+import { addToFavorites, removeFromFavorites } from 'redux/favoritesSlice';
+import products from '../../bd/products.json';
+import { imageMap } from '../../utils/imageSlider';
 import {
-  ImageCar,
+  Image,
   Item,
   Text,
   Wrap,
@@ -12,22 +19,34 @@ import {
   Icon,
   IconPlus,
   WrapperText,
+  TextSpan,
+  WrapperPct,
+  IconVideo,
 } from './ProductsItem.styled';
-import { PopUp } from 'components';
-import { useDispatch, useSelector } from 'react-redux';
-import { selectFavorites } from 'redux/selectors';
-import { addToFavorites, removeFromFavorites } from 'redux/favoritesSlice';
-import products from '../../bd/products.json';
-import { imageMap } from '../../utils/imageSlider';
-import { imageSlider } from '../../utils/imageSlider';
 
-export const ProductsItem = ({ id, article, name, color, size, price, compound }) => {
+export const ProductsItem = ({
+  id,
+  article,
+  name,
+  color,
+  size,
+  price,
+  originalPrice,
+  discount,
+  video,
+  compound,
+}) => {
   const dispatch = useDispatch();
-  const [showModal, setShowModal] = useState(false);
+  const [showModalImage, setShowModalImage] = useState(false);
+  const [showModalVideo, setShowModalVideo] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const favorites = useSelector(selectFavorites);
 
   const isAdvertsInFavorites = favorites.find(product => product.id === id);
+
+  const priceUa = Math.ceil((price * 2 * 39) / 10) * 10;
+  const originalPriceUa = Math.ceil((originalPrice * 2 * 39) / 10) * 10;
+  const priceSale = Math.ceil((originalPriceUa - (originalPriceUa * discount) / 100) / 10) * 10;
 
   const handleFavorite = () => {
     if (!isAdvertsInFavorites) {
@@ -41,22 +60,37 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
 
   const onOpenModal = () => {
     document.body.style.overflow = 'hidden';
-    setShowModal(true);
+    setShowModalImage(true);
   };
 
   const onCloseModal = () => {
     document.body.style.overflow = 'auto';
-    setShowModal(false);
+    setShowModalImage(false);
+  };
+
+  const onOpenModalVideo = () => {
+    document.body.style.overflow = 'hidden';
+    setShowModalVideo(true);
+  };
+
+  const onCloseModalVideo = () => {
+    document.body.style.overflow = 'auto';
+    setShowModalVideo(false);
   };
 
   return (
     <>
       <Item>
         <WrapperFoto>
-          <ImageCar src={imageMap[article]} alt={name} loading="lazy" />
+          <Image src={imageMap[article]} alt={name} loading="lazy" />
           <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
             <AiFillHeart />
           </Icon>
+          {video && (
+            <IconVideo onClick={onOpenModalVideo}>
+              <IoLogoYoutube />
+            </IconVideo>
+          )}
           <IconPlus onClick={onOpenModal}>
             <FaSearchPlus />
           </IconPlus>
@@ -64,7 +98,17 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
         <WrapperFlex>
           <Wrap>{name}</Wrap>
           <WrapperModel> {article}</WrapperModel>
-          <div>{price} $</div>
+          {discount ? (
+            <div>
+              <p style={{ fontSize: '18px', fontWeight: '500' }}>{priceSale} грн</p>
+              <div style={{ display: 'flex' }}>
+                <TextSpan>{originalPriceUa} грн</TextSpan>
+                <WrapperPct>- {discount} %</WrapperPct>
+              </div>
+            </div>
+          ) : (
+            <div>{priceUa} грн</div>
+          )}
         </WrapperFlex>
         <WrapperText>
           <Text>
@@ -81,9 +125,8 @@ export const ProductsItem = ({ id, article, name, color, size, price, compound }
           {compound}
         </Text>
       </Item>
-      {showModal && (
-        <PopUp article={article} images={imageSlider[article]} onClose={onCloseModal} />
-      )}
+      {showModalImage && <PopUp article={article} onClose={onCloseModal} />}
+      {showModalVideo && <ModalVideo video={video} onClose={onCloseModalVideo} />}
     </>
   );
 };

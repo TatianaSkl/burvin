@@ -38,9 +38,11 @@ import b6604 from '../images/6604.JPG';
 import b6606 from '../images/6606.JPG';
 import b6606_1 from '../images/6606_1.JPG';
 import b6611 from '../images/6611.JPG';
+import b6611_1 from '../images/6611_1.JPG';
 import b6627 from '../images/6627.JPG';
 import b6627_1 from '../images/6627_1.JPG';
 import b6627_2 from '../images/6627_2.JPG';
+import b6627_3 from '../images/6627_3.JPG';
 import b6627v from '../images/6627В1.JPG';
 import b6638 from '../images/6638.jpg';
 import b6638_1 from '../images/6638_1.JPG';
@@ -79,12 +81,18 @@ import b7278 from '../images/7278.jpg';
 import b7303 from '../images/7303.jpg';
 import b7313 from '../images/7313.JPG';
 import b7320 from '../images/7320.JPG';
+import b7320_1 from '../images/7320_1.JPG';
 import b7324 from '../images/7324.JPG';
 import b7329 from '../images/7329.JPG';
 import b7336 from '../images/7336.JPG';
 import b7344 from '../images/7344.JPG';
 import b7344ж from '../images/7344ж.JPG';
+import b7344_1 from '../images/7344_1.JPG';
+import b7344_2 from '../images/7344_2.JPG';
+import b7344_3 from '../images/7344_3.JPG';
+import b7344_4 from '../images/7344_4.JPG';
 import b7373 from '../images/7373.JPG';
+import b7373_1 from '../images/7373_1.JPG';
 import b7387 from '../images/7387.JPG';
 import b7392 from '../images/7392.jpg';
 import b7392_1 from '../images/7392_1.JPG';
@@ -98,7 +106,6 @@ import b7586 from '../images/7586.JPG';
 import b7586_1 from '../images/7586_1.JPG';
 import b7600 from '../images/7600.JPG';
 import b7600_1 from '../images/7600_1.JPG';
-import b7600_2 from '../images/7600_2.JPG';
 import b7605 from '../images/7605.jpg';
 import b7612 from '../images/7612.JPG';
 import b7612_1 from '../images/7612_1.JPG';
@@ -107,6 +114,7 @@ import b7710 from '../images/7710.jpg';
 import b7710_1 from '../images/7710_1.JPG';
 import b7710_2 from '../images/7710_2.JPG';
 import b7727 from '../images/7727.JPG';
+import b7727_1 from '../images/7727_1.JPG';
 import b7813 from '../images/7813.JPG';
 import b7849 from '../images/7849.JPG';
 import b7849_1 from '../images/7849_1.JPG';
@@ -133,7 +141,6 @@ import b7942v from '../images/7942v.JPG';
 import b7942v_1 from '../images/7942v_1.JPG';
 import b7976 from '../images/7976.JPG';
 import b7995 from '../images/7995.JPG';
-import b7995_1 from '../images/7995_1.JPG';
 import b7999 from '../images/7999.JPG';
 import b800065 from '../images/8000.8065.JPG';
 import b8000 from '../images/8000.JPG';
@@ -143,9 +150,10 @@ import b8006 from '../images/8006.JPG';
 import b8006_1 from '../images/8006_1.JPG';
 import b8007 from '../images/8007.JPG';
 import b8007_1 from '../images/8007_1.JPG';
+import b8007_2 from '../images/8007_2.JPG';
+import b8007_3 from '../images/8007_3.JPG';
 import b8007v from '../images/8007v.JPG';
 import b8023 from '../images/8023.JPG';
-import b8023_1 from '../images/8023_1.JPG';
 import b80460 from '../images/8046.00.JPG';
 import b8046 from '../images/8046.JPG';
 import b8052 from '../images/8052.JPG';
@@ -153,11 +161,13 @@ import b8052_1 from '../images/8052_1.JPG';
 import b8052_2 from '../images/8052_2.JPG';
 import b8052_3 from '../images/8052_3.JPG';
 import b8057 from '../images/8057.JPG';
+import b8057_1 from '../images/8057_1.JPG';
 import b8065 from '../images/8065.JPG';
 import b8078 from '../images/8078.JPG';
 import b8095 from '../images/8095.JPG';
 import b8095_1 from '../images/8095_1.JPG';
 import b8095_2 from '../images/8095_2.jpg';
+import b8095_3 from '../images/8095_3.JPG';
 import b8106 from '../images/8106.JPG';
 import b8106_1 from '../images/8106_1.JPG';
 import b8121 from '../images/8121.JPG';
@@ -183,6 +193,8 @@ import b8215_2 from '../images/8215_2.JPG';
 import b8234 from '../images/8234.JPG';
 import b8234_1 from '../images/8234_1.JPG';
 import b8234_2 from '../images/8234_2.JPG';
+import b8234_3 from '../images/8234_3.JPG';
+import b8234_4 from '../images/8234_4.JPG';
 import b8249 from '../images/8249.jpg';
 import b8249_1 from '../images/8249_1.JPG';
 import b8271 from '../images/8271.JPG';
@@ -273,6 +285,7 @@ import b9610_2 from '../images/9610_2.JPG';
 import b9616 from '../images/9616.JPG';
 import b9616_1 from '../images/9616_1.JPG';
 import b9616_2 from '../images/9616_2.JPG';
+import b9616_3 from '../images/9616_3.JPG';
 import b9153 from '../images/9153.JPG';
 import b9153_1 from '../images/9153_1.JPG';
 import b9153_2 from '../images/9153_2.JPG';
@@ -404,15 +417,38 @@ import b9441_2 from '../images/9441_2.JPG';
 import b9463 from '../images/9463.JPG';
 import b9463_1 from '../images/9463_1.JPG';
 import b9463_2 from '../images/9463_2.JPG';
-import b9474 from '../images/9474.JPG';
+import b9474 from '../images/9474.jpg';
 import b9474_1 from '../images/9474_1.JPG';
 import b9522 from '../images/9522.JPG';
 import b9522_1 from '../images/9522_1.JPG';
 import b9522_2 from '../images/9522_2.JPG';
-import b9522_3 from '../images/9522_3.JPG';
 import b9559 from '../images/9559.JPG';
 import b9559_1 from '../images/9559_1.JPG';
 import bgnews from '../images/title_news.jpg';
+import b9559б from '../images/9559б.JPG';
+import b9514 from '../images/9514.JPG';
+import b9514_1 from '../images/9514_1.JPG';
+import b9514_2 from '../images/9514_2.JPG';
+import b9523 from '../images/9523.JPG';
+import b9523_1 from '../images/9523_1.JPG';
+import b9523_2 from '../images/9523_2.JPG';
+import b9604 from '../images/9604.JPG';
+import b9604_1 from '../images/9604_1.JPG';
+import b9604_2 from '../images/9604_2.JPG';
+import b9601 from '../images/9601.JPG';
+import b9601_1 from '../images/9601_1.JPG';
+import b9601_2 from '../images/9601_2.JPG';
+import b9601_3 from '../images/9601_3.JPG';
+import b9601_4 from '../images/9601_4.JPG';
+import b9479 from '../images/9479.JPG';
+import b9553 from '../images/9553.JPG';
+import b9553_1 from '../images/9553_1.JPG';
+import b9553_2 from '../images/9553_2.JPG';
+import b9554 from '../images/9554.JPG';
+import b9554_1 from '../images/9554_1.JPG';
+import b9646 from '../images/9646.JPG';
+import b9646_1 from '../images/9646_1.JPG';
+import b9646_2 from '../images/9646_2.JPG';
 
 const img = {
   b9616,
@@ -459,6 +495,7 @@ const img = {
   b6611,
   b6627,
   b6627v,
+  b6627_3,
   b6638,
   b6656,
   b6671,
@@ -729,7 +766,6 @@ const img = {
   b7453_2,
   b7586_1,
   b7600_1,
-  b7600_2,
   b7612_1,
   b7612_2,
   b7710_1,
@@ -742,11 +778,9 @@ const img = {
   b7899_1,
   b7942_1,
   b7942v_1,
-  b7995_1,
   b8005_1,
   b8006_1,
   b8007_1,
-  b8023_1,
   b8052_1,
   b8052_2,
   b8052_3,
@@ -825,11 +859,49 @@ const img = {
   b9474,
   b9474_1,
   b9522,
-  b9522_1,
-  b9522_2,
-  b9522_3,
   b9559,
   b9559_1,
+  b9559б,
+  b9616_3,
+  b8095_3,
+  b8234_3,
+  b8234_4,
+  b6611_1,
+  b7320_1,
+  b8057_1,
+  b7344_1,
+  b7344_2,
+  b7344_3,
+  b7344_4,
+  b7373_1,
+  b7727_1,
+  b8007_2,
+  b8007_3,
+  b9522_1,
+  b9522_2,
+  b9514,
+  b9514_1,
+  b9514_2,
+  b9523,
+  b9523_1,
+  b9523_2,
+  b9604,
+  b9604_1,
+  b9604_2,
+  b9601,
+  b9601_1,
+  b9601_2,
+  b9601_3,
+  b9601_4,
+  b9479,
+  b9553,
+  b9553_1,
+  b9553_2,
+  b9554,
+  b9554_1,
+  b9646,
+  b9646_1,
+  b9646_2,
 };
 
 export default img;

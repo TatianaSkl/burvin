@@ -1,34 +1,29 @@
-import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { filtredProducts, selectIsFiltred } from 'redux/selectors';
 import { ProductsList, Container, Filter, TitlePage } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
 import products from '../../bd/products.json';
-import { TbReload } from 'react-icons/tb';
-import { ButtonLoadMore, Wrapper } from 'pages/Collections/Collections.styled';
+import { Wrapper } from 'pages/Collections/Collections.styled';
 
 export default function CollectionOne() {
   const isFiltred = useSelector(selectIsFiltred);
   const filter = useSelector(filtredProducts);
-  const [page, setPage] = useState(() => {
-    const savedPage = localStorage.getItem('page');
-    return savedPage ? parseInt(savedPage, 10) : 1;
-  });
-  const itemsPerPage = 8;
 
-  const visibleProducts = products
-    .filter(product => product.season === 'h23')
-    .slice(0, page * itemsPerPage);
+  const visibleProducts = products.filter(product => product.season === 'h23');
 
   const filterNew = filter.filter(product => product.season === 'h23');
 
-  useEffect(() => {
-    localStorage.setItem('page', page.toString());
-  }, [page]);
+  const sortedProducts = visibleProducts.sort((a, b) => {
+    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
+    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
+    return articleA - articleB;
+  });
 
-  const handleLoadMore = () => {
-    setPage(prevPage => prevPage + 1);
-  };
+  const sortedProductsFilter = filterNew.sort((a, b) => {
+    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
+    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
+    return articleA - articleB;
+  });
 
   return (
     <>
@@ -37,18 +32,12 @@ export default function CollectionOne() {
         <Filter />
       </Wrapper>
       <Container>
-        <ProductsList products={isFiltred ? filterNew : visibleProducts} />
+        <ProductsList products={isFiltred ? sortedProductsFilter : sortedProducts} />
         {isFiltred && filter?.length === 0 && (
           <Empty>
             На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
             параметри пошуку, щоб знайти потрібний.
           </Empty>
-        )}
-        {visibleProducts.length < filterNew.length && !isFiltred && (
-          <ButtonLoadMore onClick={handleLoadMore}>
-            <TbReload style={{ marginRight: '6px' }} />
-            Завантажити ще . . .
-          </ButtonLoadMore>
         )}
       </Container>
     </>

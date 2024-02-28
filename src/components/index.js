@@ -11,3 +11,4 @@ export * from 'components/SharedLayout/SharedLayout.jsx';
 export * from 'components/UserNav/UserNav.jsx';
 export * from 'components/Searchbar/Searchbar.jsx';
 export * from 'components/TitlePage/TitlePage.jsx';
+export * from 'components/ModalVideo/ModalVideo.jsx';

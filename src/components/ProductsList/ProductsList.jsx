@@ -13,6 +13,9 @@ export const ProductsList = ({ products }) => {
           color={product.color}
           size={product.size}
           price={product.price}
+          originalPrice={product.originalPrice}
+          discount={product.discount}
+          video={product.video}
           compound={product.compound}
         />
       ))}

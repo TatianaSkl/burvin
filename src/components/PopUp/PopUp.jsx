@@ -12,7 +12,7 @@ import { imageSlider } from 'utils/imageSlider';
 import { GrCaretNext } from 'react-icons/gr';
 import { GrCaretPrevious } from 'react-icons/gr';
 
-export const PopUp = ({ article, onClose }) => {
+export const PopUp = ({ article, video, onClose }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = imageSlider[article];
 
@@ -49,12 +49,25 @@ export const PopUp = ({ article, onClose }) => {
           <IconClose />
         </ButtonClose>
         <ImageItem src={images[currentImageIndex]} alt={article} />
-        <ButtonPrev onClick={onPrevImage}>
-          <GrCaretPrevious />
-        </ButtonPrev>
-        <ButtonNext onClick={onNextImage}>
-          <GrCaretNext />
-        </ButtonNext>
+        {images.length > 1 && (
+          <>
+            <ButtonPrev onClick={onPrevImage}>
+              <GrCaretPrevious />
+            </ButtonPrev>
+            <ButtonNext onClick={onNextImage}>
+              <GrCaretNext />
+            </ButtonNext>
+          </>
+        )}
+        {video && (
+          <iframe
+            src={video}
+            title="Video"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        )}
       </Wrapper>
     </Overlay>
   );

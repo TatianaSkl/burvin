@@ -13,7 +13,7 @@ export const WrapperFoto = styled.div`
   overflow: hidden;
 `;
 
-export const ImageCar = styled.img`
+export const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -50,10 +50,6 @@ export const Text = styled.p`
   font-size: 12px;
   line-height: 150%;
   font-weight: 400;
-  /* max-width: 274px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; */
 `;
 
 export const PressButton = styled.button`
@@ -108,4 +104,37 @@ export const IconPlus = styled.div`
     width: 18px;
     height: 18px;
   }
+`;
+export const IconVideo = styled.div`
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  & svg {
+    color: red;
+    width: 18px;
+    height: 18px;
+  }
+`;
+
+export const TextSpan = styled.span`
+  color: rgba(8, 8, 8, 0.5);
+  font-size: 13px;
+  text-decoration: line-through;
+`;
+
+export const WrapperPct = styled.div`
+  font-size: 12px;
+  color: #f993b9;
+  border: 1px solid #f993b9;
+  margin-left: 8px;
+  padding: 0 3px;
+  height: 20px;
+  min-width: 45px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 `;
