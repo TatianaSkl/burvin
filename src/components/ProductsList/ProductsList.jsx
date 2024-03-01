@@ -10,8 +10,7 @@ export const ProductsList = ({ products }) => {
           id={product.id}
           article={product.article}
           name={product.name}
-          color={product.color}
-          size={product.size}
+          options={product.options}
           price={product.price}
           originalPrice={product.originalPrice}
           discount={product.discount}

@@ -419,13 +419,13 @@ import b9463_1 from '../images/9463_1.JPG';
 import b9463_2 from '../images/9463_2.JPG';
 import b9474 from '../images/9474.JPG';
 import b9474_1 from '../images/9474_1.JPG';
+import b9474_2 from '../images/9474_2.JPG';
 import b9522 from '../images/9522.JPG';
 import b9522_1 from '../images/9522_1.JPG';
 import b9522_2 from '../images/9522_2.JPG';
 import b9559 from '../images/9559.JPG';
 import b9559_1 from '../images/9559_1.JPG';
 import bgnews from '../images/title_news.jpg';
-import b9559б from '../images/9559б.JPG';
 import b9514 from '../images/9514.JPG';
 import b9514_1 from '../images/9514_1.JPG';
 import b9514_2 from '../images/9514_2.JPG';
@@ -441,6 +441,7 @@ import b9601_2 from '../images/9601_2.JPG';
 import b9601_3 from '../images/9601_3.JPG';
 import b9601_4 from '../images/9601_4.JPG';
 import b9479 from '../images/9479.JPG';
+import b9479_1 from '../images/9479_1.JPG';
 import b9553 from '../images/9553.JPG';
 import b9553_1 from '../images/9553_1.JPG';
 import b9553_2 from '../images/9553_2.JPG';
@@ -861,7 +862,6 @@ const img = {
   b9522,
   b9559,
   b9559_1,
-  b9559б,
   b9616_3,
   b8095_3,
   b8234_3,
@@ -902,6 +902,8 @@ const img = {
   b9646,
   b9646_1,
   b9646_2,
+  b9474_2,
+  b9479_1,
 };
 
 export default img;

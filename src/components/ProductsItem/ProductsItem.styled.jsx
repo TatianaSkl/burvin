@@ -8,15 +8,15 @@ export const Item = styled.li`
 
 export const WrapperFoto = styled.div`
   position: relative;
-  height: 268px;
+  height: 330px;
   border-radius: 12px 12px 0 0;
   overflow: hidden;
 `;
 
 export const Image = styled.img`
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  /* height: 100%;
+  object-fit: cover; */
 `;
 
 export const WrapperFlex = styled.div`
@@ -45,7 +45,7 @@ export const WrapperText = styled.div`
   margin-bottom: 8px;
 `;
 
-export const Text = styled.p`
+export const Text = styled.div`
   color: ${props => props.theme.colors.lightGrey};
   font-size: 12px;
   line-height: 150%;

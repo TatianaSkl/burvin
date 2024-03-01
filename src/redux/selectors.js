@@ -14,12 +14,15 @@ export const filtredProducts = createSelector(
 
     if (view !== 'Всі' && size !== 'Всі') {
       filter = filter.filter(
-        product => product.view === view && product.size.split(',').includes(size)
+        product =>
+          product.view === view && product.options.some(option => option.sizes.includes(size))
       );
     } else if (view !== 'Всі' && size === 'Всі') {
       filter = filter.filter(product => product.view === view);
     } else if (view === 'Всі' && size !== 'Всі') {
-      filter = filter.filter(product => product.size.split(',').includes(size));
+      filter = filter.filter(product =>
+        product.options.some(option => option.sizes.includes(size))
+      );
     }
 
     return filter;

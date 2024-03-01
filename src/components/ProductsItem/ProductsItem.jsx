@@ -28,8 +28,7 @@ export const ProductsItem = ({
   id,
   article,
   name,
-  color,
-  size,
+  options,
   price,
   originalPrice,
   discount,
@@ -44,9 +43,9 @@ export const ProductsItem = ({
 
   const isAdvertsInFavorites = favorites.find(product => product.id === id);
 
-  const priceUa = Math.ceil((price * 2 * 39) / 10) * 10;
-  const originalPriceUa = Math.ceil((originalPrice * 2 * 39) / 10) * 10;
-  const priceSale = Math.ceil((originalPriceUa - (originalPriceUa * discount) / 100) / 10) * 10;
+  const priceUa = Math.ceil((price * 2 * 39) / 100) * 100;
+  const originalPriceUa = Math.ceil((originalPrice * 2 * 39) / 100) * 100;
+  const priceSale = Math.ceil((originalPriceUa - (originalPriceUa * discount) / 100) / 100) * 100;
 
   const handleFavorite = () => {
     if (!isAdvertsInFavorites) {
@@ -111,14 +110,22 @@ export const ProductsItem = ({
           )}
         </WrapperFlex>
         <WrapperText>
-          <Text>
-            <span style={{ color: 'black' }}>Колір : </span>
-            {color}
-          </Text>
-          <Text>
-            <span style={{ color: 'black' }}>Розмір : </span>
-            {size}
-          </Text>
+          <div>
+            {options.map(option => (
+              <Text key={`${option.color}-${option.sizes}`}>
+                <span style={{ color: 'black' }}>Колір : </span>
+                {option.color}
+              </Text>
+            ))}
+          </div>
+          <div>
+            {options.map(option => (
+              <Text key={`${option.color}-${option.sizes}`}>
+                <span style={{ color: 'black' }}>Розмір : </span>
+                {option.sizes}
+              </Text>
+            ))}
+          </div>
         </WrapperText>
         <Text style={{ textAlign: 'center', marginBottom: '6px' }}>
           <span style={{ color: 'black' }}>Склад : </span>
