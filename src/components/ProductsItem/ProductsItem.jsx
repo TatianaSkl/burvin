@@ -122,7 +122,7 @@ export const ProductsItem = ({
             {options.map(option => (
               <Text key={`${option.color}-${option.sizes}`}>
                 <span style={{ color: 'black' }}>Розмір : </span>
-                {option.sizes}
+                {option.sizes.join(', ')}
               </Text>
             ))}
           </div>
