@@ -307,7 +307,7 @@ import b9055 from '../images/9055.jpg';
 import b9055_1 from '../images/9055_1.JPG';
 import b9055_2 from '../images/9055_2.JPG';
 import b9055_3 from '../images/9055_3.JPG';
-import b9071 from '../images/9071.JPG';
+import b9071_0 from '../images/9071_0.JPG';
 import b9071_1 from '../images/9071_1.JPG';
 import b9071_2 from '../images/9071_2.jpg';
 import b9124 from '../images/9124.jpg';
@@ -658,7 +658,7 @@ const img = {
   b9011,
   b9026_0,
   b9055,
-  b9071,
+  b9071_0,
   b9124,
   b9482_1,
   b9482_2,
