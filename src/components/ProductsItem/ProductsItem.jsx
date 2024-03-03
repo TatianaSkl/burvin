@@ -18,8 +18,6 @@ import {
   Icon,
   IconPlus,
   WrapperText,
-  TextSpan,
-  WrapperPct,
   IconVideo,
 } from './ProductsItem.styled';
 
@@ -42,10 +40,6 @@ export const ProductsItem = ({
   const favorites = useSelector(selectFavorites);
 
   const isAdvertsInFavorites = favorites.find(product => product.id === id);
-
-  const priceUa = Math.ceil((price * 2 * 39) / 100) * 100;
-  const originalPriceUa = Math.ceil((originalPrice * 2 * 39) / 100) * 100;
-  const priceSale = Math.ceil((originalPriceUa - (originalPriceUa * discount) / 100) / 100) * 100;
 
   const handleFavorite = () => {
     if (!isAdvertsInFavorites) {
@@ -97,17 +91,7 @@ export const ProductsItem = ({
         <WrapperFlex>
           <Wrap>{name}</Wrap>
           <WrapperModel> {article}</WrapperModel>
-          {discount ? (
-            <div>
-              <p style={{ fontSize: '18px', fontWeight: '500' }}>{priceSale} грн</p>
-              <div style={{ display: 'flex' }}>
-                <TextSpan>{originalPriceUa} грн</TextSpan>
-                <WrapperPct>- {discount} %</WrapperPct>
-              </div>
-            </div>
-          ) : (
-            <div>{priceUa} грн</div>
-          )}
+          {discount ? <div>{originalPrice} $</div> : <div>{price} $</div>}
         </WrapperFlex>
         <WrapperText>
           <div>
