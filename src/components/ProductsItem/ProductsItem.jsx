@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectFavorites } from 'redux/selectors';
 import { addToFavorites, removeFromFavorites } from 'redux/favoritesSlice';
 import products from '../../bd/products.json';
-import { imageMap } from '../../utils/imageSlider';
 import {
   Image,
   Item,
@@ -32,6 +31,7 @@ export const ProductsItem = ({
   price,
   originalPrice,
   discount,
+  fotos,
   video,
   compound,
 }) => {
@@ -81,7 +81,7 @@ export const ProductsItem = ({
     <>
       <Item>
         <WrapperFoto>
-          <Image src={imageMap[article]} alt={name} loading="lazy" />
+          <Image src={fotos[0]} alt={name} loading="lazy" />
           <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
             <AiFillHeart />
           </Icon>
@@ -132,7 +132,7 @@ export const ProductsItem = ({
           {compound}
         </Text>
       </Item>
-      {showModalImage && <PopUp article={article} onClose={onCloseModal} />}
+      {showModalImage && <PopUp article={article} fotos={fotos} onClose={onCloseModal} />}
       {showModalVideo && <ModalVideo video={video} onClose={onCloseModalVideo} />}
     </>
   );

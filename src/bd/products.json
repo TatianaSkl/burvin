@@ -14,6 +14,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 55% ПЕ 40% ПУ 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/3732.jpg",
+      "https://storage.googleapis.com/burvin_ok/3732_1.jpg",
+      "https://storage.googleapis.com/burvin_ok/3732_2.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -32,6 +37,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 62% ВІСКОЗА 31% ЕЛАСТАН 7%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/4966.jpg",
+      "https://storage.googleapis.com/burvin_ok/4966_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -50,6 +59,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/4993.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -68,6 +78,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5016.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -86,6 +97,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 76% ПА 22% ЕЛАСТАН 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5022.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -104,6 +116,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 96% ПЕ 4%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5384.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -122,6 +135,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 69% ПА 25% ПУ 6%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5450.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -140,6 +154,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/5496.jpg",
+      "https://storage.googleapis.com/burvin_ok/5496.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -158,6 +176,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 98% ПУ 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5516.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -176,6 +195,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 55% БАВОВНА 42% ПУ 3%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5565.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -194,6 +214,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 59% ПЕ 23% ЛЬОН 18%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5627.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -212,6 +233,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/5982.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -230,6 +252,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 50% БАВОВНА 45% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6005_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/6005.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -249,6 +275,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6102.jpg",
+      "https://storage.googleapis.com/burvin_ok/6102_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -267,6 +297,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "АЛЬПАКА 60% ПОЛІАМІД 35% ВОВНА 5%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6356.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -285,6 +316,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 68% ВІСКОЗА 32%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6437.jpg",
+      "https://storage.googleapis.com/burvin_ok/6437.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -303,6 +338,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 64% ВІСКОЗА 32% ПУ 4%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6456.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -321,6 +357,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 83% ПОЛІАМІД 6% ПЕ 6% ПУ 5%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6459.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -339,6 +376,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 83% ВІСКОЗА 15% ПУ 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6473.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -357,6 +395,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 64% ВІСКОЗА 34% ПУ 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6536.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -379,6 +418,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПОЛІАМІД 50% БАВОВНА 35% ВІСКОЗА 15%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6552.JPG",
+      "https://storage.googleapis.com/burvin_ok/6552_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/6552v.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -397,6 +441,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 60% ВІСКОЗА 34% ЕЛАСТАН 6%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6579.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -415,6 +460,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6588.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -433,6 +479,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6600.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -451,6 +498,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6604.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -469,6 +517,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6606.JPG",
+      "https://storage.googleapis.com/burvin_ok/6606_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -487,6 +539,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 70% ВІСКОЗА 25% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6611.JPG",
+      "https://storage.googleapis.com/burvin_ok/6611_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -509,6 +565,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 70% ПЕ 30%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6627.JPG",
+      "https://storage.googleapis.com/burvin_ok/6627_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/6627_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/6627_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/6627%D0%921.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -527,6 +590,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6638.jpg",
+      "https://storage.googleapis.com/burvin_ok/6638_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -545,6 +612,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6656.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -563,6 +631,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 51% ПА 41% ВІСКОЗА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6671.JPG",
+      "https://storage.googleapis.com/burvin_ok/6671_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -585,6 +657,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 70% ПЕ 26% СПАНДЕКС 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6685.JPG",
+      "https://storage.googleapis.com/burvin_ok/6685.1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -607,6 +683,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 97% СПАНДЕКС 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6765.JPG",
+      "https://storage.googleapis.com/burvin_ok/6765_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/6765.1.jpg",
+      "https://storage.googleapis.com/burvin_ok/6765.2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -625,6 +707,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 55% ЛЬОН 45%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/6804.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -643,6 +726,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 61% ВІСКОЗА 37% СПАНДЕКС 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6827.JPG",
+      "https://storage.googleapis.com/burvin_ok/6827_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -661,6 +748,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 64% ВІСКОЗА 31% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6948_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/6948.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -683,6 +774,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/6952.JPG",
+      "https://storage.googleapis.com/burvin_ok/6952.1.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -701,6 +796,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 64% ВІСКОЗА 35% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7168_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/7168.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -719,6 +818,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7171.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -737,6 +837,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7184.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -755,6 +856,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7185.JPG",
+      "https://storage.googleapis.com/burvin_ok/7185_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -773,6 +878,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "НЕЙЛОН 44% ВІСКОЗА 39% ПЕ 10% ЕЛАСТАН 7%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7212_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/7212.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -791,6 +900,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7220.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -809,6 +919,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 63% ВІСКОЗА 32% ЕЛАСТАН 3% МЕТАНИТКА 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7234.jpg",
+      "https://storage.googleapis.com/burvin_ok/7234_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7234_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/7234_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/7234_4.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -827,6 +944,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "НЕЙЛОН 44% ВІСКОЗА 39% ПЕ 10% ЕЛАСТАН 7%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7236.jpg",
+      "https://storage.googleapis.com/burvin_ok/7236_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -845,6 +966,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 74% МЕТАНИТКА 26%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7239.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -863,6 +985,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7243.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -881,6 +1004,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 83% ВІСКОЗА 15% СПАНДЕКС 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7248.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -899,6 +1023,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "НЕЙЛОН 44% ВІСКОЗА 39% ПЕ 10% ЕЛАСТАН 7%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7249.jpg",
+      "https://storage.googleapis.com/burvin_ok/7249_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/7249_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -917,6 +1046,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 95% СПАНДЕКС 5%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7278.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -935,6 +1065,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 95% ПЕ 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7303.jpg",
+      "https://storage.googleapis.com/burvin_ok/7303_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -953,6 +1087,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7320_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/7320.JPG",
+      "https://storage.googleapis.com/burvin_ok/7320_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -971,6 +1110,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 88% ПЕ 12%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7067.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -989,6 +1129,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7216.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1007,6 +1148,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7313.JPG",
+      "https://storage.googleapis.com/burvin_ok/7313_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7313_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1025,6 +1171,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ТЕНСЕЛ 84% ЛЬОН 16%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7324.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1043,6 +1190,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 73% ЛЬОН 27%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7329.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1061,6 +1209,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7336.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1079,6 +1228,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 71% ПЕ 27% СПАНДЕКС 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7344.JPG",
+      "https://storage.googleapis.com/burvin_ok/7344_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1097,6 +1250,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 69% ПЕ 29% СПАНДЕКС 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7344%D0%B6.JPG",
+      "https://storage.googleapis.com/burvin_ok/7344_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/7344_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/7344_4.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1115,6 +1274,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 75% ЛЬОН 25%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7373.JPG",
+      "https://storage.googleapis.com/burvin_ok/7373_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/7373_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1133,6 +1297,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7387.JPG",
+      "https://storage.googleapis.com/burvin_ok/7387_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1151,6 +1319,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7392.jpg",
+      "https://storage.googleapis.com/burvin_ok/7392_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1169,6 +1341,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 82% ПА 18%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7431.JPG",
+      "https://storage.googleapis.com/burvin_ok/7431_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1187,6 +1363,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7436.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1205,6 +1382,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 75% ЛЬОН 25%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7453.JPG",
+      "https://storage.googleapis.com/burvin_ok/7453_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7453_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1223,6 +1405,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7465.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1241,6 +1424,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7586.JPG",
+      "https://storage.googleapis.com/burvin_ok/7586_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1259,6 +1446,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 95% ЛАЙКРА 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7600.JPG",
+      "https://storage.googleapis.com/burvin_ok/7600_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1277,6 +1468,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 85% ПАН 8% ПЕ 4% ЕЛАСТАН 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7605.jpg",
+      "https://storage.googleapis.com/burvin_ok/7605_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1295,6 +1490,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7612.JPG",
+      "https://storage.googleapis.com/burvin_ok/7612_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7612_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1313,6 +1513,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 63% ВІСКОЗА 34% ЕЛАСТАН 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7710.jpg",
+      "https://storage.googleapis.com/burvin_ok/7710_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7710_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1331,6 +1536,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 88% ПЕ 12%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7727_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/7727.JPG",
+      "https://storage.googleapis.com/burvin_ok/7727_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1349,6 +1559,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 95% НЕЙЛОН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7813.JPG",
+      "https://storage.googleapis.com/burvin_ok/7813_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1367,6 +1581,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "НЕЙЛОН 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7849.JPG",
+      "https://storage.googleapis.com/burvin_ok/7849_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7849_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/7849_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1389,6 +1609,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ХЛОПОК 50% ВИСКОЗА 46% ЭЛАСТАН 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7854_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/7854.JPG",
+      "https://storage.googleapis.com/burvin_ok/7854_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7854v.JPG",
+      "https://storage.googleapis.com/burvin_ok/7854v_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1407,6 +1634,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "штани: ВІСКОЗА 100% блуза: БАВОВНА 95% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7872.JPG",
+      "https://storage.googleapis.com/burvin_ok/7872_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1429,6 +1660,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "шорти: ВІСКОЗА 100% блуза: БАВОВНА 95% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7873.JPG",
+      "https://storage.googleapis.com/burvin_ok/7873v.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1447,6 +1682,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 95% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7873.JPG",
+      "https://storage.googleapis.com/burvin_ok/7874.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1465,6 +1704,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 95% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7875.JPG",
+      "https://storage.googleapis.com/burvin_ok/7875_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1483,6 +1726,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 95% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7886.JPG",
+      "https://storage.googleapis.com/burvin_ok/7886_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1501,6 +1748,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7887.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1519,6 +1767,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7898.JPG",
+      "https://storage.googleapis.com/burvin_ok/7898_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7898_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1541,6 +1794,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 92% ЛАЙКРА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7899.JPG",
+      "https://storage.googleapis.com/burvin_ok/7899v.JPG",
+      "https://storage.googleapis.com/burvin_ok/7899_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1563,6 +1821,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ЛЬОН 78% ПЕ 14% ВІСКОЗА 6% МЕТАНИТЬ 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7942.JPG",
+      "https://storage.googleapis.com/burvin_ok/7942_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7942v.JPG",
+      "https://storage.googleapis.com/burvin_ok/7942v_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1581,6 +1845,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/7976.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1599,6 +1864,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ШЕРСТЬ 36% БАВОВНА 31% ВІСКОЗА 19% ПА 13% СПАНДЕКС 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7995.JPG",
+      "https://storage.googleapis.com/burvin_ok/7995_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/7995_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1617,6 +1887,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ТЕНСЕЛ 85% ПА 15%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/7999.JPG",
+      "https://storage.googleapis.com/burvin_ok/7999_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1635,6 +1909,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 50% ВІСКОЗА 46% ЕЛАСТАН 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8065.JPG",
+      "https://storage.googleapis.com/burvin_ok/8000.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1653,6 +1931,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 50% ВІСКОЗА 46% ЕЛАСТАН 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8065.JPG",
+      "https://storage.googleapis.com/burvin_ok/8000.8065.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1675,6 +1957,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 70% ШОВК 30%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8005.JPG",
+      "https://storage.googleapis.com/burvin_ok/8005_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1697,6 +1983,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ХЛОПОК 52% НЕЙЛОН 44% СПАНДЕКС 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8006.JPG",
+      "https://storage.googleapis.com/burvin_ok/8006_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1719,6 +2009,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 76% ПА 22% ЕЛАСТАН 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8007.JPG",
+      "https://storage.googleapis.com/burvin_ok/8007_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8007_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8007_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/8007v.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1741,6 +2038,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 54% ВІСКОЗА 46%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8023.JPG",
+      "https://storage.googleapis.com/burvin_ok/8023_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1759,6 +2060,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 69% ПА 19% ШОВК 10% СПАНДЕКС 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/8046.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1777,6 +2079,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 68% ШОВК 15% ПА 15% СПАНДЕКС 2%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/8046.00.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1795,6 +2098,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 52% НЕЙЛОН 44% СПАНДЕКС 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8052.JPG",
+      "https://storage.googleapis.com/burvin_ok/8052_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8052_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8052_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1813,6 +2122,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8057.JPG",
+      "https://storage.googleapis.com/burvin_ok/8057_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1835,6 +2148,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 50% ВІСКОЗА 46% ЕЛАСТАН 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8065.JPG",
+      "https://storage.googleapis.com/burvin_ok/8065_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1853,6 +2170,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 58% ЛЬОН 42%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/8078.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1871,6 +2189,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8095.JPG",
+      "https://storage.googleapis.com/burvin_ok/8095_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8095_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/8095_2.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1889,6 +2213,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВОВНА 65% ВІСКОЗА 35%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8106.JPG",
+      "https://storage.googleapis.com/burvin_ok/8106_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1907,6 +2235,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8121.JPG",
+      "https://storage.googleapis.com/burvin_ok/8121_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8121_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1925,6 +2258,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 64% ВІСКОЗА 35% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8125.JPG",
+      "https://storage.googleapis.com/burvin_ok/8125_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8125_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1943,6 +2281,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/8140.JPG"],
     "video": "",
     "season": "outlet"
   },
@@ -1961,6 +2300,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 63% ВІСКОЗА 34% ЕЛАСТАН 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8170.8171.JPG",
+      "https://storage.googleapis.com/burvin_ok/8170_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8170_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8170_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -1979,6 +2324,7 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 63% БАВОВНА 34% ЕЛАСТАН 3%",
+    "fotos": ["https://storage.googleapis.com/burvin_ok/8174.jpg"],
     "video": "",
     "season": "outlet"
   },
@@ -1997,6 +2343,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 50% ПУ 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8210.JPG",
+      "https://storage.googleapis.com/burvin_ok/8210_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8210_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8210_4.JPG",
+      "https://storage.googleapis.com/burvin_ok/8210_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2015,6 +2368,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8215.JPG",
+      "https://storage.googleapis.com/burvin_ok/8215_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8215_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2033,6 +2391,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 55% ПУ 45%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8234.JPG",
+      "https://storage.googleapis.com/burvin_ok/8234_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8234_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/8234_4.JPG",
+      "https://storage.googleapis.com/burvin_ok/8234_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2051,6 +2416,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 70% ПЕ 20% ВІСКОЗА 9% СПАНДЕКС 1% ІНШІ ВОЛОКНА 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8249.jpg",
+      "https://storage.googleapis.com/burvin_ok/8249_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2069,6 +2438,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8271.JPG",
+      "https://storage.googleapis.com/burvin_ok/8271_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2087,6 +2460,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ТЕНСЕЛ 63% БАВОВНА 34% ЕЛАСТАН 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8278.jpg",
+      "https://storage.googleapis.com/burvin_ok/8278_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8278_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8278_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2105,6 +2484,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 50% ПУ 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8310.JPG",
+      "https://storage.googleapis.com/burvin_ok/8310_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8310_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2123,6 +2507,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 63% ВІСКОЗА 32% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8339.jpg",
+      "https://storage.googleapis.com/burvin_ok/8339_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2141,6 +2529,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 94% ПЕ 6%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8351.jpg",
+      "https://storage.googleapis.com/burvin_ok/8351_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8351_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8351_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2159,6 +2553,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 58% ПА 37% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8382.jpg",
+      "https://storage.googleapis.com/burvin_ok/8382_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8382_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8382_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2177,6 +2577,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8385.jpg",
+      "https://storage.googleapis.com/burvin_ok/8385_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8385_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8385_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2195,6 +2601,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 44% ВІСКОЗА 35% ПА 20%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8402.jpg",
+      "https://storage.googleapis.com/burvin_ok/8402_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8402_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8402_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2213,6 +2625,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 51% МОДАЛ 49%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8406.JPG",
+      "https://storage.googleapis.com/burvin_ok/8406_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8406_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8406_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2231,6 +2649,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "НЕЙЛОН 84% СПАНДЕКС 16%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8410.JPG",
+      "https://storage.googleapis.com/burvin_ok/8410_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8410_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8410_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2249,6 +2673,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЭ 58% НЕЙЛОН 29% ЭЛАСТАН 7% СПАНДЕКС 6%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8412.JPG",
+      "https://storage.googleapis.com/burvin_ok/8412_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8412_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8412_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2271,6 +2701,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЭ 63% НЕЙЛОН 25% ЭЛАСТАН 7% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8414.JPG",
+      "https://storage.googleapis.com/burvin_ok/8414_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8414_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8414_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/8414v.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2289,6 +2726,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "НЕЙЛОН 84% СПАНДЕКС 16%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8424.JPG",
+      "https://storage.googleapis.com/burvin_ok/8424_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8424_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2307,6 +2749,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 76% ПЕ 24%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8492.JPG",
+      "https://storage.googleapis.com/burvin_ok/8492_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8492_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8492_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2325,6 +2773,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 73% ЛЬОН 17% ПА 10%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8495.JPG",
+      "https://storage.googleapis.com/burvin_ok/8495_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8495_2.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2343,6 +2796,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЭ 68% ВІСКОЗА 24% ЕЛАСТАН 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8571.JPG",
+      "https://storage.googleapis.com/burvin_ok/8571_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8571_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8571_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2361,6 +2820,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8938_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/8938_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8938_2.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2387,6 +2851,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 70% ПЕ 30%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/8957.JPG",
+      "https://storage.googleapis.com/burvin_ok/8957_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/8957_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/8957_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/8957v.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2405,6 +2876,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЭ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9011.jpg",
+      "https://storage.googleapis.com/burvin_ok/9011_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9011_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9011_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2423,6 +2900,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 95% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9026_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/9026_1.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2445,6 +2926,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 92% ЛАЙКРА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9055.jpg",
+      "https://storage.googleapis.com/burvin_ok/9055_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9055_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9055_3.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2462,7 +2949,11 @@
     "price": "25",
     "originalPrice": "",
     "discount": "",
-    "compound": "АКРИЛ 50% БАВОВНА 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9071_0.JPG",
+      "https://storage.googleapis.com/burvin_ok/9071_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9071_2.jpg"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2481,6 +2972,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 92% ЕЛАСТАН 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9124.jpg",
+      "https://storage.googleapis.com/burvin_ok/9124_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9124_1.JPG"
+    ],
     "video": "",
     "season": "outlet"
   },
@@ -2499,6 +2995,11 @@
     "originalPrice": "42",
     "discount": "20",
     "compound": "ПЕ 75% ВІСКОЗА 20% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9153.JPG",
+      "https://storage.googleapis.com/burvin_ok/9153_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9153_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2521,6 +3022,13 @@
     "originalPrice": "39",
     "discount": "25",
     "compound": "МОДАЛ 46% АКРИЛ 40% ПА 14%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9155.JPG",
+      "https://storage.googleapis.com/burvin_ok/9155_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9155_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9155v.JPG",
+      "https://storage.googleapis.com/burvin_ok/9155v_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2539,6 +3047,10 @@
     "originalPrice": "48",
     "discount": "25",
     "compound": "АКРИЛ 47% ВОВНА 30% АЛЬПАКА 12% ПА 11%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9160.JPG",
+      "https://storage.googleapis.com/burvin_ok/9160_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2557,6 +3069,12 @@
     "originalPrice": "105",
     "discount": "20",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9168.jpg",
+      "https://storage.googleapis.com/burvin_ok/9168_1.jpg",
+      "https://storage.googleapis.com/burvin_ok/9168_2.jpg",
+      "https://storage.googleapis.com/burvin_ok/9168_3.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2575,6 +3093,11 @@
     "originalPrice": "151",
     "discount": "35",
     "compound": "ПЕ 37% ВОВНА 37% АКРИЛ 18% ШОВК 5% ПА 2% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9170.JPG",
+      "https://storage.googleapis.com/burvin_ok/9170_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9170_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2593,6 +3116,10 @@
     "originalPrice": "66",
     "discount": "15",
     "compound": "ПЕ 37% ВОВНА 37% АКРИЛ 18% ШОВК 5% ПА 2% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9170-11.JPG",
+      "https://storage.googleapis.com/burvin_ok/9170_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2611,6 +3138,10 @@
     "originalPrice": "85",
     "discount": "20",
     "compound": "ПЕ 37% ВОВНА 37% АКРИЛ 18% ШОВК 5% ПА 2% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9170-71.JPG",
+      "https://storage.googleapis.com/burvin_ok/9170_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2629,6 +3160,11 @@
     "originalPrice": "41",
     "discount": "25",
     "compound": "МОДАЛ 46% АКРИЛ 40% ПА 14%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9172.JPG",
+      "https://storage.googleapis.com/burvin_ok/9172_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9172_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2647,6 +3183,12 @@
     "originalPrice": "40",
     "discount": "20",
     "compound": "МОДАЛ 46% АКРИЛ 40% ПА 14%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9174.JPG",
+      "https://storage.googleapis.com/burvin_ok/9174_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9174_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9174_3.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2665,6 +3207,10 @@
     "originalPrice": "46",
     "discount": "25",
     "compound": "МОДАЛ 44% АКРИЛ 40% ПА 14% БАВОВНА 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9175.jpg",
+      "https://storage.googleapis.com/burvin_ok/9175_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2683,6 +3229,11 @@
     "originalPrice": "116",
     "discount": "30",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9178.JPG",
+      "https://storage.googleapis.com/burvin_ok/9178_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9178_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2701,6 +3252,11 @@
     "originalPrice": "69",
     "discount": "30",
     "compound": "ПЕ 35% ВОВНА 29% ВІСКОЗА 25% ПА 5% ЛАЙКРА 3% КАШЕМИР 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9188.JPG",
+      "https://storage.googleapis.com/burvin_ok/9188_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9188_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2723,6 +3279,11 @@
     "originalPrice": "26",
     "discount": "10",
     "compound": "МОДАЛ 46% АКРИЛ 40% ПА 14%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9205.JPG",
+      "https://storage.googleapis.com/burvin_ok/9205_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9205_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2741,6 +3302,11 @@
     "originalPrice": "48",
     "discount": "25",
     "compound": "ВОВНА 50% АКРИЛ 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9214.JPG",
+      "https://storage.googleapis.com/burvin_ok/9214_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9214_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2759,6 +3325,12 @@
     "originalPrice": "74",
     "discount": "30",
     "compound": "БАВОВНА 72% ПЕ 26% ЕЛАСТАН 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9228.JPG",
+      "https://storage.googleapis.com/burvin_ok/9228_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9228_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9228_3.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2777,6 +3349,11 @@
     "originalPrice": "126",
     "discount": "30",
     "compound": "ВІСКОЗА 50% ПУ 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9229.JPG",
+      "https://storage.googleapis.com/burvin_ok/9229_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9229_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2799,6 +3376,12 @@
     "originalPrice": "86",
     "discount": "30",
     "compound": "ПЕ 78% АКРИЛ 15% ВОВНА 7%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9231.jpg",
+      "https://storage.googleapis.com/burvin_ok/9231_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9231_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9231v.jpg"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2817,6 +3400,11 @@
     "originalPrice": "55",
     "discount": "20",
     "compound": "ПЕ 55% ВОВНА 27% ВІСКОЗА 16% ЕЛАСТАН 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9243.JPG",
+      "https://storage.googleapis.com/burvin_ok/9243_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9243_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2835,6 +3423,12 @@
     "originalPrice": "134",
     "discount": "35",
     "compound": "ПЕ 55% ВОВНА 27% ВІСКОЗА 16% ЕЛАСТАН 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9243.9377.JPG",
+      "https://storage.googleapis.com/burvin_ok/9243.9377_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9243.9377_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9243_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2853,6 +3447,11 @@
     "originalPrice": "125",
     "discount": "35",
     "compound": "ПЕ 67% ВІСКОЗА 29% СПАНДЕКС 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9250.9273.JPG",
+      "https://storage.googleapis.com/burvin_ok/9250.9273_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9250.9273_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2871,6 +3470,12 @@
     "originalPrice": "118",
     "discount": "35",
     "compound": "БАВОВНА 80% ПЕ 18% АКРИЛ 1% ЛАЙКРА 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9255.JPG",
+      "https://storage.googleapis.com/burvin_ok/9255_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9255_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9255_3.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2889,6 +3494,11 @@
     "originalPrice": "59",
     "discount": "20",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9269.JPG",
+      "https://storage.googleapis.com/burvin_ok/9269_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9269_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2907,6 +3517,13 @@
     "originalPrice": "128",
     "discount": "30",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9282.JPG",
+      "https://storage.googleapis.com/burvin_ok/9282_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9282_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9282_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/9282_4.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2925,6 +3542,10 @@
     "originalPrice": "57",
     "discount": "20",
     "compound": "АЛЬПАКА 68% ПА 16% ВОВНА 12% ПЕ 4%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9334.JPG",
+      "https://storage.googleapis.com/burvin_ok/9334_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2943,6 +3564,11 @@
     "originalPrice": "143",
     "discount": "25",
     "compound": "ПЕ 50% ВОВНА 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9341.JPG",
+      "https://storage.googleapis.com/burvin_ok/9341_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9341_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2965,6 +3591,11 @@
     "originalPrice": "15",
     "discount": "10",
     "compound": "АКРИЛ 45% ПА 27% ВІСКОЗА 17% ВОВНА 10% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9344-01.JPG",
+      "https://storage.googleapis.com/burvin_ok/9344.JPG",
+      "https://storage.googleapis.com/burvin_ok/9344-01_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -2987,6 +3618,11 @@
     "originalPrice": "23",
     "discount": "10",
     "compound": "АКРИЛ 45% ПА 27% ВІСКОЗА 17% ВОВНА 10% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9344-03.JPG",
+      "https://storage.googleapis.com/burvin_ok/9344.JPG",
+      "https://storage.googleapis.com/burvin_ok/9344-03_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -3005,6 +3641,11 @@
     "originalPrice": "97",
     "discount": "30",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9345.JPG",
+      "https://storage.googleapis.com/burvin_ok/9345_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9345_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -3023,6 +3664,11 @@
     "originalPrice": "18",
     "discount": "10",
     "compound": "АКРИЛ 50% ВОВНА 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9348.JPG",
+      "https://storage.googleapis.com/burvin_ok/9348_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9348_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -3041,6 +3687,11 @@
     "originalPrice": "70",
     "discount": "25",
     "compound": "АНГОРА 34% ПА 34% ВІСКОЗА 31% ЕЛАСТАН 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9349.JPG",
+      "https://storage.googleapis.com/burvin_ok/9349_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9349_2.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -3059,6 +3710,10 @@
     "originalPrice": "42",
     "discount": "20",
     "compound": "ПЕ 75% ВІСКОЗА 20% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9363.JPG",
+      "https://storage.googleapis.com/burvin_ok/9363_1.JPG"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -3077,6 +3732,10 @@
     "originalPrice": "128",
     "discount": "20",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9446.jpg",
+      "https://storage.googleapis.com/burvin_ok/9446_1.jpg"
+    ],
     "video": "",
     "season": "aw23"
   },
@@ -3095,6 +3754,11 @@
     "originalPrice": "63",
     "discount": "30",
     "compound": "ПЕ 95% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9369.JPG",
+      "https://storage.googleapis.com/burvin_ok/9369_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9369_2.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3113,6 +3777,13 @@
     "originalPrice": "81",
     "discount": "35",
     "compound": "ПЕ 95% СПАНДЕКС 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9379.JPG",
+      "https://storage.googleapis.com/burvin_ok/9379_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9379_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9379_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/9379_4.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3131,6 +3802,12 @@
     "originalPrice": "49",
     "discount": "20",
     "compound": "ПЕ 80% ВІСКОЗА 20%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9393.JPG",
+      "https://storage.googleapis.com/burvin_ok/9393_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9393_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9393_3.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3149,6 +3826,12 @@
     "originalPrice": "78",
     "discount": "30",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9395.JPG",
+      "https://storage.googleapis.com/burvin_ok/9395_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9395_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9395_3.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3167,6 +3850,11 @@
     "originalPrice": "34",
     "discount": "10",
     "compound": "БАВОВНА 92% ЛАЙКРА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9400.JPG",
+      "https://storage.googleapis.com/burvin_ok/9400_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9400_2.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3189,6 +3877,14 @@
     "originalPrice": "33",
     "discount": "10",
     "compound": "БАВОВНА 92% ЛАЙКРА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9402.jpg",
+      "https://storage.googleapis.com/burvin_ok/9402_1.jpg",
+      "https://storage.googleapis.com/burvin_ok/9402_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9402_3.jpg",
+      "https://storage.googleapis.com/burvin_ok/9402v.JPG",
+      "https://storage.googleapis.com/burvin_ok/9402v_1.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3207,6 +3903,11 @@
     "originalPrice": "86",
     "discount": "30",
     "compound": "ВІСКОЗА 53% ПУ 45% ПЭ 1% ПА 1%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9418.JPG",
+      "https://storage.googleapis.com/burvin_ok/9418_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9418_1.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3225,6 +3926,11 @@
     "originalPrice": "58",
     "discount": "20",
     "compound": "ВІСКОЗА 50% ПУ 50%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9426.JPG",
+      "https://storage.googleapis.com/burvin_ok/9426_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9426_2.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3243,6 +3949,10 @@
     "originalPrice": "29",
     "discount": "10",
     "compound": "БАВОВНА 88% ЛАЙКРА 8% АКРИЛ 2% ВОВНА 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9429.JPG",
+      "https://storage.googleapis.com/burvin_ok/9429_1.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3261,6 +3971,12 @@
     "originalPrice": "59",
     "discount": "10",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9434.JPG",
+      "https://storage.googleapis.com/burvin_ok/9434_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9434_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9434_3.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3279,6 +3995,11 @@
     "originalPrice": "51",
     "discount": "20",
     "compound": "ПЕ 90% СПАНДЕКС 10%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9441.JPG",
+      "https://storage.googleapis.com/burvin_ok/9441_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9441_2.JPG"
+    ],
     "video": "",
     "season": "h23"
   },
@@ -3297,6 +4018,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 97% СПАНДЕКС 3%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9482.JPG",
+      "https://storage.googleapis.com/burvin_ok/9482_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9482_2.JPG"
+    ],
     "video": "https://www.youtube.com/embed/qkETNoMMedg?si=0lkPk7EQLlbSgv4q",
     "season": "vl24"
   },
@@ -3315,6 +4041,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 55% АКРИЛ 45%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9501.JPG",
+      "https://storage.googleapis.com/burvin_ok/9501_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9501_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3333,6 +4064,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9610.JPG",
+      "https://storage.googleapis.com/burvin_ok/9610_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9610_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3351,6 +4087,12 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9616.JPG",
+      "https://storage.googleapis.com/burvin_ok/9616_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9616_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9616_3.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3369,6 +4111,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9474.JPG",
+      "https://storage.googleapis.com/burvin_ok/9474_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9474_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3387,6 +4134,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9463.JPG",
+      "https://storage.googleapis.com/burvin_ok/9463_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9463_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3409,6 +4161,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 92% ЛАЙКРА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9559.JPG",
+      "https://storage.googleapis.com/burvin_ok/9559_1.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3431,6 +4187,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 64% ВІСКОЗА 34% СПАНДЕКС 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9522_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9522_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9522.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3453,6 +4214,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 92% ЛАЙКРА 8%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9514.JPG",
+      "https://storage.googleapis.com/burvin_ok/9514_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9514_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3471,6 +4237,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 100%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9523.JPG",
+      "https://storage.googleapis.com/burvin_ok/9523_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9523_2.JPG"
+    ],
     "video": "https://www.youtube.com/embed/8HvtvGoiyME?si=UpiZOqnOlynWqkz_",
     "season": "vl24"
   },
@@ -3489,6 +4260,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 62% ПЕ 29% ВІСКОЗА 9%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9604.JPG",
+      "https://storage.googleapis.com/burvin_ok/9604_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9604_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3511,6 +4287,13 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПЕ 63% ВІСКОЗА 32% ЕЛАСТАН 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9601_2.JPG",
+      "https://storage.googleapis.com/burvin_ok/9601_3.JPG",
+      "https://storage.googleapis.com/burvin_ok/9601_4.JPG",
+      "https://storage.googleapis.com/burvin_ok/9601.JPG",
+      "https://storage.googleapis.com/burvin_ok/9601_1.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3529,6 +4312,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ВІСКОЗА 70% АКРИЛ 30%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9479.JPG",
+      "https://storage.googleapis.com/burvin_ok/9479_1.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3547,6 +4334,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "ПУ 50% ПЕ 45% МЕТАНИТЬ 5%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9553.JPG",
+      "https://storage.googleapis.com/burvin_ok/9553_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9553_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3565,6 +4357,10 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 78% ПЕ 20% ЕЛАСТАН 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9554.JPG",
+      "https://storage.googleapis.com/burvin_ok/9554_1.JPG"
+    ],
     "video": "",
     "season": "vl24"
   },
@@ -3583,6 +4379,11 @@
     "originalPrice": "",
     "discount": "",
     "compound": "БАВОВНА 78% ПЕ 20% ЕЛАСТАН 2%",
+    "fotos": [
+      "https://storage.googleapis.com/burvin_ok/9646.JPG",
+      "https://storage.googleapis.com/burvin_ok/9646_1.JPG",
+      "https://storage.googleapis.com/burvin_ok/9646_2.JPG"
+    ],
     "video": "",
     "season": "vl24"
   }

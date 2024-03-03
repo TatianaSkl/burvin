@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { GrCaretNext } from 'react-icons/gr';
+import { GrCaretPrevious } from 'react-icons/gr';
 import {
   Overlay,
   Wrapper,
@@ -8,13 +10,9 @@ import {
   ButtonNext,
   ButtonPrev,
 } from './PopUp.styled';
-import { imageSlider } from 'utils/imageSlider';
-import { GrCaretNext } from 'react-icons/gr';
-import { GrCaretPrevious } from 'react-icons/gr';
 
-export const PopUp = ({ article, video, onClose }) => {
+export const PopUp = ({ article, fotos, onClose }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = imageSlider[article];
 
   useEffect(() => {
     const handleClick = e => {
@@ -35,11 +33,11 @@ export const PopUp = ({ article, video, onClose }) => {
   };
 
   const onNextImage = () => {
-    setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
+    setCurrentImageIndex(prevIndex => (prevIndex + 1) % fotos.length);
   };
 
   const onPrevImage = () => {
-    setCurrentImageIndex(prevIndex => (prevIndex - 1 + images.length) % images.length);
+    setCurrentImageIndex(prevIndex => (prevIndex - 1 + fotos.length) % fotos.length);
   };
 
   return (
@@ -48,8 +46,8 @@ export const PopUp = ({ article, video, onClose }) => {
         <ButtonClose onClick={onClose}>
           <IconClose />
         </ButtonClose>
-        <ImageItem src={images[currentImageIndex]} alt={article} />
-        {images.length > 1 && (
+        <ImageItem src={fotos[currentImageIndex]} alt={article} />
+        {fotos.length > 1 && (
           <>
             <ButtonPrev onClick={onPrevImage}>
               <GrCaretPrevious />
@@ -58,15 +56,6 @@ export const PopUp = ({ article, video, onClose }) => {
               <GrCaretNext />
             </ButtonNext>
           </>
-        )}
-        {video && (
-          <iframe
-            src={video}
-            title="Video"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-          ></iframe>
         )}
       </Wrapper>
     </Overlay>
