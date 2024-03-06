@@ -23,7 +23,7 @@ export default function Outlet() {
     return articleB - articleA;
   });
 
-  const sortedProductsFilter = filter.sort((a, b) => {
+  const sortedProductsFilter = filter.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
     const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
     return articleB - articleA;
