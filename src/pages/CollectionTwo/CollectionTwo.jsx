@@ -1,13 +1,20 @@
-import { useSelector } from 'react-redux';
-import { filtredProducts, selectIsFiltred } from 'redux/selectors';
+import { useDispatch, useSelector } from 'react-redux';
+import { filtredProducts, selectIsFiltred, selectProducts } from 'redux/selectors';
 import { ProductsList, Container, Filter, TitlePage } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
-import products from '../../bd/products.json';
 import { Wrapper } from 'pages/Collections/Collections.styled';
+import { useEffect } from 'react';
+import { allProducts } from 'redux/products/operations';
 
 export default function CollectionOne() {
+  const dispatch = useDispatch();
   const isFiltred = useSelector(selectIsFiltred);
   const filter = useSelector(filtredProducts);
+  const products = useSelector(selectProducts);
+
+  useEffect(() => {
+    dispatch(allProducts());
+  }, [dispatch]);
 
   const visibleProducts = products.filter(product => product.season === 'h23');
 

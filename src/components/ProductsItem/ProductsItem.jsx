@@ -4,9 +4,8 @@ import { FaSearchPlus } from 'react-icons/fa';
 import { IoLogoYoutube } from 'react-icons/io';
 import { ModalVideo, PopUp } from 'components';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectFavorites } from 'redux/selectors';
+import { selectFavorites, selectProducts } from 'redux/selectors';
 import { addToFavorites, removeFromFavorites } from 'redux/favoritesSlice';
-import products from '../../bd/products.json';
 import {
   Image,
   Item,
@@ -38,6 +37,7 @@ export const ProductsItem = ({
   const [showModalVideo, setShowModalVideo] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const favorites = useSelector(selectFavorites);
+  const products = useSelector(selectProducts);
 
   const isAdvertsInFavorites = favorites.find(product => product.id === id);
 

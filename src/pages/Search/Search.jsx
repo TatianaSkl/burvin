@@ -1,12 +1,19 @@
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { ProductsList, Container, TitlePage } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
-import products from '../../bd/products.json';
-import { selectSearch } from 'redux/selectors';
+import { selectProducts, selectSearch } from 'redux/selectors';
 import { Wrapper } from 'pages/Collections/Collections.styled';
+import { useEffect } from 'react';
+import { allProducts } from 'redux/products/operations';
 
 export default function Search() {
+  const dispatch = useDispatch();
   const search = useSelector(selectSearch);
+  const products = useSelector(selectProducts);
+
+  useEffect(() => {
+    dispatch(allProducts());
+  }, [dispatch]);
 
   let visibleSearchProducts = [];
 

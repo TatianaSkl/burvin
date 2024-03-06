@@ -1,20 +1,27 @@
-import { useSelector } from 'react-redux';
-import { filtredProducts, selectIsFiltred } from 'redux/selectors';
+import { useDispatch, useSelector } from 'react-redux';
+import { filtredProducts, selectIsFiltred, selectProducts } from 'redux/selectors';
 import { ProductsList, Container, Filter } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
-import products from '../../bd/products.json';
+import { useEffect } from 'react';
+import { allProducts } from 'redux/products/operations';
 
 export default function Collections() {
+  const dispatch = useDispatch();
   const isFiltred = useSelector(selectIsFiltred);
   const filter = useSelector(filtredProducts);
+  const products = useSelector(selectProducts);
 
-  const sortedProducts = products.sort((a, b) => {
+  useEffect(() => {
+    dispatch(allProducts());
+  }, [dispatch]);
+
+  const sortedProducts = products.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
     const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
     return articleB - articleA;
   });
 
-  const sortedProductsFilter = filter.sort((a, b) => {
+  const sortedProductsFilter = filter.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
     const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
     return articleB - articleA;

@@ -10,6 +10,7 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import { productsReducer } from './products/productsSlice';
 import { favoritesReducer } from './favoritesSlice';
 import { filterReducer } from './filterSlice';
 import { searchReducer } from './searchSlice';
@@ -24,6 +25,7 @@ const persistedReducer = persistReducer(persistConfig, favoritesReducer);
 
 export const store = configureStore({
   reducer: {
+    products: productsReducer,
     favorites: persistedReducer,
     filter: filterReducer,
     search: searchReducer,

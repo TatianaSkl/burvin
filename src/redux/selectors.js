@@ -1,6 +1,8 @@
 import { createSelector } from '@reduxjs/toolkit';
-import products from '../bd/products.json';
 
+export const selectProducts = state => state.products.products;
+export const selectLoading = state => state.products.isLoading;
+export const selectError = state => state.products.error;
 export const selectFavorites = state => state.favorites.favorites;
 export const selectFilterView = state => state.filter.filterView;
 export const selectFilterSize = state => state.filter.filterSize;
@@ -8,8 +10,8 @@ export const selectIsFiltred = state => state.filter.isFiltred;
 export const selectSearch = state => state.search.search;
 
 export const filtredProducts = createSelector(
-  [selectFilterView, selectFilterSize],
-  (view, size) => {
+  [selectProducts, selectFilterView, selectFilterSize],
+  (products, view, size) => {
     let filter = products;
 
     if (view !== 'Всі' && size !== 'Всі') {
