@@ -32,7 +32,7 @@ export const Header = ({ backGround }) => {
         <ButtonMenu onClick={onOpenModal}>
           <IconMenu />
         </ButtonMenu>
-        {showModal && <Menu onClose={onCloseModal} />}
+        {showModal && <Menu onCloseModal={onCloseModal} />}
       </Wrapper>
     </HeaderStyled>
   );

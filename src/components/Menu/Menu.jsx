@@ -2,35 +2,35 @@ import { useEffect } from 'react';
 import { Overlay, Wrapper, IconClose, ButtonClose, WrapperMobil } from './Menu.styled';
 import { Searchbar, UserNav } from 'components';
 
-export const Menu = ({ onClose }) => {
+export const Menu = ({ onCloseModal }) => {
   useEffect(() => {
     const handleClick = e => {
       if (e.code === 'Escape') {
-        onClose();
+        onCloseModal();
       }
     };
     window.addEventListener('keydown', handleClick);
     return () => {
       window.removeEventListener('keydown', handleClick);
     };
-  }, [onClose]);
+  }, [onCloseModal]);
 
   const onOverlayClickClose = e => {
     if (e.target === e.currentTarget) {
-      onClose();
+      onCloseModal();
     }
   };
 
   return (
     <Overlay className={'open'} onClick={onOverlayClickClose}>
       <Wrapper>
-        <ButtonClose onClick={onClose}>
+        <ButtonClose onClick={onCloseModal}>
           <IconClose />
         </ButtonClose>
         <WrapperMobil>
-          <Searchbar onClose={onClose} />
+          <Searchbar onClose={onCloseModal} />
         </WrapperMobil>
-        <UserNav onClose={onClose} />
+        <UserNav onCloseModal={onCloseModal} />
       </Wrapper>
     </Overlay>
   );

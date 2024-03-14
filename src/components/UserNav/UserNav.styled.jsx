@@ -4,6 +4,13 @@ import { NavLink } from 'react-router-dom';
 export const NavUser = styled.nav`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 110px);
+`;
+
+export const Wrap = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const LinkNav = styled(NavLink)`

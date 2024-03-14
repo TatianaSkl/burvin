@@ -2,14 +2,20 @@ import { useDispatch, useSelector } from 'react-redux';
 import { filtredProducts, selectIsFiltred, selectProducts } from 'redux/selectors';
 import { ProductsList, Container, Filter } from 'components';
 import { Empty } from 'pages/Favorites/Favorites.styled';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { allProducts } from 'redux/products/operations';
+import { FiFilePlus } from 'react-icons/fi';
+import { Button } from './Collections.styled';
+import { selectUser } from 'redux/auth/selectors';
+import { Modal } from 'components/Modal/Modal';
 
 export default function Collections() {
+  const [modalState, setModalState] = useState({ type: null, props: {} });
   const dispatch = useDispatch();
   const isFiltred = useSelector(selectIsFiltred);
   const filter = useSelector(filtredProducts);
   const products = useSelector(selectProducts);
+  const user = useSelector(selectUser);
 
   useEffect(() => {
     dispatch(allProducts());
@@ -27,16 +33,38 @@ export default function Collections() {
     return articleB - articleA;
   });
 
+  const openModal = (type, props = {}) => {
+    document.body.style.overflow = 'hidden';
+    setModalState({ type, props });
+  };
+
+  const closeModal = () => {
+    document.body.style.overflow = 'auto';
+    setModalState({ type: null, props: {} });
+  };
+
   return (
-    <Container>
-      <Filter />
-      <ProductsList products={isFiltred ? sortedProductsFilter : sortedProducts} />
-      {isFiltred && filter?.length === 0 && (
-        <Empty>
-          На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
-          параметри пошуку, щоб знайти потрібний.
-        </Empty>
+    <>
+      <Container>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '36px' }}>
+          {user.role === 'admin' && (
+            <Button onClick={() => openModal('product', {})}>
+              <FiFilePlus />
+            </Button>
+          )}
+          <Filter />
+        </div>
+        <ProductsList products={isFiltred ? sortedProductsFilter : sortedProducts} />
+        {isFiltred && filter?.length === 0 && (
+          <Empty>
+            На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
+            параметри пошуку, щоб знайти потрібний.
+          </Empty>
+        )}
+      </Container>
+      {modalState.type && (
+        <Modal type={modalState.type} props={modalState.props} onClose={closeModal} />
       )}
-    </Container>
+    </>
   );
 }

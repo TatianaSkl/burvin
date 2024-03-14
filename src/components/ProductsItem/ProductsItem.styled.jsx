@@ -53,10 +53,9 @@ export const Text = styled.div`
 `;
 
 export const PressButton = styled.button`
-  margin-top: 12px;
-  margin-bottom: 12px;
   width: 100%;
-  padding: 12px;
+  padding: 8px;
+  border: 1px solid;
   border-radius: 12px;
   background-color: ${props => props.theme.colors.accent};
   color: ${props => props.theme.colors.grey};
@@ -72,10 +71,6 @@ export const PressButton = styled.button`
     box-shadow: ${props => props.theme.shadows.medium};
     background-color: ${props => props.theme.colors.white};
     color: ${props => props.theme.colors.black};
-  }
-  @media (min-width: 768px) {
-    margin-top: 18px;
-    margin-bottom: 18px;
   }
 `;
 

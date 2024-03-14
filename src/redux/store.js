@@ -10,10 +10,19 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import { authReducer } from './auth/authSlice';
 import { productsReducer } from './products/productsSlice';
 import { favoritesReducer } from './favoritesSlice';
 import { filterReducer } from './filterSlice';
 import { searchReducer } from './searchSlice';
+
+const authPersistConfig = {
+  key: 'auth',
+  storage,
+  whitelist: ['token'],
+};
+
+const persistedAuthReducer = persistReducer(authPersistConfig, authReducer);
 
 const persistConfig = {
   key: 'favorites',
@@ -21,12 +30,13 @@ const persistConfig = {
   whitelist: ['favorites'],
 };
 
-const persistedReducer = persistReducer(persistConfig, favoritesReducer);
+const persistedFavoritesReducer = persistReducer(persistConfig, favoritesReducer);
 
 export const store = configureStore({
   reducer: {
+    auth: persistedAuthReducer,
     products: productsReducer,
-    favorites: persistedReducer,
+    favorites: persistedFavoritesReducer,
     filter: filterReducer,
     search: searchReducer,
   },

@@ -8,3 +8,15 @@ export const Wrapper = styled.div`
     align-items: center;
   }
 `;
+
+export const Button = styled.button`
+  & svg {
+    width: 20px;
+    height: 20px;
+    color: ${props => props.theme.colors.lightGrey};
+    @media (min-width: 768px) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+`;
