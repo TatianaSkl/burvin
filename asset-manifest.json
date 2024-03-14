@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/burvin/static/css/main.5876a691.css",
-    "main.js": "/burvin/static/js/main.a778db8f.js",
+    "main.js": "/burvin/static/js/main.3a0d3815.js",
     "static/js/508.8d4fb257.chunk.js": "/burvin/static/js/508.8d4fb257.chunk.js",
     "static/js/540.a1dcaf9e.chunk.js": "/burvin/static/js/540.a1dcaf9e.chunk.js",
     "static/js/256.4ff02523.chunk.js": "/burvin/static/js/256.4ff02523.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/burvin2.png": "/burvin/static/media/burvin2.1340e4a9891f961a2205.png",
     "index.html": "/burvin/index.html",
     "main.5876a691.css.map": "/burvin/static/css/main.5876a691.css.map",
-    "main.a778db8f.js.map": "/burvin/static/js/main.a778db8f.js.map",
+    "main.3a0d3815.js.map": "/burvin/static/js/main.3a0d3815.js.map",
     "508.8d4fb257.chunk.js.map": "/burvin/static/js/508.8d4fb257.chunk.js.map",
     "540.a1dcaf9e.chunk.js.map": "/burvin/static/js/540.a1dcaf9e.chunk.js.map",
     "256.4ff02523.chunk.js.map": "/burvin/static/js/256.4ff02523.chunk.js.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.5876a691.css",
-    "static/js/main.a778db8f.js"
+    "static/js/main.3a0d3815.js"
   ]
 }
