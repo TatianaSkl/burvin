@@ -46,13 +46,13 @@ export default function Collections() {
   return (
     <>
       <Container>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '36px' }}>
+        <Filter />
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
           {user.role === 'admin' && (
             <Button onClick={() => openModal('product', {})}>
               <FiFilePlus />
             </Button>
           )}
-          <Filter />
         </div>
         <ProductsList products={isFiltred ? sortedProductsFilter : sortedProducts} />
         {isFiltred && filter?.length === 0 && (

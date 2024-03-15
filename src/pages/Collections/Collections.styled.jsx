@@ -13,7 +13,7 @@ export const Button = styled.button`
   & svg {
     width: 20px;
     height: 20px;
-    color: ${props => props.theme.colors.lightGrey};
+    color: ${props => props.theme.colors.black};
     @media (min-width: 768px) {
       width: 30px;
       height: 30px;

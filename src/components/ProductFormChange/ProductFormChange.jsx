@@ -1,8 +1,19 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import views from '../../bd/views.json';
-import { Form, LabelForm, InputForm, ButtonForm } from './ProductFormChange.styled';
+import {
+  Form,
+  LabelForm,
+  InputForm,
+  ButtonForm,
+  Wrap,
+  SelectForm,
+  ButtonSize,
+  ButtonColor,
+  ButtonDelete,
+} from './ProductFormChange.styled';
 import { updateProduct } from 'redux/products/operations';
+import { MdDelete } from 'react-icons/md';
 
 export const ProductFormChange = ({
   id,
@@ -30,7 +41,7 @@ export const ProductFormChange = ({
     originalPrice: originalPrice || '',
     discount: discount || '',
     compound: compound || '',
-    fotos: fotos || [],
+    fotos: fotos || [''],
     video: video || '',
     season: season || '',
   });
@@ -90,8 +101,14 @@ export const ProductFormChange = ({
 
   const addSizeToOption = optionIndex => {
     const newOptions = [...product.options];
-    newOptions[optionIndex].sizes.push('');
-    setProduct({ ...product, options: newOptions });
+    if (optionIndex >= 0 && optionIndex < newOptions.length) {
+      const newSizes = [...newOptions[optionIndex].sizes, ''];
+      newOptions[optionIndex] = {
+        ...newOptions[optionIndex],
+        sizes: newSizes,
+      };
+      setProduct({ ...product, options: newOptions });
+    }
   };
 
   const handleFotoChange = (index, e) => {
@@ -107,116 +124,168 @@ export const ProductFormChange = ({
     });
   };
 
+  const deleteSizeFromOption = (optionIndex, sizeIndex) => {
+    const newOptions = [...product.options];
+    if (sizeIndex >= 0 && sizeIndex < newOptions[optionIndex].sizes.length) {
+      const newSizes = [...newOptions[optionIndex].sizes];
+      newSizes.splice(sizeIndex, 1);
+      newOptions[optionIndex] = {
+        ...newOptions[optionIndex],
+        sizes: newSizes,
+      };
+      setProduct({ ...product, options: newOptions });
+    }
+  };
+
+  const deleteColorFromOption = optionIndex => {
+    const newOptions = [...product.options];
+    if (optionIndex >= 0 && optionIndex < newOptions.length) {
+      newOptions.splice(optionIndex, 1);
+      setProduct({ ...product, options: newOptions });
+    }
+  };
+
   return (
     <Form onSubmit={handleSubmit}>
-      <LabelForm htmlFor="article">Артикул</LabelForm>
-      <InputForm
-        type="text"
-        name="article"
-        value={product.article}
-        onChange={handleInputChange}
-        required
-      />
-      <LabelForm htmlFor="name">Вид виробу</LabelForm>
-      <InputForm
-        type="text"
-        name="name"
-        value={product.name}
-        onChange={handleInputChange}
-        required
-      />
-      <LabelForm htmlFor="view">Вид групи</LabelForm>
-      <select name="view" value={product.view} onChange={handleInputChange} required>
-        {views.map((group, index) => (
-          <option key={index} value={group}>
-            {group}
-          </option>
-        ))}
-      </select>
-      {product.options.map((option, optionIndex) => (
-        <div key={optionIndex}>
-          <label>Цвет</label>
-          <input
+      <Wrap>
+        <div>
+          <LabelForm htmlFor="article">Артикул</LabelForm>
+          <InputForm
             type="text"
-            value={option.color}
-            onChange={e => handleOptionChange(optionIndex, e)}
-            name="color"
+            name="article"
+            value={product.article}
+            onChange={handleInputChange}
             required
           />
-          {option.sizes.map((size, sizeIndex) => (
-            <div key={sizeIndex}>
-              <label>Размер {sizeIndex + 1}</label>
-              <input
+        </div>
+        <div>
+          <LabelForm htmlFor="name">Вид виробу</LabelForm>
+          <InputForm
+            type="text"
+            name="name"
+            value={product.name}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div>
+          <LabelForm htmlFor="view">Вид групи</LabelForm>
+          <SelectForm name="view" value={product.view} onChange={handleInputChange} required>
+            {views.map((group, index) => (
+              <option key={index} value={group}>
+                {group}
+              </option>
+            ))}
+          </SelectForm>
+        </div>
+        <div>
+          <LabelForm htmlFor="price">Ціна</LabelForm>
+          <InputForm
+            type="text"
+            name="price"
+            value={product.price}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div>
+          <LabelForm htmlFor="originalPrice">Початкова ціна</LabelForm>
+          <InputForm
+            type="text"
+            name="originalPrice"
+            value={product.originalPrice}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm htmlFor="discount">Знижка</LabelForm>
+          <InputForm
+            type="text"
+            name="discount"
+            value={product.discount}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm htmlFor="compound">Склад</LabelForm>
+          <InputForm
+            type="text"
+            name="compound"
+            value={product.compound}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm htmlFor="video">Відео</LabelForm>
+          <InputForm type="text" name="video" value={product.video} onChange={handleInputChange} />
+        </div>
+        <div>
+          <LabelForm htmlFor="season">Сезон</LabelForm>
+          <InputForm
+            type="text"
+            name="season"
+            value={product.season}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        {product.options.map((option, optionIndex) => (
+          <div key={optionIndex}>
+            <LabelForm>Колір</LabelForm>
+            <div style={{ position: 'relative' }}>
+              <InputForm
                 type="text"
-                value={size}
-                onChange={e => handleSizeChange(optionIndex, sizeIndex, e)}
-                name={`size-${sizeIndex}`}
+                value={option.color}
+                onChange={e => handleOptionChange(optionIndex, e)}
+                name="color"
                 required
+              />
+              <ButtonDelete onClick={() => deleteColorFromOption(optionIndex)}>
+                <MdDelete />
+              </ButtonDelete>
+            </div>
+            {option.sizes.map((size, sizeIndex) => (
+              <div key={sizeIndex}>
+                <LabelForm>Розмір {sizeIndex + 1}</LabelForm>
+                <div style={{ position: 'relative' }}>
+                  <InputForm
+                    type="text"
+                    value={size}
+                    onChange={e => handleSizeChange(optionIndex, sizeIndex, e)}
+                    name={`size-${sizeIndex}`}
+                    required
+                  />
+                  <ButtonDelete onClick={() => deleteSizeFromOption(optionIndex, sizeIndex)}>
+                    <MdDelete />
+                  </ButtonDelete>
+                </div>
+              </div>
+            ))}
+            <ButtonSize type="button" onClick={() => addSizeToOption(optionIndex)}>
+              Додати розмір
+            </ButtonSize>
+          </div>
+        ))}
+        <ButtonColor type="button" onClick={addColorOption}>
+          Додати колір
+        </ButtonColor>
+        <div>
+          {product.fotos.map((foto, index) => (
+            <div key={index}>
+              <LabelForm>Фото {index + 1}</LabelForm>
+              <InputForm
+                type="text"
+                value={foto}
+                onChange={e => handleFotoChange(index, e)}
+                name={`foto-${index}`}
               />
             </div>
           ))}
-          <button type="button" onClick={() => addSizeToOption(optionIndex)}>
-            Добавить размер
-          </button>
+          <ButtonSize type="button" onClick={addFoto}>
+            Додати фото
+          </ButtonSize>
         </div>
-      ))}
-      <button type="button" onClick={addColorOption}>
-        Добавить опцию цвета
-      </button>
-      <LabelForm htmlFor="price">Ціна</LabelForm>
-      <InputForm
-        type="text"
-        name="price"
-        value={product.price}
-        onChange={handleInputChange}
-        required
-      />
-      <LabelForm htmlFor="originalPrice">Початкова ціна</LabelForm>
-      <InputForm
-        type="text"
-        name="originalPrice"
-        value={product.originalPrice}
-        onChange={handleInputChange}
-      />
-      <LabelForm htmlFor="discount">Знижка</LabelForm>
-      <InputForm
-        type="text"
-        name="discount"
-        value={product.discount}
-        onChange={handleInputChange}
-      />
-      <LabelForm htmlFor="compound">Склад</LabelForm>
-      <InputForm
-        type="text"
-        name="compound"
-        value={product.compound}
-        onChange={handleInputChange}
-      />
-      <label htmlFor="fotos">Фотографии</label>
-      {product.fotos.map((foto, index) => (
-        <div key={index}>
-          <label>Фото {index + 1}</label>
-          <input
-            type="text"
-            value={foto}
-            onChange={e => handleFotoChange(index, e)}
-            name={`foto-${index}`}
-          />
-        </div>
-      ))}
-      <button type="button" onClick={addFoto}>
-        Добавить фото
-      </button>
-      <LabelForm htmlFor="video">Відео</LabelForm>
-      <InputForm type="text" name="video" value={product.video} onChange={handleInputChange} />
-      <LabelForm htmlFor="season">Сезон</LabelForm>
-      <InputForm
-        type="text"
-        name="season"
-        value={product.season}
-        onChange={handleInputChange}
-        required
-      />
+      </Wrap>
       <ButtonForm type="submit">Змінити</ButtonForm>
     </Form>
   );

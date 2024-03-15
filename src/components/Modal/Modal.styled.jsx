@@ -36,6 +36,6 @@ export const IconClose = styled(AiOutlineClose)`
 export const ButtonClose = styled.button`
   position: absolute;
   z-index: 2;
-  top: 12px;
-  right: 12px;
+  top: 8px;
+  right: 8px;
 `;
