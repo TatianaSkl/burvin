@@ -79,7 +79,7 @@ export const SelectForm = styled.select`
 
 export const ButtonColor = styled.button`
   position: absolute;
-  top: 106.5%;
+  top: 640px;
   right: 16px;
   padding: 2px;
   overflow: hidden;
