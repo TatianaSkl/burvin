@@ -4,6 +4,9 @@ export const Item = styled.li`
   width: 274px;
   border-radius: 12px;
   box-shadow: ${props => props.theme.shadows.small};
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const WrapperFoto = styled.div`

@@ -149,7 +149,7 @@ export const ProductFormChange = ({
     <Form onSubmit={handleSubmit}>
       <Wrap>
         <div>
-          <LabelForm htmlFor="article">Артикул</LabelForm>
+          <LabelForm>Артикул</LabelForm>
           <InputForm
             type="text"
             name="article"
@@ -159,7 +159,7 @@ export const ProductFormChange = ({
           />
         </div>
         <div>
-          <LabelForm htmlFor="name">Вид виробу</LabelForm>
+          <LabelForm>Вид виробу</LabelForm>
           <InputForm
             type="text"
             name="name"
@@ -169,7 +169,7 @@ export const ProductFormChange = ({
           />
         </div>
         <div>
-          <LabelForm htmlFor="view">Вид групи</LabelForm>
+          <LabelForm>Вид групи</LabelForm>
           <SelectForm name="view" value={product.view} onChange={handleInputChange} required>
             {views.map((group, index) => (
               <option key={index} value={group}>
@@ -179,7 +179,7 @@ export const ProductFormChange = ({
           </SelectForm>
         </div>
         <div>
-          <LabelForm htmlFor="price">Ціна</LabelForm>
+          <LabelForm>Ціна</LabelForm>
           <InputForm
             type="text"
             name="price"
@@ -189,7 +189,7 @@ export const ProductFormChange = ({
           />
         </div>
         <div>
-          <LabelForm htmlFor="originalPrice">Початкова ціна</LabelForm>
+          <LabelForm>Початкова ціна</LabelForm>
           <InputForm
             type="text"
             name="originalPrice"
@@ -198,7 +198,7 @@ export const ProductFormChange = ({
           />
         </div>
         <div>
-          <LabelForm htmlFor="discount">Знижка</LabelForm>
+          <LabelForm>Знижка</LabelForm>
           <InputForm
             type="text"
             name="discount"
@@ -207,7 +207,7 @@ export const ProductFormChange = ({
           />
         </div>
         <div>
-          <LabelForm htmlFor="compound">Склад</LabelForm>
+          <LabelForm>Склад</LabelForm>
           <InputForm
             type="text"
             name="compound"
@@ -216,11 +216,11 @@ export const ProductFormChange = ({
           />
         </div>
         <div>
-          <LabelForm htmlFor="video">Відео</LabelForm>
+          <LabelForm>Відео</LabelForm>
           <InputForm type="text" name="video" value={product.video} onChange={handleInputChange} />
         </div>
         <div>
-          <LabelForm htmlFor="season">Сезон</LabelForm>
+          <LabelForm>Сезон</LabelForm>
           <InputForm
             type="text"
             name="season"

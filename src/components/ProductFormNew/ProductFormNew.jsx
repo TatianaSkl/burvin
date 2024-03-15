@@ -94,7 +94,7 @@ export const ProductFormNew = ({ onClose }) => {
           />
         </div>
         <div>
-          <LabelForm htmlFor="name">Вид виробу</LabelForm>
+          <LabelForm>Вид виробу</LabelForm>
           <InputForm
             type="text"
             name="name"
@@ -104,7 +104,7 @@ export const ProductFormNew = ({ onClose }) => {
           />
         </div>
         <div>
-          <LabelForm htmlFor="view">Вид групи</LabelForm>
+          <LabelForm>Вид групи</LabelForm>
           <SelectForm name="view" value={product.view} onChange={handleInputChange} required>
             {views.map((group, index) => (
               <option key={index} value={group}>
@@ -114,7 +114,7 @@ export const ProductFormNew = ({ onClose }) => {
           </SelectForm>
         </div>
         <div>
-          <LabelForm htmlFor="price">Ціна</LabelForm>
+          <LabelForm>Ціна</LabelForm>
           <InputForm
             type="text"
             name="price"
@@ -124,7 +124,7 @@ export const ProductFormNew = ({ onClose }) => {
           />
         </div>
         <div>
-          <LabelForm htmlFor="originalPrice">Початкова ціна</LabelForm>
+          <LabelForm>Початкова ціна</LabelForm>
           <InputForm
             type="text"
             name="originalPrice"
@@ -133,7 +133,7 @@ export const ProductFormNew = ({ onClose }) => {
           />
         </div>
         <div>
-          <LabelForm htmlFor="discount">Знижка</LabelForm>
+          <LabelForm>Знижка</LabelForm>
           <InputForm
             type="text"
             name="discount"
@@ -142,7 +142,7 @@ export const ProductFormNew = ({ onClose }) => {
           />
         </div>
         <div>
-          <LabelForm htmlFor="compound">Склад</LabelForm>
+          <LabelForm>Склад</LabelForm>
           <InputForm
             type="text"
             name="compound"
@@ -151,11 +151,11 @@ export const ProductFormNew = ({ onClose }) => {
           />
         </div>
         <div>
-          <LabelForm htmlFor="video">Відео</LabelForm>
+          <LabelForm>Відео</LabelForm>
           <InputForm type="text" name="video" value={product.video} onChange={handleInputChange} />
         </div>
         <div>
-          <LabelForm htmlFor="season">Сезон</LabelForm>
+          <LabelForm>Сезон</LabelForm>
           <InputForm
             type="text"
             name="season"

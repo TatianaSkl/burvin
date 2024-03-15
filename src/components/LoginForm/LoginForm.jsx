@@ -20,9 +20,9 @@ export const LoginForm = ({ onClose }) => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <LabelForm htmlFor="name">Email</LabelForm>
+      <LabelForm>Email</LabelForm>
       <InputForm type="email" name="email" title="Please enter a valid email address" required />
-      <LabelForm htmlFor="number">Пароль</LabelForm>
+      <LabelForm>Пароль</LabelForm>
       <InputForm
         type="password"
         name="password"

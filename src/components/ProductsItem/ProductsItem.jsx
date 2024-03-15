@@ -74,47 +74,49 @@ export const ProductsItem = ({
   return (
     <>
       <Item key={id}>
-        <WrapperFoto>
-          <Image src={fotos[0]} alt={name} loading="lazy" />
-          <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
-            <AiFillHeart />
-          </Icon>
-          {video && (
-            <IconVideo onClick={() => openModal('video', { video })}>
-              <IoLogoYoutube />
-            </IconVideo>
-          )}
-          <IconPlus onClick={() => openModal('fotos', { article, fotos })}>
-            <FaSearchPlus />
-          </IconPlus>
-        </WrapperFoto>
-        <WrapperFlex>
-          <Wrap>{name}</Wrap>
-          <WrapperModel> {article}</WrapperModel>
-          {discount ? <div>{originalPrice} $</div> : <div>{price} $</div>}
-        </WrapperFlex>
-        <WrapperText>
-          <div>
-            {options.map(option => (
-              <Text key={`${option.color}-${option.sizes}`}>
-                <span style={{ color: 'black' }}>Колір : </span>
-                {option.color}
-              </Text>
-            ))}
-          </div>
-          <div>
-            {options.map(option => (
-              <Text key={`${option.color}-${option.sizes}`}>
-                <span style={{ color: 'black' }}>Розмір : </span>
-                {option.sizes.join(', ')}
-              </Text>
-            ))}
-          </div>
-        </WrapperText>
-        <Text style={{ textAlign: 'center' }}>
-          <span style={{ color: 'black' }}>Склад : </span>
-          {compound}
-        </Text>
+        <div>
+          <WrapperFoto>
+            <Image src={fotos[0]} alt={name} loading="lazy" />
+            <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
+              <AiFillHeart />
+            </Icon>
+            {video && (
+              <IconVideo onClick={() => openModal('video', { video })}>
+                <IoLogoYoutube />
+              </IconVideo>
+            )}
+            <IconPlus onClick={() => openModal('fotos', { article, fotos })}>
+              <FaSearchPlus />
+            </IconPlus>
+          </WrapperFoto>
+          <WrapperFlex>
+            <Wrap>{name}</Wrap>
+            <WrapperModel> {article}</WrapperModel>
+            {discount ? <div>{originalPrice} $</div> : <div>{price} $</div>}
+          </WrapperFlex>
+          <WrapperText>
+            <div>
+              {options.map(option => (
+                <Text key={`${option.color}-${option.sizes}`}>
+                  <span style={{ color: 'black' }}>Колір : </span>
+                  {option.color}
+                </Text>
+              ))}
+            </div>
+            <div>
+              {options.map(option => (
+                <Text key={`${option.color}-${option.sizes}`}>
+                  <span style={{ color: 'black' }}>Розмір : </span>
+                  {option.sizes.join(', ')}
+                </Text>
+              ))}
+            </div>
+          </WrapperText>
+          <Text style={{ textAlign: 'center' }}>
+            <span style={{ color: 'black' }}>Склад : </span>
+            {compound}
+          </Text>
+        </div>
         {user.role === 'admin' && (
           <div style={{ display: 'flex', gap: '6px', margin: '6px' }}>
             <PressButton
