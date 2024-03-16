@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkburvin=self.webpackChunkburvin||[]).push([[876],{876:(n,u,e)=>{e.r(u),e.d(u,{default:()=>s});var r=e(2496);function s(){return(0,r.jsx)("div",{children:"Contacts"})}}}]);
-//# sourceMappingURL=876.a51b5275.chunk.js.map
