@@ -27,6 +27,7 @@ export const ProductFormChange = ({
   fotos,
   video,
   compound,
+  description,
   season,
   onClose,
 }) => {
@@ -41,6 +42,7 @@ export const ProductFormChange = ({
     originalPrice: originalPrice || '',
     discount: discount || '',
     compound: compound || '',
+    description: description || '',
     fotos: fotos || [''],
     video: video || '',
     season: season || '',
@@ -65,6 +67,7 @@ export const ProductFormChange = ({
       fotos: product.fotos,
       video: product.video,
       compound: product.compound,
+      description: product.description,
       season: product.season,
     };
     dispatch(updateProduct({ id: productId, updatedProductData }));
@@ -284,6 +287,15 @@ export const ProductFormChange = ({
           <ButtonSize type="button" onClick={addFoto}>
             Додати фото
           </ButtonSize>
+        </div>
+        <div>
+          <LabelForm>Опис</LabelForm>
+          <InputForm
+            type="text"
+            name="description"
+            value={product.description}
+            onChange={handleInputChange}
+          />
         </div>
       </Wrap>
       <ButtonForm type="submit">Змінити</ButtonForm>

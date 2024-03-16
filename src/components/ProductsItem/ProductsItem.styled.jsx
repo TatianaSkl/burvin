@@ -7,6 +7,7 @@ export const Item = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 8px;
 `;
 
 export const WrapperFoto = styled.div`
@@ -43,7 +44,7 @@ export const Wrap = styled.div`
 export const WrapperText = styled.div`
   display: flex;
   justify-content: space-around;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 `;
 
 export const Text = styled.div`
@@ -51,6 +52,22 @@ export const Text = styled.div`
   font-size: 12px;
   line-height: 150%;
   font-weight: 400;
+`;
+
+export const TextDescription = styled.div`
+  color: ${props => props.theme.colors.lightGrey};
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+  text-align: justify;
+  padding: 8px 8px 0 8px;
+`;
+
+export const SpanDescription = styled.span`
+  color: blue;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-left: 14px;
 `;
 
 export const PressButton = styled.button`

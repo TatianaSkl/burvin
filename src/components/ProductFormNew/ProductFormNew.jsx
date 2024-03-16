@@ -24,6 +24,7 @@ export const ProductFormNew = ({ onClose }) => {
     originalPrice: '',
     discount: '',
     compound: '',
+    description: '',
     fotos: [''],
     video: '',
     season: '',
@@ -209,6 +210,15 @@ export const ProductFormNew = ({ onClose }) => {
           <ButtonSize type="button" onClick={addFoto}>
             Додати фото
           </ButtonSize>
+        </div>
+        <div>
+          <LabelForm>Опис</LabelForm>
+          <InputForm
+            type="text"
+            name="description"
+            value={product.description}
+            onChange={handleInputChange}
+          />
         </div>
       </Wrap>
       <ButtonForm type="submit">Додати</ButtonForm>

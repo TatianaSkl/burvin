@@ -18,6 +18,7 @@ export const ProductsList = ({ products }) => {
           fotos={product.fotos}
           video={product.video}
           compound={product.compound}
+          description={product.description}
           season={product.season}
         />
       ))}

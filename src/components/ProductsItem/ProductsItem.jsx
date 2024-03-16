@@ -20,6 +20,8 @@ import {
   WrapperText,
   IconVideo,
   PressButton,
+  TextDescription,
+  SpanDescription,
 } from './ProductsItem.styled';
 import { Modal } from 'components/Modal/Modal';
 
@@ -35,11 +37,13 @@ export const ProductsItem = ({
   fotos,
   video,
   compound,
+  description,
   season,
 }) => {
   const dispatch = useDispatch();
   const [modalState, setModalState] = useState({ type: null, props: {} });
   const [isFavorite, setIsFavorite] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   const favorites = useSelector(selectFavorites);
   const products = useSelector(selectProducts);
   const user = useSelector(selectUser);
@@ -69,6 +73,10 @@ export const ProductsItem = ({
   const handleDeleteProduct = e => {
     const productId = e.target.id;
     dispatch(deleteProduct(productId));
+  };
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
   };
 
   return (
@@ -116,6 +124,12 @@ export const ProductsItem = ({
             <span style={{ color: 'black' }}>Склад : </span>
             {compound}
           </Text>
+          {description && (
+            <>
+              <SpanDescription onClick={toggleVisibility}>Опис...</SpanDescription>
+              {isVisible && <TextDescription>{description}</TextDescription>}
+            </>
+          )}
         </div>
         {user.role === 'admin' && (
           <div style={{ display: 'flex', gap: '6px', margin: '6px' }}>
@@ -135,6 +149,7 @@ export const ProductsItem = ({
                   fotos,
                   video,
                   compound,
+                  description,
                   season,
                 })
               }
