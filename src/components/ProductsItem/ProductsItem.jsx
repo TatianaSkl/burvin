@@ -22,6 +22,8 @@ import {
   PressButton,
   TextDescription,
   SpanDescription,
+  TextSpan,
+  WrapperPct,
 } from './ProductsItem.styled';
 import { Modal } from 'components/Modal/Modal';
 
@@ -100,7 +102,17 @@ export const ProductsItem = ({
           <WrapperFlex>
             <Wrap>{name}</Wrap>
             <WrapperModel> {article}</WrapperModel>
-            {discount ? <div>{originalPrice} $</div> : <div>{price} $</div>}
+            {discount ? (
+              <div>
+                <p style={{ fontSize: '18px', fontWeight: '500' }}>{price} $</p>
+                <div style={{ display: 'flex' }}>
+                  <TextSpan>{originalPrice} $</TextSpan>
+                  <WrapperPct>- {discount} %</WrapperPct>
+                </div>
+              </div>
+            ) : (
+              <div>{price} $</div>
+            )}
           </WrapperFlex>
           <WrapperText>
             <div>
