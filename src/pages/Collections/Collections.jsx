@@ -21,13 +21,16 @@ export default function Collections() {
     dispatch(allProducts());
   }, [dispatch]);
 
-  const sortedProducts = products.slice().sort((a, b) => {
+  const visibleProducts = products.filter(product => product.season !== 'aw24');
+  const filterNew = filter.filter(product => product.season !== 'aw24');
+
+  const sortedProducts = visibleProducts.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
     const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
     return articleB - articleA;
   });
 
-  const sortedProductsFilter = filter.slice().sort((a, b) => {
+  const sortedProductsFilter = filterNew.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
     const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
     return articleB - articleA;
