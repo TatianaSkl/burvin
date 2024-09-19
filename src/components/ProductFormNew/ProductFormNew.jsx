@@ -23,6 +23,9 @@ export const ProductFormNew = ({ onClose }) => {
     price: '',
     originalPrice: '',
     discount: '',
+    priceR: '',
+    originalPriceR: '',
+    discountR: '',
     compound: '',
     description: '',
     fotos: [''],
@@ -139,6 +142,34 @@ export const ProductFormNew = ({ onClose }) => {
             type="text"
             name="discount"
             value={product.discount}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm>ЦінаR</LabelForm>
+          <InputForm
+            type="text"
+            name="priceR"
+            value={product.priceR}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div>
+          <LabelForm>Початкова цінаR</LabelForm>
+          <InputForm
+            type="text"
+            name="originalPriceR"
+            value={product.originalPriceR}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm>ЗнижкаR</LabelForm>
+          <InputForm
+            type="text"
+            name="discountR"
+            value={product.discountR}
             onChange={handleInputChange}
           />
         </div>

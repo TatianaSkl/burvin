@@ -24,6 +24,9 @@ export const ProductFormChange = ({
   price,
   originalPrice,
   discount,
+  priceR,
+  originalPriceR,
+  discountR,
   fotos,
   video,
   compound,
@@ -41,6 +44,9 @@ export const ProductFormChange = ({
     price: price || '',
     originalPrice: originalPrice || '',
     discount: discount || '',
+    priceR: priceR || '',
+    originalPriceR: originalPriceR || '',
+    discountR: discountR || '',
     compound: compound || '',
     description: description || '',
     fotos: fotos || [''],
@@ -64,6 +70,9 @@ export const ProductFormChange = ({
       price: product.price,
       originalPrice: product.originalPrice,
       discount: product.discount,
+      priceR: product.priceR,
+      originalPriceR: product.originalPriceR,
+      discountR: product.discountR,
       fotos: product.fotos,
       video: product.video,
       compound: product.compound,
@@ -206,6 +215,34 @@ export const ProductFormChange = ({
             type="text"
             name="discount"
             value={product.discount}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm>ЦінаR</LabelForm>
+          <InputForm
+            type="text"
+            name="priceR"
+            value={product.priceR}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div>
+          <LabelForm>Початкова цінаR</LabelForm>
+          <InputForm
+            type="text"
+            name="originalPriceR"
+            value={product.originalPriceR}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div>
+          <LabelForm>ЗнижкаR</LabelForm>
+          <InputForm
+            type="text"
+            name="discountR"
+            value={product.discountR}
             onChange={handleInputChange}
           />
         </div>
