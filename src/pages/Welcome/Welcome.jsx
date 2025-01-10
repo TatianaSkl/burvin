@@ -8,7 +8,7 @@ export default function Welcome() {
   const [backgroundImage, setBackgroundImage] = useState(getRandomImage);
 
   const handleGo = () => {
-    navigate('/collection-3');
+    navigate('/collection-4');
   };
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function Welcome() {
   return (
     <>
       <WrapperWelcom style={{ backgroundImage: `url(${backgroundImage})` }} />
-      <ButtonGo onClick={handleGo}>ДИВИТИСЯ КОЛЕКЦІЮ Весна-літо 2024</ButtonGo>
+      <ButtonGo onClick={handleGo}>ДИВИТИСЯ КОЛЕКЦІЮ ОСІНЬ-ЗИМА 2024</ButtonGo>
     </>
   );
 }

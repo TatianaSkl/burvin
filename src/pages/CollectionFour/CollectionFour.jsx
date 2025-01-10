@@ -6,7 +6,7 @@ import { Wrapper } from 'pages/Collections/Collections.styled';
 import { useEffect } from 'react';
 import { allProducts } from 'redux/products/operations';
 
-export default function CollectionOne() {
+export default function CollectionFour() {
   const dispatch = useDispatch();
   const isFiltred = useSelector(selectIsFiltred);
   const filter = useSelector(filtredProducts);
@@ -16,9 +16,9 @@ export default function CollectionOne() {
     dispatch(allProducts());
   }, [dispatch]);
 
-  const visibleProducts = products.filter(product => product.season === 'aw23');
+  const visibleProducts = products.filter(product => product.season === 'aw24');
 
-  const filterNew = filter.filter(product => product.season === 'aw23');
+  const filterNew = filter.filter(product => product.season === 'aw24');
 
   const sortedProducts = visibleProducts.sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
@@ -35,7 +35,7 @@ export default function CollectionOne() {
   return (
     <>
       <Wrapper>
-        <TitlePage text="ОСІНЬ-ЗИМА 2023" />
+        <TitlePage text="ОСІНЬ-ЗИМА 2024" />
         <Filter />
       </Wrapper>
       <Container>

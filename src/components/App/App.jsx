@@ -9,6 +9,7 @@ const CollectionsPage = lazy(() => import('pages/Collections/Collections'));
 const CollectionOnePage = lazy(() => import('pages/CollectionOne/CollectionOne'));
 const CollectionTwoPage = lazy(() => import('pages/CollectionTwo/CollectionTwo'));
 const CollectionThreePage = lazy(() => import('pages/CollectionThree/CollectionThree'));
+const CollectionFourPage = lazy(() => import('pages/CollectionFour/CollectionFour'));
 const OutletPage = lazy(() => import('pages/Outlet/Outlet'));
 const FavoritesPage = lazy(() => import('pages/Favorites/Favorites'));
 const SearchPage = lazy(() => import('pages/Search/Search'));
@@ -30,6 +31,7 @@ export const App = () => {
         <Route path="collection-1" element={<CollectionOnePage />} />
         <Route path="collection-2" element={<CollectionTwoPage />} />
         <Route path="collection-3" element={<CollectionThreePage />} />
+        <Route path="collection-4" element={<CollectionFourPage />} />
         <Route path="outlet" element={<OutletPage />} />
         <Route path="favorites" element={<FavoritesPage />} />
         <Route path="news" element={<NewsPage />} />
