@@ -44,7 +44,6 @@ export const Wrap = styled.div`
 export const WrapperText = styled.div`
   display: flex;
   justify-content: space-around;
-  /* margin-bottom: 8px; */
 `;
 
 export const Text = styled.div`
@@ -150,4 +149,16 @@ export const WrapperPct = styled.div`
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+`;
+
+export const TextStatus = styled.div`
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: ${props => props.theme.colors.white};
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 2px;
+  color: ${({ children }) => (children === 'В наявності' ? '#0cb96e' : '#a30505')};
+  font-weight: 500;
 `;

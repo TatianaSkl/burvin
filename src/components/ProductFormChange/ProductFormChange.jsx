@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import views from '../../bd/views.json';
+
 import {
   Form,
   LabelForm,
@@ -18,6 +19,7 @@ import { MdDelete } from 'react-icons/md';
 export const ProductFormChange = ({
   id,
   article,
+  status,
   name,
   view,
   options,
@@ -38,6 +40,7 @@ export const ProductFormChange = ({
   const [product, setProduct] = useState({
     id: id,
     article: article || '',
+    status: status || '',
     name: name || '',
     view: view || '',
     options: options || [{ color: '', sizes: [''] }],
@@ -64,6 +67,7 @@ export const ProductFormChange = ({
     const productId = product.id;
     const updatedProductData = {
       article: product.article,
+      status: product.status,
       name: product.name,
       view: product.view,
       options: product.options,
@@ -324,6 +328,15 @@ export const ProductFormChange = ({
           <ButtonSize type="button" onClick={addFoto}>
             Додати фото
           </ButtonSize>
+        </div>
+        <div>
+          <LabelForm>Статус</LabelForm>
+          <InputForm
+            type="text"
+            name="status"
+            value={product.status}
+            onChange={handleInputChange}
+          />
         </div>
         <div>
           <LabelForm>Опис</LabelForm>

@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import views from '../../bd/views.json';
+
 import {
   Form,
   LabelForm,
@@ -17,6 +18,7 @@ export const ProductFormNew = ({ onClose }) => {
   const dispatch = useDispatch();
   const [product, setProduct] = useState({
     article: '',
+    status: '',
     name: '',
     view: '',
     options: [{ color: '', sizes: [''] }],
@@ -241,6 +243,15 @@ export const ProductFormNew = ({ onClose }) => {
           <ButtonSize type="button" onClick={addFoto}>
             Додати фото
           </ButtonSize>
+        </div>
+        <div>
+          <LabelForm>Статус</LabelForm>
+          <InputForm
+            type="text"
+            name="status"
+            value={product.status}
+            onChange={handleInputChange}
+          />
         </div>
         <div>
           <LabelForm>Опис</LabelForm>

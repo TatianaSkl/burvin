@@ -9,6 +9,7 @@ export const ProductsList = ({ products }) => {
           key={product._id}
           id={product._id}
           article={product.article}
+          status={product.status}
           name={product.name}
           view={product.view}
           options={product.options}

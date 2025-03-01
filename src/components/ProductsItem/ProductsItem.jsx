@@ -24,12 +24,14 @@ import {
   SpanDescription,
   TextSpan,
   WrapperPct,
+  TextStatus,
 } from './ProductsItem.styled';
 import { Modal } from 'components/Modal/Modal';
 
 export const ProductsItem = ({
   id,
   article,
+  status,
   name,
   view,
   options,
@@ -101,6 +103,7 @@ export const ProductsItem = ({
             <IconPlus onClick={() => openModal('fotos', { article, fotos })}>
               <FaSearchPlus />
             </IconPlus>
+            <TextStatus>{status}</TextStatus>
           </WrapperFoto>
           <WrapperFlex>
             <Wrap>{name}</Wrap>
@@ -155,6 +158,7 @@ export const ProductsItem = ({
                 openModal('productChange', {
                   id,
                   article,
+                  status,
                   name,
                   view,
                   options,
