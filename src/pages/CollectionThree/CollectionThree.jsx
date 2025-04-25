@@ -16,26 +16,26 @@ export default function CollectionThree() {
     dispatch(allProducts());
   }, [dispatch]);
 
-  const visibleProducts = products.filter(product => product.season === 'vl24');
+  const visibleProducts = products.filter(product => product.season === 'vl25b');
 
-  const filterNew = filter.filter(product => product.season === 'vl24');
+  const filterNew = filter.filter(product => product.season === 'vl25b');
 
   const sortedProducts = visibleProducts.sort((a, b) => {
-    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
-    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
+    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));
+    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 5));
     return articleA - articleB;
   });
 
   const sortedProductsFilter = filterNew.sort((a, b) => {
-    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
-    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
+    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));
+    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 5));
     return articleA - articleB;
   });
 
   return (
     <>
       <Wrapper>
-        <TitlePage text="ВЕСНА-ЛІТО 2024" />
+        <TitlePage text="ВЕСНА-ЛІТО 2025" />
         <Filter />
       </Wrapper>
       <Container>

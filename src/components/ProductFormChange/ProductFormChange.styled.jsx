@@ -79,7 +79,7 @@ export const SelectForm = styled.select`
 
 export const ButtonColor = styled.button`
   position: absolute;
-  top: 640px;
+  top: 848px;
   right: 16px;
   padding: 2px;
   overflow: hidden;
@@ -97,7 +97,7 @@ export const ButtonColor = styled.button`
     border-color: ${props => props.theme.colors.black};
   }
   @media (min-width: 768px) {
-    top: 220px;
+    top: 288px;
     right: 392px;
   }
 `;

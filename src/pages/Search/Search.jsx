@@ -18,7 +18,9 @@ export default function Search() {
   let visibleSearchProducts = [];
 
   if (search.trim() !== '') {
-    visibleSearchProducts = products.filter(product => product.article.includes(search));
+    visibleSearchProducts = products
+      .filter(product => product.article.includes(search))
+      .filter(product => product.season !== 'vl25');
   }
 
   return (

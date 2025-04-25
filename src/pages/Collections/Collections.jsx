@@ -25,14 +25,14 @@ export default function Collections() {
   const filterNew = filter.filter(product => product.season !== 'vl25');
 
   const sortedProducts = visibleProducts.slice().sort((a, b) => {
-    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
-    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
+    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));
+    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 5));
     return articleB - articleA;
   });
 
   const sortedProductsFilter = filterNew.slice().sort((a, b) => {
-    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
-    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 4));
+    const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));
+    const articleB = parseInt(b.article.replace(/\D/g, '').substring(0, 5));
     return articleB - articleA;
   });
 
