@@ -162,7 +162,7 @@ export const TextStatus = styled.div`
   color: ${({ children }) =>
     children === 'В наявності'
       ? '#0cb96e'
-      : children === 'Доставимо за тиждень'
+      : children === 'Відшито'
       ? '#a30505'
       : children === 'Очікуємо'
       ? '#f3f709'
