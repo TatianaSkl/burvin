@@ -32,9 +32,9 @@ export const UserNav = ({ onCloseModal }) => {
         <LinkNav to="/collection-2" onClick={onCloseModal}>
           ОСІНЬ-ЗИМА 2024
         </LinkNav>
-        <LinkNav to="/collection-1" onClick={onCloseModal}>
+        {/* <LinkNav to="/collection-1" onClick={onCloseModal}>
           ВЕСНА-ЛІТО 2024
-        </LinkNav>
+        </LinkNav> */}
         <LinkNav to="/outlet" onClick={onCloseModal}>
           АУТЛЕТ
         </LinkNav>
