@@ -21,8 +21,11 @@ export default function Collections() {
     dispatch(allProducts());
   }, [dispatch]);
 
-  const visibleProducts = products.filter(product => product.season !== 'aw25');
-  const filterNew = filter.filter(product => product.season !== 'aw25');
+  const visibleProducts =
+    user.role === 'admin' ? products : products.filter(product => product.season !== 'aw25');
+
+  const filterNew =
+    user.role === 'admin' ? filter : filter.filter(product => product.season !== 'aw25');
 
   const sortedProducts = visibleProducts.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));

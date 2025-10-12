@@ -27,14 +27,14 @@ export const UserNav = ({ onCloseModal }) => {
           Колекції
         </LinkNavText>
         <LinkNav to="/collection-3" onClick={onCloseModal}>
-          ВЕСНА-ЛІТО 2025
+          ОСІНЬ-ЗИМА 2025
         </LinkNav>
         <LinkNav to="/collection-2" onClick={onCloseModal}>
+          ВЕСНА-ЛІТО 2025
+        </LinkNav>
+        <LinkNav to="/collection-1" onClick={onCloseModal}>
           ОСІНЬ-ЗИМА 2024
         </LinkNav>
-        {/* <LinkNav to="/collection-1" onClick={onCloseModal}>
-          ВЕСНА-ЛІТО 2024
-        </LinkNav> */}
         <LinkNav to="/outlet" onClick={onCloseModal}>
           АУТЛЕТ
         </LinkNav>
