@@ -2,13 +2,14 @@ import { useNavigate } from 'react-router-dom';
 import { ButtonGo, WrapperWelcom } from './Welcome.styled';
 import { useEffect, useState } from 'react';
 import { getRandomImage } from 'utils/getRandomImage';
+import data from 'bd/data.json';
 
 export default function Welcome() {
   const navigate = useNavigate();
   const [backgroundImage, setBackgroundImage] = useState(getRandomImage);
 
   const handleGo = () => {
-    navigate('/collection-3');
+    navigate(data.collectionThree.slug);
   };
 
   useEffect(() => {

@@ -4,6 +4,7 @@ import { LinkNav, LinkNavText, NavUser, Wrap } from './UserNav.styled';
 import { selectUser } from 'redux/auth/selectors';
 import { logOut } from 'redux/auth/operations';
 import { Modal } from 'components/Modal/Modal';
+import data from 'bd/data.json';
 
 export const UserNav = ({ onCloseModal }) => {
   const [modalState, setModalState] = useState({ type: null, props: {} });
@@ -35,8 +36,8 @@ export const UserNav = ({ onCloseModal }) => {
         <LinkNav to="/collection-1" onClick={onCloseModal}>
           ОСІНЬ-ЗИМА 2024
         </LinkNav>
-        <LinkNav to="/outlet" onClick={onCloseModal}>
-          АУТЛЕТ
+        <LinkNav to={data.outlet.slug} onClick={onCloseModal}>
+          {data.outlet.title}
         </LinkNav>
         <LinkNav to="/favorites" onClick={onCloseModal}>
           ВИБРАНЕ

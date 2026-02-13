@@ -5,6 +5,7 @@ import { Empty } from 'pages/Favorites/Favorites.styled';
 import { Wrapper } from 'pages/Collections/Collections.styled';
 import { useEffect } from 'react';
 import { allProducts } from 'redux/products/operations';
+import data from 'bd/data.json';
 
 export default function CollectionOne() {
   const dispatch = useDispatch();
@@ -40,12 +41,7 @@ export default function CollectionOne() {
       </Wrapper>
       <Container>
         <ProductsList products={isFiltred ? sortedProductsFilter : sortedProducts} />
-        {isFiltred && filter?.length === 0 && (
-          <Empty>
-            На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
-            параметри пошуку, щоб знайти потрібний.
-          </Empty>
-        )}
+        {isFiltred && filter?.length === 0 && <Empty>{data.filterEmpty}</Empty>}
       </Container>
     </>
   );

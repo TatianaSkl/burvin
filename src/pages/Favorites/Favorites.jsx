@@ -2,6 +2,7 @@ import { ProductsList, Container } from 'components';
 import { useSelector } from 'react-redux';
 import { selectFavorites } from 'redux/selectors';
 import { Empty } from './Favorites.styled';
+import data from 'bd/data.json';
 
 export default function Favorites() {
   const favorites = useSelector(selectFavorites);
@@ -9,7 +10,7 @@ export default function Favorites() {
   return (
     <Container>
       {favorites.length === 0 ? (
-        <Empty>Ваші вибрані пусті.</Empty>
+        <Empty>{data.favoritesEmpty}</Empty>
       ) : (
         <ProductsList products={favorites} />
       )}

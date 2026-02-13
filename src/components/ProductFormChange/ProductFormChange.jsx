@@ -140,6 +140,13 @@ export const ProductFormChange = ({
     });
   };
 
+  const deleteFoto = index => {
+    if (product.fotos.length === 1) return; // мінімум 1
+    const newFotos = [...product.fotos];
+    newFotos.splice(index, 1);
+    setProduct({ ...product, fotos: newFotos });
+  };
+
   const deleteSizeFromOption = (optionIndex, sizeIndex) => {
     const newOptions = [...product.options];
     if (sizeIndex >= 0 && sizeIndex < newOptions[optionIndex].sizes.length) {
@@ -315,7 +322,7 @@ export const ProductFormChange = ({
         </ButtonColor>
         <div>
           {product.fotos.map((foto, index) => (
-            <div key={index}>
+            <div key={index} style={{ position: 'relative' }}>
               <LabelForm>Фото {index + 1}</LabelForm>
               <InputForm
                 type="text"
@@ -323,6 +330,9 @@ export const ProductFormChange = ({
                 onChange={e => handleFotoChange(index, e)}
                 name={`foto-${index}`}
               />
+              <ButtonDelete type="button" onClick={() => deleteFoto(index)} style={{ top: '0' }}>
+                <MdDelete />
+              </ButtonDelete>
             </div>
           ))}
           <ButtonSize type="button" onClick={addFoto}>

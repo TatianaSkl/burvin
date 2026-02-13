@@ -8,6 +8,7 @@ import { FiFilePlus } from 'react-icons/fi';
 import { Button } from './Collections.styled';
 import { selectUser } from 'redux/auth/selectors';
 import { Modal } from 'components/Modal/Modal';
+import data from 'bd/data.json';
 
 export default function Collections() {
   const [modalState, setModalState] = useState({ type: null, props: {} });
@@ -17,15 +18,19 @@ export default function Collections() {
   const products = useSelector(selectProducts);
   const user = useSelector(selectUser);
 
+  const collection = data.collectionThree;
+
   useEffect(() => {
     dispatch(allProducts());
   }, [dispatch]);
 
   const visibleProducts =
-    user.role === 'admin' ? products : products.filter(product => product.season !== 'aw25');
+    user.role === 'admin'
+      ? products
+      : products.filter(product => product.season !== collection.season);
 
   const filterNew =
-    user.role === 'admin' ? filter : filter.filter(product => product.season !== 'aw25');
+    user.role === 'admin' ? filter : filter.filter(product => product.season !== collection.season);
 
   const sortedProducts = visibleProducts.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));
@@ -61,12 +66,7 @@ export default function Collections() {
           )}
         </div>
         <ProductsList products={isFiltred ? sortedProductsFilter : sortedProducts} />
-        {isFiltred && filter?.length === 0 && (
-          <Empty>
-            На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші
-            параметри пошуку, щоб знайти потрібний.
-          </Empty>
-        )}
+        {isFiltred && filter?.length === 0 && <Empty>{data.filterEmpty}</Empty>}
       </Container>
       {modalState.type && (
         <Modal type={modalState.type} props={modalState.props} onClose={closeModal} />

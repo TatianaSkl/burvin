@@ -5,11 +5,14 @@ import { selectProducts, selectSearch } from 'redux/selectors';
 import { Wrapper } from 'pages/Collections/Collections.styled';
 import { useEffect } from 'react';
 import { allProducts } from 'redux/products/operations';
+import data from 'bd/data.json';
 
 export default function Search() {
   const dispatch = useDispatch();
   const search = useSelector(selectSearch);
   const products = useSelector(selectProducts);
+
+  const collection = data.collectionThree;
 
   useEffect(() => {
     dispatch(allProducts());
@@ -20,7 +23,7 @@ export default function Search() {
   if (search.trim() !== '') {
     visibleSearchProducts = products
       .filter(product => product.article.includes(search))
-      .filter(product => product.season !== 'aw25');
+      .filter(product => product.season !== collection.season);
   }
 
   return (
@@ -30,7 +33,7 @@ export default function Search() {
       </Wrapper>
       <Container>
         {visibleSearchProducts.length === 0 ? (
-          <Empty>На жаль, за пошуком результатів не знайдено.</Empty>
+          <Empty>{data.searchEmpty}</Empty>
         ) : (
           <ProductsList products={visibleSearchProducts} />
         )}

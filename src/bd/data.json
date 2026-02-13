@@ -1,0 +1,28 @@
+{
+  "mainTitle": "",
+  "centerButton": "ДИВИТИСЯ КОЛЕКЦІЮ ВЕСНА-ЛІТО 2026",
+  "collectionOne": {
+    "title": "ВЕСНА-ЛІТО 2025",
+    "season": "vl25",
+    "slug": "/collection-1"
+  },
+  "collectionTwo": {
+    "title": "ОСІНЬ-ЗИМА 2025",
+    "season": "aw25",
+    "slug": "/collection-2"
+  },
+  "collectionThree": {
+    "title": "ВЕСНА-ЛІТО 2026",
+    "season": "vl26",
+    "slug": "/collection-3"
+  },
+  "outlet": {
+    "title": "АУТЛЕТ",
+    "season": "outlet",
+    "slug": "/outlet"
+  },
+  "filterEmpty": "На жаль, для вибраних фільтрів не знайдено результатів. Ви можете розглянути інші параметри пошуку, щоб знайти потрібний.",
+  "searchEmpty": "На жаль, за пошуком результатів не знайдено.",
+  "favoritesEmpty": "Ваші вибрані пусті.",
+  "exchangeRate": "45"
+}
