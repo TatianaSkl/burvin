@@ -31,8 +31,10 @@ export const Modal = ({ type, props, onClose }) => {
       }
     };
     window.addEventListener('keydown', handleClick);
+    document.body.style.overflow = 'hidden';
     return () => {
       window.removeEventListener('keydown', handleClick);
+      document.body.style.overflow = 'auto';
     };
   }, [onClose]);
 
@@ -44,7 +46,7 @@ export const Modal = ({ type, props, onClose }) => {
 
   return (
     <Overlay onClick={onOverlayClickClose}>
-      <Wrapper>
+      <Wrapper onClick={e => e.stopPropagation()}>
         <ButtonClose onClick={onClose}>
           <IconClose />
         </ButtonClose>

@@ -69,6 +69,7 @@ export const customStyles = {
   }),
   menuList: provided => ({
     ...provided,
+    maxHeight: '450px',
     '::-webkit-scrollbar': {
       width: '8px',
       height: '130px',
@@ -80,11 +81,12 @@ export const customStyles = {
   }),
   option: (provided, state) => ({
     ...provided,
-    backgroundColor: 'transparent',
-    color: state.isSelected ? '#121417' : 'rgba(18, 20, 23, 0.20)',
+    backgroundColor: state.isSelected ? '#f6f6fa' : 'transparent',
+    color: state.isSelected ? '#121417' : 'rgba(18, 20, 23, 0.40)',
     fontSize: '16px',
-    fontWeight: 500,
+    fontWeight: state.isSelected ? 600 : 500,
     lineHeight: '125%',
+    cursor: 'pointer',
   }),
   dropdownIndicator: (provided, state) => ({
     ...provided,

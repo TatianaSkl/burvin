@@ -25,7 +25,7 @@ export default function Welcome() {
   return (
     <>
       <WrapperWelcom style={{ backgroundImage: `url(${backgroundImage})` }} />
-      <ButtonGo onClick={handleGo}>ДИВИТИСЯ КОЛЕКЦІЮ ОСІНЬ-ЗИМА 2025</ButtonGo>
+      <ButtonGo onClick={handleGo}>{data.centerButton}</ButtonGo>
     </>
   );
 }

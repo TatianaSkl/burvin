@@ -24,17 +24,17 @@ export const UserNav = ({ onCloseModal }) => {
   return (
     <NavUser>
       <Wrap>
-        <LinkNavText to="/collections" onClick={onCloseModal}>
-          Колекції
+        <LinkNavText to={data.collection.slug} onClick={onCloseModal}>
+          {data.collection.title}
         </LinkNavText>
-        <LinkNav to="/collection-3" onClick={onCloseModal}>
-          ОСІНЬ-ЗИМА 2025
+        <LinkNav to={data.collectionThree.slug} onClick={onCloseModal}>
+          {data.collectionThree.title}
         </LinkNav>
-        <LinkNav to="/collection-2" onClick={onCloseModal}>
-          ВЕСНА-ЛІТО 2025
+        <LinkNav to={data.collectionTwo.slug} onClick={onCloseModal}>
+          {data.collectionTwo.title}
         </LinkNav>
-        <LinkNav to="/collection-1" onClick={onCloseModal}>
-          ОСІНЬ-ЗИМА 2024
+        <LinkNav to={data.collectionOne.slug} onClick={onCloseModal}>
+          {data.collectionOne.title}
         </LinkNav>
         <LinkNav to={data.outlet.slug} onClick={onCloseModal}>
           {data.outlet.title}

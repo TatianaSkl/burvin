@@ -5,8 +5,9 @@ import { addToFavorites, removeFromFavorites } from 'redux/favoritesSlice';
 import { selectUser } from 'redux/auth/selectors';
 import { deleteProduct } from 'redux/products/operations';
 import { AiFillHeart } from 'react-icons/ai';
-import { FaSearchPlus } from 'react-icons/fa';
 import { IoLogoYoutube } from 'react-icons/io';
+import { Modal } from 'components/Modal/Modal';
+
 import {
   Image,
   Item,
@@ -16,7 +17,6 @@ import {
   WrapperFoto,
   WrapperModel,
   Icon,
-  IconPlus,
   WrapperText,
   IconVideo,
   PressButton,
@@ -26,7 +26,6 @@ import {
   WrapperPct,
   TextStatus,
 } from './ProductsItem.styled';
-import { Modal } from 'components/Modal/Modal';
 
 export const ProductsItem = ({
   id,
@@ -57,7 +56,8 @@ export const ProductsItem = ({
 
   const isAdvertsInFavorites = favorites.find(product => product._id === id);
 
-  const handleFavorite = () => {
+  const handleFavorite = e => {
+    e.stopPropagation();
     if (!isAdvertsInFavorites) {
       const product = products.find(product => product._id === id);
       dispatch(addToFavorites(product));
@@ -65,6 +65,11 @@ export const ProductsItem = ({
       dispatch(removeFromFavorites(id));
     }
     setIsFavorite(!isFavorite);
+  };
+
+  const handleVideoClick = e => {
+    e.stopPropagation();
+    openModal('video', { video });
   };
 
   const openModal = (type, props = {}) => {
@@ -90,19 +95,16 @@ export const ProductsItem = ({
     <>
       <Item key={id}>
         <div>
-          <WrapperFoto>
+          <WrapperFoto onClick={() => openModal('fotos', { article, fotos })}>
             <Image src={fotos[0]} alt={name} loading="lazy" />
             <Icon isAdvertsInFavorites={isAdvertsInFavorites} onClick={handleFavorite}>
               <AiFillHeart />
             </Icon>
             {video && (
-              <IconVideo onClick={() => openModal('video', { video })}>
+              <IconVideo onClick={handleVideoClick}>
                 <IoLogoYoutube />
               </IconVideo>
             )}
-            <IconPlus onClick={() => openModal('fotos', { article, fotos })}>
-              <FaSearchPlus />
-            </IconPlus>
             <TextStatus>{status}</TextStatus>
           </WrapperFoto>
           <WrapperFlex>
@@ -143,10 +145,12 @@ export const ProductsItem = ({
             {compound}
           </Text>
           {description && (
-            <>
-              <SpanDescription onClick={toggleVisibility}>Опис...</SpanDescription>
+            <div style={{ marginTop: 'auto' }}>
+              <SpanDescription onClick={toggleVisibility}>
+                {isVisible ? 'Згорнути ▲' : 'Опис ▼'}
+              </SpanDescription>
               {isVisible && <TextDescription>{description}</TextDescription>}
-            </>
+            </div>
           )}
         </div>
         {user.role === 'admin' && (

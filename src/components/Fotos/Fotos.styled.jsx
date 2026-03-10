@@ -8,34 +8,19 @@ export const ImageItem = styled.img`
   margin: 0 auto;
 `;
 
-export const ButtonNext = styled.button`
-  position: absolute;
-  z-index: 2;
-  top: 48%;
-  right: 12px;
-  & svg {
-    width: 18px;
-    height: 18px;
-    fill: ${props => props.theme.colors.black};
-    @media (min-width: 768px) {
-      width: 22px;
-      height: 22px;
-    }
-  }
+export const ImageWrapper = styled.div`
+  position: relative;
 `;
 
-export const ButtonPrev = styled.button`
+export const ArticleLabel = styled.div`
   position: absolute;
-  z-index: 2;
-  top: 48%;
+  top: 42px;
   left: 12px;
-  & svg {
-    width: 18px;
-    height: 18px;
-    fill: ${props => props.theme.colors.black};
-    @media (min-width: 768px) {
-      width: 22px;
-      height: 22px;
-    }
-  }
+
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+
+  font-size: 18px;
 `;

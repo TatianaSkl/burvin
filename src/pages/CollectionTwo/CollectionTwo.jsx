@@ -13,13 +13,15 @@ export default function CollectionTwo() {
   const filter = useSelector(filtredProducts);
   const products = useSelector(selectProducts);
 
+  const collection = data.collectionTwo;
+
   useEffect(() => {
     dispatch(allProducts());
   }, [dispatch]);
 
-  const visibleProducts = products.filter(product => product.season === 'vl25b');
+  const visibleProducts = products.filter(product => product.season === collection.season);
 
-  const filterNew = filter.filter(product => product.season === 'vl25b');
+  const filterNew = filter.filter(product => product.season === collection.season);
 
   const sortedProducts = visibleProducts.sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 4));
@@ -36,7 +38,7 @@ export default function CollectionTwo() {
   return (
     <>
       <Wrapper>
-        <TitlePage text="ВЕСНА-ЛІТО 2025" />
+        <TitlePage text={collection.title} />
         <Filter />
       </Wrapper>
       <Container>

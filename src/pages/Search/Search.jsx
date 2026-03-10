@@ -12,7 +12,7 @@ export default function Search() {
   const search = useSelector(selectSearch);
   const products = useSelector(selectProducts);
 
-  const collection = data.collectionThree;
+  const collection = data.collection;
 
   useEffect(() => {
     dispatch(allProducts());

@@ -15,6 +15,7 @@ export const WrapperFoto = styled.div`
   height: 330px;
   border-radius: 12px 12px 0 0;
   overflow: hidden;
+  cursor: pointer;
 `;
 
 export const Image = styled.img`
@@ -63,10 +64,10 @@ export const TextDescription = styled.div`
 `;
 
 export const SpanDescription = styled.span`
-  color: blue;
-  text-decoration: underline;
+  color: #6565b6;
   font-size: 14px;
   margin-left: 14px;
+  cursor: pointer;
 `;
 
 export const PressButton = styled.button`
@@ -119,15 +120,15 @@ export const IconPlus = styled.div`
 `;
 export const IconVideo = styled.div`
   position: absolute;
-  bottom: 30px;
-  right: 0;
+  bottom: 5px;
+  right: 10px;
   width: 30px;
   height: 30px;
   cursor: pointer;
   & svg {
     color: red;
-    width: 18px;
-    height: 18px;
+    width: 28px;
+    height: 28px;
   }
 `;
 
@@ -163,10 +164,10 @@ export const TextStatus = styled.div`
     children === 'В наявності'
       ? '#0cb96e'
       : children === 'Відшито'
-      ? '#a30505'
-      : children === 'Очікуємо'
-      ? '#f3f709'
-      : 'inherit'};
+        ? '#a30505'
+        : children === 'Очікуємо'
+          ? '#f3f709'
+          : 'inherit'};
   font-weight: 600;
   box-shadow: ${props => props.theme.shadows.small};
   text-shadow: 1px 1px 2px rgba(92, 95, 94, 0.5);

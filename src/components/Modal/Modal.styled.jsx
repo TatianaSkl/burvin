@@ -24,7 +24,10 @@ export const Wrapper = styled.div`
 `;
 
 export const IconClose = styled(AiOutlineClose)`
-  color: ${props => props.theme.colors.black};
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+
+  border-radius: 4px;
   width: 20px;
   height: 20px;
   @media (min-width: 768px) {
@@ -36,6 +39,6 @@ export const IconClose = styled(AiOutlineClose)`
 export const ButtonClose = styled.button`
   position: absolute;
   z-index: 2;
-  top: 8px;
-  right: 8px;
+  top: 42px;
+  right: 12px;
 `;

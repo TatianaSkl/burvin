@@ -18,7 +18,7 @@ export default function Collections() {
   const products = useSelector(selectProducts);
   const user = useSelector(selectUser);
 
-  const collection = data.collectionThree;
+  const collection = data.collection;
 
   useEffect(() => {
     dispatch(allProducts());
