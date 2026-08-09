@@ -91,6 +91,10 @@ export const ProductsItem = ({
     setIsVisible(!isVisible);
   };
 
+   if (status === 'Примірка') {
+    return null;
+  }
+  
   return (
     <>
       <Item key={id}>
