@@ -12,8 +12,6 @@ export default function Search() {
   const search = useSelector(selectSearch);
   const products = useSelector(selectProducts);
 
-  const collection = data.collection;
-
   useEffect(() => {
     dispatch(allProducts());
   }, [dispatch]);
@@ -21,10 +19,10 @@ export default function Search() {
   let visibleSearchProducts = [];
 
   if (search.trim() !== '') {
-    visibleSearchProducts = products
-      .filter(product => product.article.includes(search))
-      .filter(product => product.season !== collection.season);
-  }
+  visibleSearchProducts = products
+    .filter(product => product.article.includes(search))
+    .filter(product => product.season?.endsWith('t'));
+}
 
   return (
     <>

@@ -3,22 +3,22 @@
   "centerButton": "ДИВИТИСЯ КОЛЕКЦІЮ ВЕСНА-ЛІТО 2026",
   "collection": {
     "title": "Колекції",
-    "season": "vl26",
+    "season": "",
     "slug": "/collections"
   },
   "collectionOne": {
     "title": "ВЕСНА-ЛІТО 2025",
-    "season": "vl25b",
+    "season": "vl25t",
     "slug": "/collection-1"
   },
   "collectionTwo": {
     "title": "ОСІНЬ-ЗИМА 2025",
-    "season": "aw25b",
+    "season": "aw25t",
     "slug": "/collection-2"
   },
   "collectionThree": {
     "title": "ВЕСНА-ЛІТО 2026",
-    "season": "vl26b",
+    "season": "vl26t",
     "slug": "/collection-3"
   },
   "outlet": {

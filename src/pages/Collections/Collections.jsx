@@ -18,19 +18,19 @@ export default function Collections() {
   const products = useSelector(selectProducts);
   const user = useSelector(selectUser);
 
-  const collection = data.collection;
-
-  useEffect(() => {
+    useEffect(() => {
     dispatch(allProducts());
   }, [dispatch]);
 
-  const visibleProducts =
-    user.role === 'admin'
-      ? products
-      : products.filter(product => product.season !== collection.season);
+const visibleProducts =
+  user.role === 'admin'
+    ? products
+    : products.filter(product => product.season?.endsWith('t'));
 
-  const filterNew =
-    user.role === 'admin' ? filter : filter.filter(product => product.season !== collection.season);
+const filterNew =
+  user.role === 'admin'
+    ? filter
+    : filter.filter(product => product.season?.endsWith('t'));
 
   const sortedProducts = visibleProducts.slice().sort((a, b) => {
     const articleA = parseInt(a.article.replace(/\D/g, '').substring(0, 5));
