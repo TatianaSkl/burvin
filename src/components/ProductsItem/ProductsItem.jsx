@@ -91,9 +91,9 @@ export const ProductsItem = ({
     setIsVisible(!isVisible);
   };
 
-   if (status === 'Примірка') {
-    return null;
-  }
+  if (status === 'Примірка' && user.role !== 'admin') {
+  return null;
+}
   
   return (
     <>
